@@ -1,0 +1,16 @@
+state,state_code,ban_scope,scope_basis,effective_date,bill_or_policy,is_instructional_time_only_ban,notes
+Florida,FL,Instructional-time only (mandated),"may not use a wireless communications device during instructional time",2023-07-01,HB 379,1,frequently miscited as bell-to-bell in press trackers; the statewide law itself is instructional-time only
+Indiana,IN,Instructional-time only (mandated),"prohibits use during instructional time",2024-07-01,SB 185,1,
+Iowa,IA,Instructional-time only (mandated),"districts required to restrict use during classroom instructional time",2025-07-01,HF 782,1,
+Michigan,MI,Instructional-time only (mandated),"prohibits use on school grounds during instructional time",2026-08-01,HB 4141,1,
+North Carolina,NC,Instructional-time only (mandated),"policy shall prohibit use during instructional time",2025-07-01,HB 959,1,
+North Dakota,ND,Instructional-time only (mandated),"devices locked away and inaccessible during instructional time",2025-08-01,HB 1160,1,
+Tennessee,TN,Instructional-time only (mandated),"requires districts to prohibit device use during instructional time",,SB 0897,1,
+West Virginia,WV,Instructional-time only (mandated),"devices not accessible for use in a classroom setting during instructional time",2025-08-01,HB 2003,1,
+Wisconsin,WI,Instructional-time only (mandated),"prohibits device use during instructional time",2026-07-01,AB 2,1,
+Kentucky,KY,Instructional-time only (ambiguous - verify),"bill text unclear between 'school day' and instructional carve-outs",,HB 208,1,low confidence - verify against full statute before use
+Hawaii,HI,Instructional-time only for high school only,"high school: prohibited during instructional time; elementary/middle: prohibited during school hours (bell-to-bell)",2026-02-02,State Board policy,0,partial - do not treat as a clean single-scope state; consider excluding or splitting by grade band
+Arizona,AZ,Instructional-time restriction (district discretion, not state-mandated),"districts required to limit use during the school day, but state law does not itself set instructional-time-only as a floor or ceiling",,HB 2484,0,exclude from a clean instructional-time-only bucket - scope is set locally, not by the state
+California,CA,Instructional-time restriction (district discretion, not state-mandated),"districts must adopt a policy to limit or prohibit smartphone use at schoolsite by 2026-07-01",2026-07-01,AB 3216,0,exclude from a clean instructional-time-only bucket - scope is set locally, not by the state
+Ohio,OH,Formerly instructional-time only (2024-2025), now bell-to-bell,"2024 HB 250 required only that use be 'as limited as possible' during school hours; 2025 HB 96 upgraded to prohibit use during the instructional day",2024-05-20 to 2025-07-01,HB 250 -> HB 96,0,useful if you want a "graduated treatment" state - had two distinct policy regimes
+Utah,UT,Formerly instructional-time only (2025), now bell-to-bell,"2025 SB 178 allowed use during lunch, recess, and class transitions (i.e., instructional-time only); 2026 SB 69 removed those exceptions",2025-07-01 to 2026-08-01,SB 178 -> SB 69,0,also a graduated-treatment state like Ohio

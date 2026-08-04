@@ -1,0 +1,33 @@
+---
+title: "Model"
+author: "Anthony Gao"
+execute:
+  warning: false
+  message: false
+  echo: true
+---
+
+```{r}
+#| label: setup
+library(readr)
+library(dplyr)
+library(parsnip)
+library(broom)
+
+# Load Louisiana wide dataset
+data_path <- if (file.exists("data/clean/louisiana_wide_clean.csv")) {
+  "data/clean/louisiana_wide_clean.csv"
+} else {
+  "../data/clean/louisiana_wide_clean.csv"
+}
+
+la_wide <- read_csv(data_path, show_col_types = FALSE) |>
+  mutate(period = factor(period, levels = c("pre_ban", "post_ban")))
+
+# Fit linear regression model
+linear_reg() |>
+  set_engine("lm") |>
+  fit(g3_12_math ~ period, data = la_wide) |>
+  tidy(conf.int = TRUE) |>
+  select(term, estimate, conf.low, conf.high)
+```

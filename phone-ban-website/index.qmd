@@ -1,0 +1,297 @@
+---
+title: "Do State Phone Bans at School Really Improve Student Performance?"
+subtitle: "Evaluating the empirical impact of statewide K-12 cell phone restrictions across the U.S."
+author: "Anthony Gao"
+page-layout: full
+execute:
+  warning: false
+  message: false
+  echo: false
+  fig-width: 10
+  fig-height: 7.5
+  out-width: "100%"
+---
+
+plot predictions to compare before after with uncertainty
+
+
+```{r}
+#| label: setup
+
+library(httr)
+library(readxl)
+library(dplyr)
+library(purrr)
+library(tidyr)
+library(ggplot2)
+
+la_files <- c(
+  "2018-19" = "https://doe.louisiana.gov/docs/default-source/test-results/2019-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=fed19c1f_0",
+  "2021-22" = "https://doe.louisiana.gov/docs/default-source/test-results/2022-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=2e1a6218_0",
+  "2022-23" = "https://doe.louisiana.gov/docs/default-source/test-results/2023-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=8d286018_0",
+  "2023-24" = "https://doe.louisiana.gov/docs/default-source/test-results/2024-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=57f27e7b_8",
+  "2024-25" = "https://doe.louisiana.gov/docs/default-source/data-management/2025-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=dcd8503e_7"
+)
+
+data_dir <- if (dir.exists("data/raw/louisiana")) {
+  "data/raw/louisiana"
+} else if (dir.exists("../data/raw/louisiana")) {
+  "../data/raw/louisiana"
+} else {
+  dir.create("data/raw/louisiana", showWarnings = FALSE, recursive = TRUE)
+  "data/raw/louisiana"
+}
+
+download_la_file <- function(url, school_year) {
+  dest <- file.path(data_dir, paste0("leap_mastery_", school_year, ".xlsx"))
+  if (!file.exists(dest)) {
+    resp <- GET(url, write_disk(dest, overwrite = TRUE), user_agent("Mozilla/5.0"))
+    stop_for_status(resp)
+  }
+  dest
+}
+
+la_paths <- imap(la_files, download_la_file)
+
+la_sheet_map <- c(
+  "2018-19" = "ELA, Math and Social Studies",
+  "2021-22" = "All Subjects",
+  "2022-23" = "All Subjects",
+  "2023-24" = "All Subjects",
+  "2024-25" = "All Subjects"
+)
+
+clean_la_file <- function(path, sheet_name, year1, year2) {
+  raw <- read_excel(path, sheet = sheet_name, skip = 3)
+  names(raw)[1:2] <- c("system_code", "system_name")
+  names(raw)[3:5] <- c(paste0("mastery_g3_8_", year1), paste0("mastery_g3_8_", year2), "change_g3_8")
+  names(raw)[6:8] <- c(paste0("mastery_g3_12_", year1), paste0("mastery_g3_12_", year2), "change_g3_12")
+  raw %>%
+    select(-starts_with("change_")) %>%
+    pivot_longer(cols = starts_with("mastery_"), names_to = c("grade_band", "year"), names_pattern = "mastery_(g3_8|g3_12)_(\\d{4})", values_to = "value") %>%
+    mutate(value = suppressWarnings(as.numeric(value)), year = as.integer(year)) %>%
+    pivot_wider(names_from = grade_band, values_from = value)
+}
+
+la_year_pairs <- list(
+  "2018-19" = c(2018, 2019),
+  "2021-22" = c(2021, 2022),
+  "2022-23" = c(2022, 2023),
+  "2023-24" = c(2023, 2024),
+  "2024-25" = c(2024, 2025)
+)
+
+la_long_list <- imap(la_year_pairs, function(yrs, key) {
+  clean_la_file(la_paths[[key]], sheet_name = la_sheet_map[[key]], year1 = yrs[1], year2 = yrs[2])
+})
+
+la_panel <- bind_rows(la_long_list) %>%
+  distinct(system_code, year, .keep_all = TRUE) %>%
+  arrange(system_code, year)
+
+la_statewide <- la_panel |> filter(system_code == "LA")
+
+la_grades_long <- la_statewide |>
+  pivot_longer(cols = c(g3_8, g3_12), names_to = "grade_group", values_to = "pct_mastery") |>
+  mutate(
+    grade_label = case_when(
+      grade_group == "g3_8" ~ "Grades 3-8 (Elementary & Middle)",
+      grade_group == "g3_12" ~ "All Grades / High School EOC"
+    )
+  )
+
+la_hs_subject_long <- tibble(
+  year = rep(c(2021, 2022, 2023, 2024, 2025), 2),
+  subject = c(rep("English (English I & II)", 5), rep("Math (Algebra I & Geometry)", 5)),
+  pct_proficient = c(
+    40.0, 42.0, 43.0, 43.0, 43.0,  # English
+    27.0, 30.0, 32.0, 32.0, 34.0   # Math
+  )
+)
+
+sc_statewide <- tibble(
+  year = c(2021, 2022, 2023, 2024, 2025),
+  g3_8 = c(41.5, 44.7, 49.6, 50.1, 50.1)
+)
+
+sc_grades_long <- tibble(
+  year = rep(c(2021, 2022, 2023, 2024, 2025), 2),
+  grade_group = c(rep("elem", 5), rep("middle", 5)),
+  grade_label = c(rep("Elementary (Grades 3-5)", 5), rep("Middle School (Grades 6-8)", 5)),
+  pct_meets = c(
+    45.2, 48.6, 53.1, 55.5, 55.2,  # Elem
+    37.8, 40.8, 46.1, 44.7, 45.0   # Middle
+  )
+)
+
+sc_hs_subject_long <- tibble(
+  year = rep(c(2021, 2022, 2023, 2024, 2025), 2),
+  subject = c(rep("English (English II)", 5), rep("Math (Algebra 1)", 5)),
+  pct_proficient = c(
+    71.2, 73.8, 75.4, 76.1, 75.8,  # English
+    53.4, 56.1, 58.7, 59.2, 59.0   # Math
+  )
+)
+```
+
+## Overall Statewide Performance Trends
+
+::: {layout-ncol=2}
+```{r}
+#| label: fig-la-statewide-trend
+#| fig-cap: "Louisiana Statewide LEAP Performance (2018-2025)"
+
+ggplot(la_statewide, aes(x = year, y = g3_8)) +
+  geom_vline(xintercept = 2024.6, linetype = "dashed", color = "#e74c3c", linewidth = 1) +
+  annotate("text", x = 2024.6, y = max(la_statewide$g3_8, na.rm = TRUE),
+           label = "Ban effective\n(Aug 2024)", hjust = -0.05, size = 4.5, color = "#e74c3c", fontface = "italic") +
+  geom_line(linewidth = 1.3, color = "#2fa4e7") +
+  geom_point(size = 4.5, color = "#2fa4e7") +
+  scale_x_continuous(breaks = la_statewide$year) +
+  labs(
+    x = "Year (spring testing)",
+    y = "% Proficient (Grades 3-8)",
+    title = "Louisiana Statewide LEAP Performance"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = "#2c3e50"),
+    panel.grid.minor = element_blank()
+  )
+```
+
+```{r}
+#| label: fig-sc-statewide-trend
+#| fig-cap: "South Carolina Statewide SC READY Performance (2021-2025)"
+
+ggplot(sc_statewide, aes(x = year, y = g3_8)) +
+  geom_vline(xintercept = 2024.6, linetype = "dashed", color = "#e74c3c", linewidth = 1) +
+  annotate("text", x = 2024.6, y = max(sc_statewide$g3_8, na.rm = TRUE),
+           label = "Ban effective\n(Jan 2025)", hjust = -0.05, size = 4.5, color = "#e74c3c", fontface = "italic") +
+  geom_line(linewidth = 1.3, color = "#2fa4e7") +
+  geom_point(size = 4.5, color = "#2fa4e7") +
+  scale_x_continuous(breaks = sc_statewide$year) +
+  labs(
+    x = "Year (spring testing)",
+    y = "% Proficient (Grades 3-8)",
+    title = "South Carolina Statewide SC READY Performance"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = "#2c3e50"),
+    panel.grid.minor = element_blank()
+  )
+```
+:::
+
+## Performance Breakdown by Grade Band
+
+::: {layout-ncol=2}
+```{r}
+#| label: fig-la-grades-trend
+#| fig-cap: "Louisiana LEAP Performance by Grade Band (2021-2025)"
+
+ggplot(la_grades_long, aes(x = year, y = pct_mastery, color = grade_label, group = grade_label)) +
+  geom_vline(xintercept = 2024.6, linetype = "dashed", color = "#e74c3c", linewidth = 1) +
+  annotate("text", x = 2024.6, y = max(la_grades_long$pct_mastery, na.rm = TRUE),
+           label = "Ban effective\n(Aug 2024)", hjust = -0.05, size = 4.5, color = "#e74c3c", fontface = "italic") +
+  geom_line(linewidth = 1.3) +
+  geom_point(size = 4.5) +
+  scale_x_continuous(breaks = unique(la_grades_long$year)) +
+  scale_color_manual(values = c("Grades 3-8 (Elementary & Middle)" = "#2fa4e7", "All Grades / High School EOC" = "#e67e22")) +
+  labs(
+    x = "Year (spring testing)",
+    y = "% Proficient",
+    color = "Grade Band",
+    title = "Louisiana LEAP Performance by Grade Band"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = "#2c3e50"),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
+```
+
+```{r}
+#| label: fig-sc-grades-trend
+#| fig-cap: "South Carolina SC READY Performance by Grade Band (2021-2025)"
+
+ggplot(sc_grades_long, aes(x = year, y = pct_meets, color = grade_label, group = grade_label)) +
+  geom_vline(xintercept = 2024.6, linetype = "dashed", color = "#e74c3c", linewidth = 1) +
+  annotate("text", x = 2024.6, y = max(sc_grades_long$pct_meets, na.rm = TRUE),
+           label = "Ban effective\n(Jan 2025)", hjust = -0.05, size = 4.5, color = "#e74c3c", fontface = "italic") +
+  geom_line(linewidth = 1.3) +
+  geom_point(size = 4.5) +
+  scale_x_continuous(breaks = unique(sc_grades_long$year)) +
+  scale_color_manual(values = c("Elementary (Grades 3-5)" = "#2fa4e7", "Middle School (Grades 6-8)" = "#2ecc71")) +
+  labs(
+    x = "Year (spring testing)",
+    y = "% Proficient",
+    color = "Grade Band",
+    title = "South Carolina SC READY Performance by Grade Band"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = "#2c3e50"),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
+```
+:::
+
+## High School Subject Performance: Math vs. English
+
+::: {layout-ncol=2}
+```{r}
+#| label: fig-la-hs-subjects
+#| fig-cap: "Louisiana High School Math & English Performance (2021-2025)"
+
+ggplot(la_hs_subject_long, aes(x = year, y = pct_proficient, color = subject, group = subject)) +
+  geom_vline(xintercept = 2024.6, linetype = "dashed", color = "#e74c3c", linewidth = 1) +
+  annotate("text", x = 2024.6, y = max(la_hs_subject_long$pct_proficient, na.rm = TRUE),
+           label = "Ban effective\n(Aug 2024)", hjust = -0.05, size = 4.5, color = "#e74c3c", fontface = "italic") +
+  geom_line(linewidth = 1.3) +
+  geom_point(size = 4.5) +
+  scale_x_continuous(breaks = unique(la_hs_subject_long$year)) +
+  scale_color_manual(values = c("English (English I & II)" = "#9b59b6", "Math (Algebra I & Geometry)" = "#e67e22")) +
+  labs(
+    x = "Year (spring testing)",
+    y = "% Proficient",
+    color = "Subject",
+    title = "Louisiana High School: Math vs. English"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = "#2c3e50"),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
+```
+
+```{r}
+#| label: fig-sc-hs-subjects
+#| fig-cap: "South Carolina High School Math & English Performance (2021-2025)"
+
+ggplot(sc_hs_subject_long, aes(x = year, y = pct_proficient, color = subject, group = subject)) +
+  geom_vline(xintercept = 2024.6, linetype = "dashed", color = "#e74c3c", linewidth = 1) +
+  annotate("text", x = 2024.6, y = max(sc_hs_subject_long$pct_proficient, na.rm = TRUE),
+           label = "Ban effective\n(Jan 2025)", hjust = -0.05, size = 4.5, color = "#e74c3c", fontface = "italic") +
+  geom_line(linewidth = 1.3) +
+  geom_point(size = 4.5) +
+  scale_x_continuous(breaks = unique(sc_hs_subject_long$year)) +
+  scale_color_manual(values = c("English (English II)" = "#9b59b6", "Math (Algebra 1)" = "#e67e22")) +
+  labs(
+    x = "Year (spring testing)",
+    y = "% Proficient",
+    color = "Subject",
+    title = "South Carolina High School: Math vs. English"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = "#2c3e50"),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
+```
+:::

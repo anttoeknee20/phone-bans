@@ -1,0 +1,348 @@
+---
+title: "LEAP Performance Plots"
+subtitle: "Statewide and parish-level trends before and after Louisiana's cell phone ban"
+author: "Anthony Gao"
+execute:
+  warning: false
+  message: false
+  echo: false
+---
+
+```{r}
+#| label: setup
+
+library(httr)
+library(readxl)
+library(dplyr)
+library(purrr)
+library(tidyr)
+library(ggplot2)
+
+la_files <- c(
+  "2018-19" = "https://doe.louisiana.gov/docs/default-source/test-results/2019-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=fed19c1f_0",
+  "2021-22" = "https://doe.louisiana.gov/docs/default-source/test-results/2022-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=2e1a6218_0",
+  "2022-23" = "https://doe.louisiana.gov/docs/default-source/test-results/2023-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=8d286018_0",
+  "2023-24" = "https://doe.louisiana.gov/docs/default-source/test-results/2024-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=57f27e7b_8",
+  "2024-25" = "https://doe.louisiana.gov/docs/default-source/data-management/2025-state-lea-leap-2025-mastery-summary.xlsx?sfvrsn=dcd8503e_7"
+)
+
+# Resolve data path whether working from website root or repo root
+data_dir <- if (dir.exists("data/raw/louisiana")) {
+  "data/raw/louisiana"
+} else if (dir.exists("../data/raw/louisiana")) {
+  "../data/raw/louisiana"
+} else {
+  dir.create("data/raw/louisiana", showWarnings = FALSE, recursive = TRUE)
+  "data/raw/louisiana"
+}
+
+download_la_file <- function(url, school_year) {
+  dest <- file.path(data_dir, paste0("leap_mastery_", school_year, ".xlsx"))
+  if (!file.exists(dest)) {
+    resp <- GET(url, write_disk(dest, overwrite = TRUE), user_agent("Mozilla/5.0"))
+    stop_for_status(resp)
+  }
+  dest
+}
+
+la_paths <- imap(la_files, download_la_file)
+
+la_sheet_map <- c(
+  "2018-19" = "ELA, Math and Social Studies",
+  "2021-22" = "All Subjects",
+  "2022-23" = "All Subjects",
+  "2023-24" = "All Subjects",
+  "2024-25" = "All Subjects"
+)
+
+clean_la_file <- function(path, sheet_name, year1, year2) {
+  raw <- read_excel(path, sheet = sheet_name, skip = 3)
+  names(raw)[1:2] <- c("system_code", "system_name")
+  names(raw)[3:5] <- c(paste0("mastery_g3_8_", year1), paste0("mastery_g3_8_", year2), "change_g3_8")
+  names(raw)[6:8] <- c(paste0("mastery_g3_12_", year1), paste0("mastery_g3_12_", year2), "change_g3_12")
+  raw %>%
+    select(-starts_with("change_")) %>%
+    pivot_longer(cols = starts_with("mastery_"), names_to = c("grade_band", "year"), names_pattern = "mastery_(g3_8|g3_12)_(\\d{4})", values_to = "value") %>%
+    mutate(value = suppressWarnings(as.numeric(value)), year = as.integer(year)) %>%
+    pivot_wider(names_from = grade_band, values_from = value)
+}
+
+la_year_pairs <- list(
+  "2018-19" = c(2018, 2019),
+  "2021-22" = c(2021, 2022),
+  "2022-23" = c(2022, 2023),
+  "2023-24" = c(2023, 2024),
+  "2024-25" = c(2024, 2025)
+)
+
+la_long_list <- imap(la_year_pairs, function(yrs, key) {
+  clean_la_file(la_paths[[key]], sheet_name = la_sheet_map[[key]], year1 = yrs[1], year2 = yrs[2])
+})
+
+la_panel <- bind_rows(la_long_list) %>%
+  distinct(system_code, year, .keep_all = TRUE) %>%
+  arrange(system_code, year)
+
+la_panel_clean <- la_panel |>
+  mutate(
+    system_name = stringr::str_to_title(system_name),
+    period = if_else(year <= 2024, "pre_ban", "post_ban"),
+    period = factor(period, levels = c("pre_ban", "post_ban"))
+  )
+
+la_statewide <- la_panel_clean |> filter(system_code == "LA")
+la_parish <- la_panel_clean |> filter(system_code != "LA")
+```
+
+## Statewide Performance Trend
+
+```{r}
+#| label: fig-la-statewide-trend
+#| fig-cap: "Louisiana statewide LEAP Mastery+ (Grades 3-8), 2018-2025"
+
+ggplot(la_statewide, aes(x = year, y = g3_8)) +
+  geom_vline(xintercept = 2024.6, linetype = "dashed", color = "#e74c3c") +
+  annotate("text", x = 2024.6, y = max(la_statewide$g3_8, na.rm = TRUE),
+           label = "Ban effective\n(Aug 2024)", hjust = -0.05, size = 3.5, color = "#e74c3c", fontface = "italic") +
+  geom_line(linewidth = 1, color = "#2fa4e7") +
+  geom_point(size = 3.5, color = "#2fa4e7") +
+  scale_x_continuous(breaks = la_statewide$year) +
+  labs(
+    x = "Year (spring testing)",
+    y = "% Mastery+ (Grades 3-8, combined subjects)",
+    title = "Louisiana Statewide LEAP Performance"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 14, color = "#2c3e50"),
+    panel.grid.minor = element_blank()
+  )
+```
+
+## Pre-Ban Trend Extrapolation vs. Actual 2025 Outcome
+
+```{r}
+#| label: fig-la-preban-trendline
+#| fig-cap: "Pre-ban trend extrapolation (2021-2024) versus actual 2025 post-ban performance"
+
+pre_ban_data <- la_statewide |> filter(year <= 2024)
+lm_pre <- lm(g3_8 ~ year, data = pre_ban_data)
+
+trend_df <- tibble(
+  year = seq(2021, 2025, by = 0.1),
+  g3_8_fitted = predict(lm_pre, newdata = tibble(year = seq(2021, 2025, by = 0.1)))
+)
+
+proj_2025 <- predict(lm_pre, newdata = tibble(year = 2025))
+actual_2025 <- la_statewide |> filter(year == 2025) |> pull(g3_8)
+
+la_statewide_labeled <- la_statewide |>
+  mutate(
+    nudge_x = case_when(
+      year == 2021 ~ -0.12,
+      year == 2022 ~ 0,
+      year == 2023 ~ 0,
+      year == 2024 ~ -0.15,
+      year == 2025 ~ 0.15
+    ),
+    nudge_y = case_when(
+      year == 2021 ~ -0.5,
+      year == 2022 ~ 0.6,
+      year == 2023 ~ -0.5,
+      year == 2024 ~ 0.6,
+      year == 2025 ~ -0.5
+    )
+  )
+
+ggplot(la_statewide_labeled, aes(x = year, y = g3_8)) +
+  geom_line(
+    data = trend_df, 
+    aes(x = year, y = g3_8_fitted),
+    linetype = "dashed", 
+    color = "#2fa4e7", 
+    linewidth = 1
+  ) +
+  geom_segment(
+    x = 2025, xend = 2025, 
+    y = actual_2025, yend = proj_2025,
+    color = "#e74c3c", 
+    linewidth = 1.2
+  ) +
+  annotate(
+    "text", x = 2025.06, y = (actual_2025 + proj_2025) / 2,
+    label = sprintf("-%.1f percentage points\nbelow trend", proj_2025 - actual_2025),
+    hjust = 0, size = 3.5, fontface = "bold", color = "#e74c3c"
+  ) +
+  geom_vline(xintercept = 2024.5, linetype = "dashed", color = "gray60", linewidth = 0.8) +
+  annotate(
+    "text", x = 2024.4, y = 35.5, 
+    label = "Cell Phone Ban\nEffective (Aug 2024)",
+    hjust = 1, size = 3.5, fontface = "italic", color = "gray40"
+  ) +
+  geom_line(linewidth = 1, color = "#2c3e50") +
+  geom_point(aes(color = period), size = 3.5) +
+  geom_label(
+    aes(label = paste0(g3_8, "%")),
+    nudge_x = la_statewide_labeled$nudge_x,
+    nudge_y = la_statewide_labeled$nudge_y,
+    fill = "white",
+    color = "#2c3e50",
+    linewidth = 0,
+    label.padding = unit(0.12, "lines"),
+    fontface = "bold",
+    size = 3.5
+  ) +
+  scale_color_manual(
+    values = c("pre_ban" = "#2fa4e7", "post_ban" = "#e74c3c"),
+    labels = c("pre_ban" = "Pre-Ban", "post_ban" = "Post-Ban")
+  ) +
+  scale_x_continuous(breaks = 2021:2025, limits = c(2020.8, 2025.8)) +
+  scale_y_continuous(limits = c(27.5, 37), labels = function(x) paste0(x, "%")) +
+  labs(
+    title = "Louisiana LEAP Mastery+ Trend vs. Pre-Ban Projection",
+    subtitle = "Solid red line shows distance between actual 2025 performance and pre-ban trend",
+    x = "Spring Testing Year",
+    y = "% Mastery+ (Grades 3-8)",
+    color = "Period",
+    caption = "Data: Louisiana Department of Education LEAP Mastery Summaries.\nDashed line represents linear pre-ban trend (2021-2024)."
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 14, color = "#2c3e50"),
+    plot.subtitle = element_text(color = "#7f8c8d", size = 10.5),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
+```
+
+## Parish-Level Distribution
+
+```{r}
+#| label: fig-la-parish-boxplot
+#| fig-cap: "Distribution of parish-level Mastery+ scores, pre- vs. post-ban"
+
+la_parish |>
+  filter(year %in% c(2022, 2023, 2024, 2025)) |>
+  mutate(year = factor(year)) |>
+  ggplot(aes(x = year, y = g3_8, fill = period)) +
+  geom_boxplot(alpha = 0.85, color = "#2c3e50") +
+  scale_fill_manual(
+    values = c("pre_ban" = "#2fa4e7", "post_ban" = "#e74c3c"),
+    labels = c("pre_ban" = "Pre-Ban", "post_ban" = "Post-Ban")
+  ) +
+  labs(
+    x = "Year",
+    y = "% Mastery+ (Grades 3-8, combined subjects)",
+    fill = "Period",
+    title = "Parish-Level LEAP Mastery+ Distribution"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 14, color = "#2c3e50"),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
+```
+
+## South Carolina SC READY Pre-Ban Trend Extrapolation
+
+```{r}
+#| label: fig-sc-preban-trendline
+#| fig-cap: "South Carolina SC READY pre-ban trend extrapolation (2021-2024) vs post-ban benchmark"
+
+sc_statewide <- tibble(
+  year = c(2021, 2022, 2023, 2024, 2025),
+  g3_8 = c(41.5, 44.7, 49.6, 50.1, 50.1),
+  period = c("pre_ban", "pre_ban", "pre_ban", "pre_ban", "post_ban")
+)
+
+sc_pre_ban <- sc_statewide |> filter(year <= 2024)
+sc_lm_pre <- lm(g3_8 ~ year, data = sc_pre_ban)
+
+sc_trend_df <- tibble(
+  year = seq(2021, 2025, by = 0.1),
+  g3_8_fitted = predict(sc_lm_pre, newdata = tibble(year = seq(2021, 2025, by = 0.1)))
+)
+
+sc_proj_2025 <- predict(sc_lm_pre, newdata = tibble(year = 2025))
+sc_actual_2025 <- sc_statewide |> filter(year == 2025) |> pull(g3_8)
+
+sc_statewide_labeled <- sc_statewide |>
+  mutate(
+    nudge_x = case_when(
+      year == 2021 ~ -0.12,
+      year == 2022 ~ 0,
+      year == 2023 ~ 0,
+      year == 2024 ~ -0.15,
+      year == 2025 ~ 0.15
+    ),
+    nudge_y = case_when(
+      year == 2021 ~ -0.6,
+      year == 2022 ~ 0.7,
+      year == 2023 ~ -0.6,
+      year == 2024 ~ 0.7,
+      year == 2025 ~ -0.6
+    )
+  )
+
+ggplot(sc_statewide_labeled, aes(x = year, y = g3_8)) +
+  geom_line(
+    data = sc_trend_df, 
+    aes(x = year, y = g3_8_fitted),
+    linetype = "dashed", 
+    color = "#2fa4e7", 
+    linewidth = 1
+  ) +
+  geom_segment(
+    x = 2025, xend = 2025, 
+    y = sc_actual_2025, yend = sc_proj_2025,
+    color = "#e74c3c", 
+    linewidth = 1.2
+  ) +
+  annotate(
+    "text", x = 2025.06, y = (sc_actual_2025 + sc_proj_2025) / 2,
+    label = sprintf("-%.1f percentage points\nbelow trend", sc_proj_2025 - sc_actual_2025),
+    hjust = 0, size = 3.5, fontface = "bold", color = "#e74c3c"
+  ) +
+  geom_vline(xintercept = 2024.5, linetype = "dashed", color = "gray60", linewidth = 0.8) +
+  annotate(
+    "text", x = 2024.4, y = 52.5, 
+    label = "Cell Phone Ban\nEffective (Jan 2025)",
+    hjust = 1, size = 3.5, fontface = "italic", color = "gray40"
+  ) +
+  geom_line(linewidth = 1, color = "#2c3e50") +
+  geom_point(aes(color = period), size = 3.5) +
+  geom_label(
+    aes(label = paste0(g3_8, "%")),
+    nudge_x = sc_statewide_labeled$nudge_x,
+    nudge_y = sc_statewide_labeled$nudge_y,
+    fill = "white",
+    color = "#2c3e50",
+    linewidth = 0,
+    label.padding = unit(0.12, "lines"),
+    fontface = "bold",
+    size = 3.5
+  ) +
+  scale_color_manual(
+    values = c("pre_ban" = "#2fa4e7", "post_ban" = "#e74c3c"),
+    labels = c("pre_ban" = "Pre-Ban", "post_ban" = "Post-Ban")
+  ) +
+  scale_x_continuous(breaks = 2021:2025, limits = c(2020.8, 2025.8)) +
+  scale_y_continuous(limits = c(39, 56), labels = function(x) paste0(x, "%")) +
+  labs(
+    title = "South Carolina SC READY Trend vs. Pre-Ban Projection",
+    subtitle = "Solid red line shows distance between actual performance and pre-ban trend",
+    x = "Spring Testing Year",
+    y = "% Meets or Exceeds (Grades 3-8)",
+    color = "Period",
+    caption = "Data: South Carolina Department of Education SC READY Summaries.\nDashed line represents linear pre-ban trend (2021-2024)."
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 14, color = "#2c3e50"),
+    plot.subtitle = element_text(color = "#7f8c8d", size = 10.5),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
+```
+
