@@ -1,0 +1,2521 @@
+system_code,system_name,year,subject,g3_8,g3_12,period,all_subjects,ela,math,science,social_studies
+001,Acadia Parish,2018,All Subjects,37,36,pre_ban,1,0,0,0,0
+001,Acadia Parish,2019,All Subjects,38,37,pre_ban,1,0,0,0,0
+001,Acadia Parish,2021,All Subjects,33,33,pre_ban,1,0,0,0,0
+001,Acadia Parish,2022,All Subjects,34,34,pre_ban,1,0,0,0,0
+001,Acadia Parish,2023,All Subjects,36,36,pre_ban,1,0,0,0,0
+001,Acadia Parish,2024,All Subjects,37,36,pre_ban,1,0,0,0,0
+001,Acadia Parish,2025,All Subjects,35,34,post_ban,1,0,0,0,0
+001,Acadia Parish,2018,ELA,47,45,pre_ban,0,1,0,0,0
+001,Acadia Parish,2019,ELA,47,47,pre_ban,0,1,0,0,0
+001,Acadia Parish,2021,ELA,45,45,pre_ban,0,1,0,0,0
+001,Acadia Parish,2022,ELA,45,44,pre_ban,0,1,0,0,0
+001,Acadia Parish,2023,ELA,47,47,pre_ban,0,1,0,0,0
+001,Acadia Parish,2024,ELA,46,45,pre_ban,0,1,0,0,0
+001,Acadia Parish,2025,ELA,44,44,post_ban,0,1,0,0,0
+001,Acadia Parish,2018,Math,38,35,pre_ban,0,0,1,0,0
+001,Acadia Parish,2019,Math,39,38,pre_ban,0,0,1,0,0
+001,Acadia Parish,2021,Math,33,32,pre_ban,0,0,1,0,0
+001,Acadia Parish,2022,Math,37,35,pre_ban,0,0,1,0,0
+001,Acadia Parish,2023,Math,39,38,pre_ban,0,0,1,0,0
+001,Acadia Parish,2024,Math,35,35,pre_ban,0,0,1,0,0
+001,Acadia Parish,2025,Math,34,34,post_ban,0,0,1,0,0
+001,Acadia Parish,2018,Science,33,NA,pre_ban,0,0,0,1,0
+001,Acadia Parish,2019,Science,33,NA,pre_ban,0,0,0,1,0
+001,Acadia Parish,2021,Science,28,28,pre_ban,0,0,0,1,0
+001,Acadia Parish,2022,Science,29,29,pre_ban,0,0,0,1,0
+001,Acadia Parish,2023,Science,31,30,pre_ban,0,0,0,1,0
+001,Acadia Parish,2024,Science,31,30,pre_ban,0,0,0,1,0
+001,Acadia Parish,2025,Science,30,29,post_ban,0,0,0,1,0
+001,Acadia Parish,2018,Social Studies,27,26,pre_ban,0,0,0,0,1
+001,Acadia Parish,2019,Social Studies,28,27,pre_ban,0,0,0,0,1
+001,Acadia Parish,2021,Social Studies,26,24,pre_ban,0,0,0,0,1
+001,Acadia Parish,2022,Social Studies,26,25,pre_ban,0,0,0,0,1
+001,Acadia Parish,2023,Social Studies,28,26,pre_ban,0,0,0,0,1
+001,Acadia Parish,2024,Social Studies,NA,19,pre_ban,0,0,0,0,1
+001,Acadia Parish,2025,Social Studies,32,29,post_ban,0,0,0,0,1
+002,Allen Parish,2018,All Subjects,38,40,pre_ban,1,0,0,0,0
+002,Allen Parish,2019,All Subjects,39,39,pre_ban,1,0,0,0,0
+002,Allen Parish,2021,All Subjects,30,30,pre_ban,1,0,0,0,0
+002,Allen Parish,2022,All Subjects,32,33,pre_ban,1,0,0,0,0
+002,Allen Parish,2023,All Subjects,33,34,pre_ban,1,0,0,0,0
+002,Allen Parish,2024,All Subjects,36,36,pre_ban,1,0,0,0,0
+002,Allen Parish,2025,All Subjects,36,36,post_ban,1,0,0,0,0
+002,Allen Parish,2018,ELA,51,52,pre_ban,0,1,0,0,0
+002,Allen Parish,2019,ELA,51,52,pre_ban,0,1,0,0,0
+002,Allen Parish,2021,ELA,41,43,pre_ban,0,1,0,0,0
+002,Allen Parish,2022,ELA,44,46,pre_ban,0,1,0,0,0
+002,Allen Parish,2023,ELA,44,47,pre_ban,0,1,0,0,0
+002,Allen Parish,2024,ELA,47,48,pre_ban,0,1,0,0,0
+002,Allen Parish,2025,ELA,45,46,post_ban,0,1,0,0,0
+002,Allen Parish,2018,Math,32,34,pre_ban,0,0,1,0,0
+002,Allen Parish,2019,Math,36,36,pre_ban,0,0,1,0,0
+002,Allen Parish,2021,Math,25,25,pre_ban,0,0,1,0,0
+002,Allen Parish,2022,Math,29,30,pre_ban,0,0,1,0,0
+002,Allen Parish,2023,Math,30,32,pre_ban,0,0,1,0,0
+002,Allen Parish,2024,Math,30,31,pre_ban,0,0,1,0,0
+002,Allen Parish,2025,Math,33,35,post_ban,0,0,1,0,0
+002,Allen Parish,2018,Science,33,NA,pre_ban,0,0,0,1,0
+002,Allen Parish,2019,Science,33,NA,pre_ban,0,0,0,1,0
+002,Allen Parish,2021,Science,28,27,pre_ban,0,0,0,1,0
+002,Allen Parish,2022,Science,29,28,pre_ban,0,0,0,1,0
+002,Allen Parish,2023,Science,31,31,pre_ban,0,0,0,1,0
+002,Allen Parish,2024,Science,32,31,pre_ban,0,0,0,1,0
+002,Allen Parish,2025,Science,30,30,post_ban,0,0,0,1,0
+002,Allen Parish,2018,Social Studies,32,32,pre_ban,0,0,0,0,1
+002,Allen Parish,2019,Social Studies,29,28,pre_ban,0,0,0,0,1
+002,Allen Parish,2021,Social Studies,27,25,pre_ban,0,0,0,0,1
+002,Allen Parish,2022,Social Studies,27,26,pre_ban,0,0,0,0,1
+002,Allen Parish,2023,Social Studies,27,25,pre_ban,0,0,0,0,1
+002,Allen Parish,2024,Social Studies,NA,23,pre_ban,0,0,0,0,1
+002,Allen Parish,2025,Social Studies,35,32,post_ban,0,0,0,0,1
+003,Ascension Parish,2018,All Subjects,50,53,pre_ban,1,0,0,0,0
+003,Ascension Parish,2019,All Subjects,52,54,pre_ban,1,0,0,0,0
+003,Ascension Parish,2021,All Subjects,46,48,pre_ban,1,0,0,0,0
+003,Ascension Parish,2022,All Subjects,47,49,pre_ban,1,0,0,0,0
+003,Ascension Parish,2023,All Subjects,49,51,pre_ban,1,0,0,0,0
+003,Ascension Parish,2024,All Subjects,51,53,pre_ban,1,0,0,0,0
+003,Ascension Parish,2025,All Subjects,51,52,post_ban,1,0,0,0,0
+003,Ascension Parish,2018,ELA,60,62,pre_ban,0,1,0,0,0
+003,Ascension Parish,2019,ELA,61,62,pre_ban,0,1,0,0,0
+003,Ascension Parish,2021,ELA,57,58,pre_ban,0,1,0,0,0
+003,Ascension Parish,2022,ELA,59,60,pre_ban,0,1,0,0,0
+003,Ascension Parish,2023,ELA,60,61,pre_ban,0,1,0,0,0
+003,Ascension Parish,2024,ELA,62,62,pre_ban,0,1,0,0,0
+003,Ascension Parish,2025,ELA,60,60,post_ban,0,1,0,0,0
+003,Ascension Parish,2018,Math,46,49,pre_ban,0,0,1,0,0
+003,Ascension Parish,2019,Math,49,53,pre_ban,0,0,1,0,0
+003,Ascension Parish,2021,Math,44,46,pre_ban,0,0,1,0,0
+003,Ascension Parish,2022,Math,46,49,pre_ban,0,0,1,0,0
+003,Ascension Parish,2023,Math,48,51,pre_ban,0,0,1,0,0
+003,Ascension Parish,2024,Math,48,51,pre_ban,0,0,1,0,0
+003,Ascension Parish,2025,Math,50,53,post_ban,0,0,1,0,0
+003,Ascension Parish,2018,Science,43,NA,pre_ban,0,0,0,1,0
+003,Ascension Parish,2019,Science,43,NA,pre_ban,0,0,0,1,0
+003,Ascension Parish,2021,Science,41,41,pre_ban,0,0,0,1,0
+003,Ascension Parish,2022,Science,42,42,pre_ban,0,0,0,1,0
+003,Ascension Parish,2023,Science,44,44,pre_ban,0,0,0,1,0
+003,Ascension Parish,2024,Science,45,45,pre_ban,0,0,0,1,0
+003,Ascension Parish,2025,Science,45,45,post_ban,0,0,0,1,0
+003,Ascension Parish,2018,Social Studies,45,46,pre_ban,0,0,0,0,1
+003,Ascension Parish,2019,Social Studies,46,47,pre_ban,0,0,0,0,1
+003,Ascension Parish,2021,Social Studies,43,44,pre_ban,0,0,0,0,1
+003,Ascension Parish,2022,Social Studies,41,42,pre_ban,0,0,0,0,1
+003,Ascension Parish,2023,Social Studies,43,44,pre_ban,0,0,0,0,1
+003,Ascension Parish,2024,Social Studies,NA,54,pre_ban,0,0,0,0,1
+003,Ascension Parish,2025,Social Studies,50,51,post_ban,0,0,0,0,1
+004,Assumption Parish,2018,All Subjects,33,34,pre_ban,1,0,0,0,0
+004,Assumption Parish,2019,All Subjects,33,34,pre_ban,1,0,0,0,0
+004,Assumption Parish,2021,All Subjects,26,27,pre_ban,1,0,0,0,0
+004,Assumption Parish,2022,All Subjects,26,27,pre_ban,1,0,0,0,0
+004,Assumption Parish,2023,All Subjects,27,30,pre_ban,1,0,0,0,0
+004,Assumption Parish,2024,All Subjects,27,30,pre_ban,1,0,0,0,0
+004,Assumption Parish,2025,All Subjects,29,31,post_ban,1,0,0,0,0
+004,Assumption Parish,2018,ELA,39,41,pre_ban,0,1,0,0,0
+004,Assumption Parish,2019,ELA,41,42,pre_ban,0,1,0,0,0
+004,Assumption Parish,2021,ELA,33,35,pre_ban,0,1,0,0,0
+004,Assumption Parish,2022,ELA,32,34,pre_ban,0,1,0,0,0
+004,Assumption Parish,2023,ELA,36,40,pre_ban,0,1,0,0,0
+004,Assumption Parish,2024,ELA,32,36,pre_ban,0,1,0,0,0
+004,Assumption Parish,2025,ELA,35,37,post_ban,0,1,0,0,0
+004,Assumption Parish,2018,Math,36,35,pre_ban,0,0,1,0,0
+004,Assumption Parish,2019,Math,35,34,pre_ban,0,0,1,0,0
+004,Assumption Parish,2021,Math,27,29,pre_ban,0,0,1,0,0
+004,Assumption Parish,2022,Math,31,32,pre_ban,0,0,1,0,0
+004,Assumption Parish,2023,Math,30,34,pre_ban,0,0,1,0,0
+004,Assumption Parish,2024,Math,29,32,pre_ban,0,0,1,0,0
+004,Assumption Parish,2025,Math,31,35,post_ban,0,0,1,0,0
+004,Assumption Parish,2018,Science,25,NA,pre_ban,0,0,0,1,0
+004,Assumption Parish,2019,Science,26,NA,pre_ban,0,0,0,1,0
+004,Assumption Parish,2021,Science,20,21,pre_ban,0,0,0,1,0
+004,Assumption Parish,2022,Science,20,21,pre_ban,0,0,0,1,0
+004,Assumption Parish,2023,Science,23,24,pre_ban,0,0,0,1,0
+004,Assumption Parish,2024,Science,21,23,pre_ban,0,0,0,1,0
+004,Assumption Parish,2025,Science,23,24,post_ban,0,0,0,1,0
+004,Assumption Parish,2018,Social Studies,25,25,pre_ban,0,0,0,0,1
+004,Assumption Parish,2019,Social Studies,24,24,pre_ban,0,0,0,0,1
+004,Assumption Parish,2021,Social Studies,23,22,pre_ban,0,0,0,0,1
+004,Assumption Parish,2022,Social Studies,20,21,pre_ban,0,0,0,0,1
+004,Assumption Parish,2023,Social Studies,20,21,pre_ban,0,0,0,0,1
+004,Assumption Parish,2024,Social Studies,NA,22,pre_ban,0,0,0,0,1
+004,Assumption Parish,2025,Social Studies,27,27,post_ban,0,0,0,0,1
+005,Avoyelles Parish,2018,All Subjects,21,21,pre_ban,1,0,0,0,0
+005,Avoyelles Parish,2019,All Subjects,24,24,pre_ban,1,0,0,0,0
+005,Avoyelles Parish,2021,All Subjects,20,20,pre_ban,1,0,0,0,0
+005,Avoyelles Parish,2022,All Subjects,21,22,pre_ban,1,0,0,0,0
+005,Avoyelles Parish,2023,All Subjects,22,22,pre_ban,1,0,0,0,0
+005,Avoyelles Parish,2024,All Subjects,25,25,pre_ban,1,0,0,0,0
+005,Avoyelles Parish,2025,All Subjects,25,24,post_ban,1,0,0,0,0
+005,Avoyelles Parish,2018,ELA,27,27,pre_ban,0,1,0,0,0
+005,Avoyelles Parish,2019,ELA,31,32,pre_ban,0,1,0,0,0
+005,Avoyelles Parish,2021,ELA,30,30,pre_ban,0,1,0,0,0
+005,Avoyelles Parish,2022,ELA,31,32,pre_ban,0,1,0,0,0
+005,Avoyelles Parish,2023,ELA,30,31,pre_ban,0,1,0,0,0
+005,Avoyelles Parish,2024,ELA,32,32,pre_ban,0,1,0,0,0
+005,Avoyelles Parish,2025,ELA,35,35,post_ban,0,1,0,0,0
+005,Avoyelles Parish,2018,Math,19,20,pre_ban,0,0,1,0,0
+005,Avoyelles Parish,2019,Math,24,23,pre_ban,0,0,1,0,0
+005,Avoyelles Parish,2021,Math,20,19,pre_ban,0,0,1,0,0
+005,Avoyelles Parish,2022,Math,21,21,pre_ban,0,0,1,0,0
+005,Avoyelles Parish,2023,Math,21,22,pre_ban,0,0,1,0,0
+005,Avoyelles Parish,2024,Math,23,24,pre_ban,0,0,1,0,0
+005,Avoyelles Parish,2025,Math,22,24,post_ban,0,0,1,0,0
+005,Avoyelles Parish,2018,Science,19,NA,pre_ban,0,0,0,1,0
+005,Avoyelles Parish,2019,Science,18,NA,pre_ban,0,0,0,1,0
+005,Avoyelles Parish,2021,Science,17,16,pre_ban,0,0,0,1,0
+005,Avoyelles Parish,2022,Science,18,18,pre_ban,0,0,0,1,0
+005,Avoyelles Parish,2023,Science,19,19,pre_ban,0,0,0,1,0
+005,Avoyelles Parish,2024,Science,21,20,pre_ban,0,0,0,1,0
+005,Avoyelles Parish,2025,Science,21,20,post_ban,0,0,0,1,0
+005,Avoyelles Parish,2018,Social Studies,16,15,pre_ban,0,0,0,0,1
+005,Avoyelles Parish,2019,Social Studies,17,17,pre_ban,0,0,0,0,1
+005,Avoyelles Parish,2021,Social Studies,15,14,pre_ban,0,0,0,0,1
+005,Avoyelles Parish,2022,Social Studies,15,15,pre_ban,0,0,0,0,1
+005,Avoyelles Parish,2023,Social Studies,16,16,pre_ban,0,0,0,0,1
+005,Avoyelles Parish,2024,Social Studies,NA,15,pre_ban,0,0,0,0,1
+005,Avoyelles Parish,2025,Social Studies,20,18,post_ban,0,0,0,0,1
+006,Beauregard Parish,2018,All Subjects,35,35,pre_ban,1,0,0,0,0
+006,Beauregard Parish,2019,All Subjects,37,36,pre_ban,1,0,0,0,0
+006,Beauregard Parish,2021,All Subjects,31,31,pre_ban,1,0,0,0,0
+006,Beauregard Parish,2022,All Subjects,31,31,pre_ban,1,0,0,0,0
+006,Beauregard Parish,2023,All Subjects,33,33,pre_ban,1,0,0,0,0
+006,Beauregard Parish,2024,All Subjects,35,34,pre_ban,1,0,0,0,0
+006,Beauregard Parish,2025,All Subjects,31,31,post_ban,1,0,0,0,0
+006,Beauregard Parish,2018,ELA,42,42,pre_ban,0,1,0,0,0
+006,Beauregard Parish,2019,ELA,45,45,pre_ban,0,1,0,0,0
+006,Beauregard Parish,2021,ELA,39,42,pre_ban,0,1,0,0,0
+006,Beauregard Parish,2022,ELA,38,40,pre_ban,0,1,0,0,0
+006,Beauregard Parish,2023,ELA,39,40,pre_ban,0,1,0,0,0
+006,Beauregard Parish,2024,ELA,41,41,pre_ban,0,1,0,0,0
+006,Beauregard Parish,2025,ELA,40,41,post_ban,0,1,0,0,0
+006,Beauregard Parish,2018,Math,33,33,pre_ban,0,0,1,0,0
+006,Beauregard Parish,2019,Math,36,34,pre_ban,0,0,1,0,0
+006,Beauregard Parish,2021,Math,29,28,pre_ban,0,0,1,0,0
+006,Beauregard Parish,2022,Math,32,30,pre_ban,0,0,1,0,0
+006,Beauregard Parish,2023,Math,35,33,pre_ban,0,0,1,0,0
+006,Beauregard Parish,2024,Math,34,33,pre_ban,0,0,1,0,0
+006,Beauregard Parish,2025,Math,30,30,post_ban,0,0,1,0,0
+006,Beauregard Parish,2018,Science,31,NA,pre_ban,0,0,0,1,0
+006,Beauregard Parish,2019,Science,30,NA,pre_ban,0,0,0,1,0
+006,Beauregard Parish,2021,Science,29,29,pre_ban,0,0,0,1,0
+006,Beauregard Parish,2022,Science,30,30,pre_ban,0,0,0,1,0
+006,Beauregard Parish,2023,Science,34,34,pre_ban,0,0,0,1,0
+006,Beauregard Parish,2024,Science,30,30,pre_ban,0,0,0,1,0
+006,Beauregard Parish,2025,Science,28,28,post_ban,0,0,0,1,0
+006,Beauregard Parish,2018,Social Studies,29,28,pre_ban,0,0,0,0,1
+006,Beauregard Parish,2019,Social Studies,29,28,pre_ban,0,0,0,0,1
+006,Beauregard Parish,2021,Social Studies,26,25,pre_ban,0,0,0,0,1
+006,Beauregard Parish,2022,Social Studies,25,24,pre_ban,0,0,0,0,1
+006,Beauregard Parish,2023,Social Studies,25,24,pre_ban,0,0,0,0,1
+006,Beauregard Parish,2024,Social Studies,NA,22,pre_ban,0,0,0,0,1
+006,Beauregard Parish,2025,Social Studies,26,26,post_ban,0,0,0,0,1
+007,Bienville Parish,2018,All Subjects,30,32,pre_ban,1,0,0,0,0
+007,Bienville Parish,2019,All Subjects,30,30,pre_ban,1,0,0,0,0
+007,Bienville Parish,2021,All Subjects,25,26,pre_ban,1,0,0,0,0
+007,Bienville Parish,2022,All Subjects,26,27,pre_ban,1,0,0,0,0
+007,Bienville Parish,2023,All Subjects,27,28,pre_ban,1,0,0,0,0
+007,Bienville Parish,2024,All Subjects,33,33,pre_ban,1,0,0,0,0
+007,Bienville Parish,2025,All Subjects,31,30,post_ban,1,0,0,0,0
+007,Bienville Parish,2018,ELA,39,42,pre_ban,0,1,0,0,0
+007,Bienville Parish,2019,ELA,38,39,pre_ban,0,1,0,0,0
+007,Bienville Parish,2021,ELA,36,37,pre_ban,0,1,0,0,0
+007,Bienville Parish,2022,ELA,37,39,pre_ban,0,1,0,0,0
+007,Bienville Parish,2023,ELA,36,40,pre_ban,0,1,0,0,0
+007,Bienville Parish,2024,ELA,41,42,pre_ban,0,1,0,0,0
+007,Bienville Parish,2025,ELA,42,43,post_ban,0,1,0,0,0
+007,Bienville Parish,2018,Math,30,31,pre_ban,0,0,1,0,0
+007,Bienville Parish,2019,Math,29,27,pre_ban,0,0,1,0,0
+007,Bienville Parish,2021,Math,25,26,pre_ban,0,0,1,0,0
+007,Bienville Parish,2022,Math,26,29,pre_ban,0,0,1,0,0
+007,Bienville Parish,2023,Math,30,32,pre_ban,0,0,1,0,0
+007,Bienville Parish,2024,Math,33,34,pre_ban,0,0,1,0,0
+007,Bienville Parish,2025,Math,32,30,post_ban,0,0,1,0,0
+007,Bienville Parish,2018,Science,24,NA,pre_ban,0,0,0,1,0
+007,Bienville Parish,2019,Science,24,NA,pre_ban,0,0,0,1,0
+007,Bienville Parish,2021,Science,22,21,pre_ban,0,0,0,1,0
+007,Bienville Parish,2022,Science,20,21,pre_ban,0,0,0,1,0
+007,Bienville Parish,2023,Science,24,23,pre_ban,0,0,0,1,0
+007,Bienville Parish,2024,Science,25,25,pre_ban,0,0,0,1,0
+007,Bienville Parish,2025,Science,26,25,post_ban,0,0,0,1,0
+007,Bienville Parish,2018,Social Studies,22,22,pre_ban,0,0,0,0,1
+007,Bienville Parish,2019,Social Studies,23,22,pre_ban,0,0,0,0,1
+007,Bienville Parish,2021,Social Studies,18,18,pre_ban,0,0,0,0,1
+007,Bienville Parish,2022,Social Studies,19,19,pre_ban,0,0,0,0,1
+007,Bienville Parish,2023,Social Studies,17,17,pre_ban,0,0,0,0,1
+007,Bienville Parish,2024,Social Studies,NA,14,pre_ban,0,0,0,0,1
+007,Bienville Parish,2025,Social Studies,24,23,post_ban,0,0,0,0,1
+008,Bossier Parish,2018,All Subjects,41,42,pre_ban,1,0,0,0,0
+008,Bossier Parish,2019,All Subjects,41,43,pre_ban,1,0,0,0,0
+008,Bossier Parish,2021,All Subjects,36,38,pre_ban,1,0,0,0,0
+008,Bossier Parish,2022,All Subjects,37,38,pre_ban,1,0,0,0,0
+008,Bossier Parish,2023,All Subjects,38,40,pre_ban,1,0,0,0,0
+008,Bossier Parish,2024,All Subjects,40,40,pre_ban,1,0,0,0,0
+008,Bossier Parish,2025,All Subjects,39,40,post_ban,1,0,0,0,0
+008,Bossier Parish,2018,ELA,48,49,pre_ban,0,1,0,0,0
+008,Bossier Parish,2019,ELA,49,51,pre_ban,0,1,0,0,0
+008,Bossier Parish,2021,ELA,45,47,pre_ban,0,1,0,0,0
+008,Bossier Parish,2022,ELA,48,49,pre_ban,0,1,0,0,0
+008,Bossier Parish,2023,ELA,47,49,pre_ban,0,1,0,0,0
+008,Bossier Parish,2024,ELA,48,50,pre_ban,0,1,0,0,0
+008,Bossier Parish,2025,ELA,47,48,post_ban,0,1,0,0,0
+008,Bossier Parish,2018,Math,39,39,pre_ban,0,0,1,0,0
+008,Bossier Parish,2019,Math,42,42,pre_ban,0,0,1,0,0
+008,Bossier Parish,2021,Math,36,38,pre_ban,0,0,1,0,0
+008,Bossier Parish,2022,Math,38,39,pre_ban,0,0,1,0,0
+008,Bossier Parish,2023,Math,39,41,pre_ban,0,0,1,0,0
+008,Bossier Parish,2024,Math,37,39,pre_ban,0,0,1,0,0
+008,Bossier Parish,2025,Math,40,41,post_ban,0,0,1,0,0
+008,Bossier Parish,2018,Science,36,NA,pre_ban,0,0,0,1,0
+008,Bossier Parish,2019,Science,36,NA,pre_ban,0,0,0,1,0
+008,Bossier Parish,2021,Science,32,31,pre_ban,0,0,0,1,0
+008,Bossier Parish,2022,Science,33,32,pre_ban,0,0,0,1,0
+008,Bossier Parish,2023,Science,35,35,pre_ban,0,0,0,1,0
+008,Bossier Parish,2024,Science,33,32,pre_ban,0,0,0,1,0
+008,Bossier Parish,2025,Science,34,34,post_ban,0,0,0,1,0
+008,Bossier Parish,2018,Social Studies,35,35,pre_ban,0,0,0,0,1
+008,Bossier Parish,2019,Social Studies,34,34,pre_ban,0,0,0,0,1
+008,Bossier Parish,2021,Social Studies,32,32,pre_ban,0,0,0,0,1
+008,Bossier Parish,2022,Social Studies,32,32,pre_ban,0,0,0,0,1
+008,Bossier Parish,2023,Social Studies,33,32,pre_ban,0,0,0,0,1
+008,Bossier Parish,2024,Social Studies,NA,31,pre_ban,0,0,0,0,1
+008,Bossier Parish,2025,Social Studies,37,36,post_ban,0,0,0,0,1
+009,Caddo Parish,2018,All Subjects,27,28,pre_ban,1,0,0,0,0
+009,Caddo Parish,2019,All Subjects,28,29,pre_ban,1,0,0,0,0
+009,Caddo Parish,2021,All Subjects,22,23,pre_ban,1,0,0,0,0
+009,Caddo Parish,2022,All Subjects,23,24,pre_ban,1,0,0,0,0
+009,Caddo Parish,2023,All Subjects,26,26,pre_ban,1,0,0,0,0
+009,Caddo Parish,2024,All Subjects,27,28,pre_ban,1,0,0,0,0
+009,Caddo Parish,2025,All Subjects,26,27,post_ban,1,0,0,0,0
+009,Caddo Parish,2018,ELA,35,36,pre_ban,0,1,0,0,0
+009,Caddo Parish,2019,ELA,35,36,pre_ban,0,1,0,0,0
+009,Caddo Parish,2021,ELA,31,33,pre_ban,0,1,0,0,0
+009,Caddo Parish,2022,ELA,32,34,pre_ban,0,1,0,0,0
+009,Caddo Parish,2023,ELA,35,36,pre_ban,0,1,0,0,0
+009,Caddo Parish,2024,ELA,35,36,pre_ban,0,1,0,0,0
+009,Caddo Parish,2025,ELA,35,35,post_ban,0,1,0,0,0
+009,Caddo Parish,2018,Math,25,25,pre_ban,0,0,1,0,0
+009,Caddo Parish,2019,Math,27,27,pre_ban,0,0,1,0,0
+009,Caddo Parish,2021,Math,20,20,pre_ban,0,0,1,0,0
+009,Caddo Parish,2022,Math,23,23,pre_ban,0,0,1,0,0
+009,Caddo Parish,2023,Math,26,26,pre_ban,0,0,1,0,0
+009,Caddo Parish,2024,Math,26,25,pre_ban,0,0,1,0,0
+009,Caddo Parish,2025,Math,27,27,post_ban,0,0,1,0,0
+009,Caddo Parish,2018,Science,22,NA,pre_ban,0,0,0,1,0
+009,Caddo Parish,2019,Science,23,NA,pre_ban,0,0,0,1,0
+009,Caddo Parish,2021,Science,18,18,pre_ban,0,0,0,1,0
+009,Caddo Parish,2022,Science,19,19,pre_ban,0,0,0,1,0
+009,Caddo Parish,2023,Science,21,21,pre_ban,0,0,0,1,0
+009,Caddo Parish,2024,Science,22,22,pre_ban,0,0,0,1,0
+009,Caddo Parish,2025,Science,21,21,post_ban,0,0,0,1,0
+009,Caddo Parish,2018,Social Studies,22,23,pre_ban,0,0,0,0,1
+009,Caddo Parish,2019,Social Studies,22,23,pre_ban,0,0,0,0,1
+009,Caddo Parish,2021,Social Studies,19,19,pre_ban,0,0,0,0,1
+009,Caddo Parish,2022,Social Studies,19,20,pre_ban,0,0,0,0,1
+009,Caddo Parish,2023,Social Studies,20,21,pre_ban,0,0,0,0,1
+009,Caddo Parish,2024,Social Studies,NA,26,pre_ban,0,0,0,0,1
+009,Caddo Parish,2025,Social Studies,23,24,post_ban,0,0,0,0,1
+010,Calcasieu Parish,2018,All Subjects,36,36,pre_ban,1,0,0,0,0
+010,Calcasieu Parish,2019,All Subjects,38,39,pre_ban,1,0,0,0,0
+010,Calcasieu Parish,2021,All Subjects,32,32,pre_ban,1,0,0,0,0
+010,Calcasieu Parish,2022,All Subjects,35,35,pre_ban,1,0,0,0,0
+010,Calcasieu Parish,2023,All Subjects,37,38,pre_ban,1,0,0,0,0
+010,Calcasieu Parish,2024,All Subjects,40,39,pre_ban,1,0,0,0,0
+010,Calcasieu Parish,2025,All Subjects,41,40,post_ban,1,0,0,0,0
+010,Calcasieu Parish,2018,ELA,45,46,pre_ban,0,1,0,0,0
+010,Calcasieu Parish,2019,ELA,48,49,pre_ban,0,1,0,0,0
+010,Calcasieu Parish,2021,ELA,43,45,pre_ban,0,1,0,0,0
+010,Calcasieu Parish,2022,ELA,46,46,pre_ban,0,1,0,0,0
+010,Calcasieu Parish,2023,ELA,47,47,pre_ban,0,1,0,0,0
+010,Calcasieu Parish,2024,ELA,47,47,pre_ban,0,1,0,0,0
+010,Calcasieu Parish,2025,ELA,48,48,post_ban,0,1,0,0,0
+010,Calcasieu Parish,2018,Math,32,33,pre_ban,0,0,1,0,0
+010,Calcasieu Parish,2019,Math,36,36,pre_ban,0,0,1,0,0
+010,Calcasieu Parish,2021,Math,28,28,pre_ban,0,0,1,0,0
+010,Calcasieu Parish,2022,Math,34,34,pre_ban,0,0,1,0,0
+010,Calcasieu Parish,2023,Math,36,37,pre_ban,0,0,1,0,0
+010,Calcasieu Parish,2024,Math,37,38,pre_ban,0,0,1,0,0
+010,Calcasieu Parish,2025,Math,41,41,post_ban,0,0,1,0,0
+010,Calcasieu Parish,2018,Science,33,NA,pre_ban,0,0,0,1,0
+010,Calcasieu Parish,2019,Science,33,NA,pre_ban,0,0,0,1,0
+010,Calcasieu Parish,2021,Science,29,28,pre_ban,0,0,0,1,0
+010,Calcasieu Parish,2022,Science,30,30,pre_ban,0,0,0,1,0
+010,Calcasieu Parish,2023,Science,35,34,pre_ban,0,0,0,1,0
+010,Calcasieu Parish,2024,Science,35,34,pre_ban,0,0,0,1,0
+010,Calcasieu Parish,2025,Science,35,33,post_ban,0,0,0,1,0
+010,Calcasieu Parish,2018,Social Studies,30,30,pre_ban,0,0,0,0,1
+010,Calcasieu Parish,2019,Social Studies,31,31,pre_ban,0,0,0,0,1
+010,Calcasieu Parish,2021,Social Studies,28,28,pre_ban,0,0,0,0,1
+010,Calcasieu Parish,2022,Social Studies,28,28,pre_ban,0,0,0,0,1
+010,Calcasieu Parish,2023,Social Studies,30,30,pre_ban,0,0,0,0,1
+010,Calcasieu Parish,2024,Social Studies,NA,31,pre_ban,0,0,0,0,1
+010,Calcasieu Parish,2025,Social Studies,38,37,post_ban,0,0,0,0,1
+011,Caldwell Parish,2018,All Subjects,28,28,pre_ban,1,0,0,0,0
+011,Caldwell Parish,2019,All Subjects,31,30,pre_ban,1,0,0,0,0
+011,Caldwell Parish,2021,All Subjects,22,22,pre_ban,1,0,0,0,0
+011,Caldwell Parish,2022,All Subjects,24,24,pre_ban,1,0,0,0,0
+011,Caldwell Parish,2023,All Subjects,23,22,pre_ban,1,0,0,0,0
+011,Caldwell Parish,2024,All Subjects,22,21,pre_ban,1,0,0,0,0
+011,Caldwell Parish,2025,All Subjects,24,23,post_ban,1,0,0,0,0
+011,Caldwell Parish,2018,ELA,37,37,pre_ban,0,1,0,0,0
+011,Caldwell Parish,2019,ELA,43,43,pre_ban,0,1,0,0,0
+011,Caldwell Parish,2021,ELA,33,34,pre_ban,0,1,0,0,0
+011,Caldwell Parish,2022,ELA,37,37,pre_ban,0,1,0,0,0
+011,Caldwell Parish,2023,ELA,31,30,pre_ban,0,1,0,0,0
+011,Caldwell Parish,2024,ELA,29,30,pre_ban,0,1,0,0,0
+011,Caldwell Parish,2025,ELA,35,35,post_ban,0,1,0,0,0
+011,Caldwell Parish,2018,Math,25,24,pre_ban,0,0,1,0,0
+011,Caldwell Parish,2019,Math,25,23,pre_ban,0,0,1,0,0
+011,Caldwell Parish,2021,Math,15,14,pre_ban,0,0,1,0,0
+011,Caldwell Parish,2022,Math,20,20,pre_ban,0,0,1,0,0
+011,Caldwell Parish,2023,Math,21,20,pre_ban,0,0,1,0,0
+011,Caldwell Parish,2024,Math,17,17,pre_ban,0,0,1,0,0
+011,Caldwell Parish,2025,Math,21,21,post_ban,0,0,1,0,0
+011,Caldwell Parish,2018,Science,27,NA,pre_ban,0,0,0,1,0
+011,Caldwell Parish,2019,Science,26,NA,pre_ban,0,0,0,1,0
+011,Caldwell Parish,2021,Science,18,18,pre_ban,0,0,0,1,0
+011,Caldwell Parish,2022,Science,20,19,pre_ban,0,0,0,1,0
+011,Caldwell Parish,2023,Science,21,21,pre_ban,0,0,0,1,0
+011,Caldwell Parish,2024,Science,19,18,pre_ban,0,0,0,1,0
+011,Caldwell Parish,2025,Science,19,19,post_ban,0,0,0,1,0
+011,Caldwell Parish,2018,Social Studies,22,23,pre_ban,0,0,0,0,1
+011,Caldwell Parish,2019,Social Studies,25,24,pre_ban,0,0,0,0,1
+011,Caldwell Parish,2021,Social Studies,20,19,pre_ban,0,0,0,0,1
+011,Caldwell Parish,2022,Social Studies,20,19,pre_ban,0,0,0,0,1
+011,Caldwell Parish,2023,Social Studies,18,16,pre_ban,0,0,0,0,1
+011,Caldwell Parish,2024,Social Studies,NA,13,pre_ban,0,0,0,0,1
+011,Caldwell Parish,2025,Social Studies,21,19,post_ban,0,0,0,0,1
+012,Cameron Parish,2018,All Subjects,41,42,pre_ban,1,0,0,0,0
+012,Cameron Parish,2019,All Subjects,44,44,pre_ban,1,0,0,0,0
+012,Cameron Parish,2021,All Subjects,36,37,pre_ban,1,0,0,0,0
+012,Cameron Parish,2022,All Subjects,36,39,pre_ban,1,0,0,0,0
+012,Cameron Parish,2023,All Subjects,38,40,pre_ban,1,0,0,0,0
+012,Cameron Parish,2024,All Subjects,41,44,pre_ban,1,0,0,0,0
+012,Cameron Parish,2025,All Subjects,42,44,post_ban,1,0,0,0,0
+012,Cameron Parish,2018,ELA,48,49,pre_ban,0,1,0,0,0
+012,Cameron Parish,2019,ELA,51,53,pre_ban,0,1,0,0,0
+012,Cameron Parish,2021,ELA,50,52,pre_ban,0,1,0,0,0
+012,Cameron Parish,2022,ELA,51,56,pre_ban,0,1,0,0,0
+012,Cameron Parish,2023,ELA,52,55,pre_ban,0,1,0,0,0
+012,Cameron Parish,2024,ELA,58,60,pre_ban,0,1,0,0,0
+012,Cameron Parish,2025,ELA,55,59,post_ban,0,1,0,0,0
+012,Cameron Parish,2018,Math,40,41,pre_ban,0,0,1,0,0
+012,Cameron Parish,2019,Math,47,46,pre_ban,0,0,1,0,0
+012,Cameron Parish,2021,Math,30,32,pre_ban,0,0,1,0,0
+012,Cameron Parish,2022,Math,35,37,pre_ban,0,0,1,0,0
+012,Cameron Parish,2023,Math,36,38,pre_ban,0,0,1,0,0
+012,Cameron Parish,2024,Math,36,41,pre_ban,0,0,1,0,0
+012,Cameron Parish,2025,Math,38,42,post_ban,0,0,1,0,0
+012,Cameron Parish,2018,Science,40,NA,pre_ban,0,0,0,1,0
+012,Cameron Parish,2019,Science,40,NA,pre_ban,0,0,0,1,0
+012,Cameron Parish,2021,Science,31,31,pre_ban,0,0,0,1,0
+012,Cameron Parish,2022,Science,32,34,pre_ban,0,0,0,1,0
+012,Cameron Parish,2023,Science,35,35,pre_ban,0,0,0,1,0
+012,Cameron Parish,2024,Science,30,32,pre_ban,0,0,0,1,0
+012,Cameron Parish,2025,Science,33,35,post_ban,0,0,0,1,0
+012,Cameron Parish,2018,Social Studies,35,34,pre_ban,0,0,0,0,1
+012,Cameron Parish,2019,Social Studies,33,31,pre_ban,0,0,0,0,1
+012,Cameron Parish,2021,Social Studies,31,30,pre_ban,0,0,0,0,1
+012,Cameron Parish,2022,Social Studies,26,25,pre_ban,0,0,0,0,1
+012,Cameron Parish,2023,Social Studies,28,28,pre_ban,0,0,0,0,1
+012,Cameron Parish,2024,Social Studies,NA,22,pre_ban,0,0,0,0,1
+012,Cameron Parish,2025,Social Studies,40,37,post_ban,0,0,0,0,1
+013,Catahoula Parish,2018,All Subjects,28,28,pre_ban,1,0,0,0,0
+013,Catahoula Parish,2019,All Subjects,28,28,pre_ban,1,0,0,0,0
+013,Catahoula Parish,2021,All Subjects,19,20,pre_ban,1,0,0,0,0
+013,Catahoula Parish,2022,All Subjects,22,22,pre_ban,1,0,0,0,0
+013,Catahoula Parish,2023,All Subjects,20,21,pre_ban,1,0,0,0,0
+013,Catahoula Parish,2024,All Subjects,27,25,pre_ban,1,0,0,0,0
+013,Catahoula Parish,2025,All Subjects,22,23,post_ban,1,0,0,0,0
+013,Catahoula Parish,2018,ELA,43,42,pre_ban,0,1,0,0,0
+013,Catahoula Parish,2019,ELA,43,42,pre_ban,0,1,0,0,0
+013,Catahoula Parish,2021,ELA,34,35,pre_ban,0,1,0,0,0
+013,Catahoula Parish,2022,ELA,33,34,pre_ban,0,1,0,0,0
+013,Catahoula Parish,2023,ELA,27,31,pre_ban,0,1,0,0,0
+013,Catahoula Parish,2024,ELA,35,35,pre_ban,0,1,0,0,0
+013,Catahoula Parish,2025,ELA,35,35,post_ban,0,1,0,0,0
+013,Catahoula Parish,2018,Math,24,24,pre_ban,0,0,1,0,0
+013,Catahoula Parish,2019,Math,23,24,pre_ban,0,0,1,0,0
+013,Catahoula Parish,2021,Math,16,16,pre_ban,0,0,1,0,0
+013,Catahoula Parish,2022,Math,22,22,pre_ban,0,0,1,0,0
+013,Catahoula Parish,2023,Math,20,19,pre_ban,0,0,1,0,0
+013,Catahoula Parish,2024,Math,26,23,pre_ban,0,0,1,0,0
+013,Catahoula Parish,2025,Math,21,21,post_ban,0,0,1,0,0
+013,Catahoula Parish,2018,Science,22,NA,pre_ban,0,0,0,1,0
+013,Catahoula Parish,2019,Science,21,NA,pre_ban,0,0,0,1,0
+013,Catahoula Parish,2021,Science,15,15,pre_ban,0,0,0,1,0
+013,Catahoula Parish,2022,Science,17,17,pre_ban,0,0,0,1,0
+013,Catahoula Parish,2023,Science,20,20,pre_ban,0,0,0,1,0
+013,Catahoula Parish,2024,Science,20,19,pre_ban,0,0,0,1,0
+013,Catahoula Parish,2025,Science,17,17,post_ban,0,0,0,1,0
+013,Catahoula Parish,2018,Social Studies,18,17,pre_ban,0,0,0,0,1
+013,Catahoula Parish,2019,Social Studies,18,17,pre_ban,0,0,0,0,1
+013,Catahoula Parish,2021,Social Studies,13,12,pre_ban,0,0,0,0,1
+013,Catahoula Parish,2022,Social Studies,14,14,pre_ban,0,0,0,0,1
+013,Catahoula Parish,2023,Social Studies,12,11,pre_ban,0,0,0,0,1
+013,Catahoula Parish,2024,Social Studies,NA,11,pre_ban,0,0,0,0,1
+013,Catahoula Parish,2025,Social Studies,17,17,post_ban,0,0,0,0,1
+014,Claiborne Parish,2018,All Subjects,15,17,pre_ban,1,0,0,0,0
+014,Claiborne Parish,2019,All Subjects,17,18,pre_ban,1,0,0,0,0
+014,Claiborne Parish,2021,All Subjects,13,12,pre_ban,1,0,0,0,0
+014,Claiborne Parish,2022,All Subjects,15,14,pre_ban,1,0,0,0,0
+014,Claiborne Parish,2023,All Subjects,14,14,pre_ban,1,0,0,0,0
+014,Claiborne Parish,2024,All Subjects,15,14,pre_ban,1,0,0,0,0
+014,Claiborne Parish,2025,All Subjects,15,14,post_ban,1,0,0,0,0
+014,Claiborne Parish,2018,ELA,22,25,pre_ban,0,1,0,0,0
+014,Claiborne Parish,2019,ELA,24,24,pre_ban,0,1,0,0,0
+014,Claiborne Parish,2021,ELA,19,19,pre_ban,0,1,0,0,0
+014,Claiborne Parish,2022,ELA,23,22,pre_ban,0,1,0,0,0
+014,Claiborne Parish,2023,ELA,20,19,pre_ban,0,1,0,0,0
+014,Claiborne Parish,2024,ELA,20,20,pre_ban,0,1,0,0,0
+014,Claiborne Parish,2025,ELA,20,20,post_ban,0,1,0,0,0
+014,Claiborne Parish,2018,Math,14,16,pre_ban,0,0,1,0,0
+014,Claiborne Parish,2019,Math,16,17,pre_ban,0,0,1,0,0
+014,Claiborne Parish,2021,Math,13,11,pre_ban,0,0,1,0,0
+014,Claiborne Parish,2022,Math,17,16,pre_ban,0,0,1,0,0
+014,Claiborne Parish,2023,Math,15,14,pre_ban,0,0,1,0,0
+014,Claiborne Parish,2024,Math,14,13,pre_ban,0,0,1,0,0
+014,Claiborne Parish,2025,Math,14,14,post_ban,0,0,1,0,0
+014,Claiborne Parish,2018,Science,12,NA,pre_ban,0,0,0,1,0
+014,Claiborne Parish,2019,Science,12,NA,pre_ban,0,0,0,1,0
+014,Claiborne Parish,2021,Science,11,10,pre_ban,0,0,0,1,0
+014,Claiborne Parish,2022,Science,10,9,pre_ban,0,0,0,1,0
+014,Claiborne Parish,2023,Science,10,10,pre_ban,0,0,0,1,0
+014,Claiborne Parish,2024,Science,10,10,pre_ban,0,0,0,1,0
+014,Claiborne Parish,2025,Science,11,10,post_ban,0,0,0,1,0
+014,Claiborne Parish,2018,Social Studies,10,10,pre_ban,0,0,0,0,1
+014,Claiborne Parish,2019,Social Studies,11,11,pre_ban,0,0,0,0,1
+014,Claiborne Parish,2021,Social Studies,9,8,pre_ban,0,0,0,0,1
+014,Claiborne Parish,2022,Social Studies,10,10,pre_ban,0,0,0,0,1
+014,Claiborne Parish,2023,Social Studies,12,12,pre_ban,0,0,0,0,1
+014,Claiborne Parish,2024,Social Studies,NA,12,pre_ban,0,0,0,0,1
+014,Claiborne Parish,2025,Social Studies,13,12,post_ban,0,0,0,0,1
+015,Concordia Parish,2018,All Subjects,26,26,pre_ban,1,0,0,0,0
+015,Concordia Parish,2019,All Subjects,26,25,pre_ban,1,0,0,0,0
+015,Concordia Parish,2021,All Subjects,18,18,pre_ban,1,0,0,0,0
+015,Concordia Parish,2022,All Subjects,21,21,pre_ban,1,0,0,0,0
+015,Concordia Parish,2023,All Subjects,25,24,pre_ban,1,0,0,0,0
+015,Concordia Parish,2024,All Subjects,27,25,pre_ban,1,0,0,0,0
+015,Concordia Parish,2025,All Subjects,26,25,post_ban,1,0,0,0,0
+015,Concordia Parish,2018,ELA,34,34,pre_ban,0,1,0,0,0
+015,Concordia Parish,2019,ELA,31,31,pre_ban,0,1,0,0,0
+015,Concordia Parish,2021,ELA,26,26,pre_ban,0,1,0,0,0
+015,Concordia Parish,2022,ELA,28,29,pre_ban,0,1,0,0,0
+015,Concordia Parish,2023,ELA,33,32,pre_ban,0,1,0,0,0
+015,Concordia Parish,2024,ELA,33,32,pre_ban,0,1,0,0,0
+015,Concordia Parish,2025,ELA,34,32,post_ban,0,1,0,0,0
+015,Concordia Parish,2018,Math,23,22,pre_ban,0,0,1,0,0
+015,Concordia Parish,2019,Math,28,24,pre_ban,0,0,1,0,0
+015,Concordia Parish,2021,Math,17,18,pre_ban,0,0,1,0,0
+015,Concordia Parish,2022,Math,22,21,pre_ban,0,0,1,0,0
+015,Concordia Parish,2023,Math,26,24,pre_ban,0,0,1,0,0
+015,Concordia Parish,2024,Math,25,24,pre_ban,0,0,1,0,0
+015,Concordia Parish,2025,Math,25,26,post_ban,0,0,1,0,0
+015,Concordia Parish,2018,Science,21,NA,pre_ban,0,0,0,1,0
+015,Concordia Parish,2019,Science,19,NA,pre_ban,0,0,0,1,0
+015,Concordia Parish,2021,Science,16,16,pre_ban,0,0,0,1,0
+015,Concordia Parish,2022,Science,18,18,pre_ban,0,0,0,1,0
+015,Concordia Parish,2023,Science,22,21,pre_ban,0,0,0,1,0
+015,Concordia Parish,2024,Science,23,21,pre_ban,0,0,0,1,0
+015,Concordia Parish,2025,Science,24,23,post_ban,0,0,0,1,0
+015,Concordia Parish,2018,Social Studies,20,20,pre_ban,0,0,0,0,1
+015,Concordia Parish,2019,Social Studies,18,19,pre_ban,0,0,0,0,1
+015,Concordia Parish,2021,Social Studies,13,12,pre_ban,0,0,0,0,1
+015,Concordia Parish,2022,Social Studies,14,14,pre_ban,0,0,0,0,1
+015,Concordia Parish,2023,Social Studies,17,17,pre_ban,0,0,0,0,1
+015,Concordia Parish,2024,Social Studies,NA,12,pre_ban,0,0,0,0,1
+015,Concordia Parish,2025,Social Studies,22,21,post_ban,0,0,0,0,1
+016,Desoto Parish,2018,All Subjects,38,40,pre_ban,1,0,0,0,0
+016,Desoto Parish,2019,All Subjects,43,44,pre_ban,1,0,0,0,0
+016,Desoto Parish,2021,All Subjects,36,36,pre_ban,1,0,0,0,0
+016,Desoto Parish,2022,All Subjects,37,38,pre_ban,1,0,0,0,0
+016,Desoto Parish,2023,All Subjects,38,40,pre_ban,1,0,0,0,0
+016,Desoto Parish,2024,All Subjects,41,42,pre_ban,1,0,0,0,0
+016,Desoto Parish,2025,All Subjects,41,42,post_ban,1,0,0,0,0
+016,Desoto Parish,2018,ELA,47,49,pre_ban,0,1,0,0,0
+016,Desoto Parish,2019,ELA,52,53,pre_ban,0,1,0,0,0
+016,Desoto Parish,2021,ELA,47,47,pre_ban,0,1,0,0,0
+016,Desoto Parish,2022,ELA,50,50,pre_ban,0,1,0,0,0
+016,Desoto Parish,2023,ELA,51,52,pre_ban,0,1,0,0,0
+016,Desoto Parish,2024,ELA,50,51,pre_ban,0,1,0,0,0
+016,Desoto Parish,2025,ELA,52,52,post_ban,0,1,0,0,0
+016,Desoto Parish,2018,Math,33,35,pre_ban,0,0,1,0,0
+016,Desoto Parish,2019,Math,38,39,pre_ban,0,0,1,0,0
+016,Desoto Parish,2021,Math,28,32,pre_ban,0,0,1,0,0
+016,Desoto Parish,2022,Math,32,37,pre_ban,0,0,1,0,0
+016,Desoto Parish,2023,Math,33,41,pre_ban,0,0,1,0,0
+016,Desoto Parish,2024,Math,36,42,pre_ban,0,0,1,0,0
+016,Desoto Parish,2025,Math,40,44,post_ban,0,0,1,0,0
+016,Desoto Parish,2018,Science,38,NA,pre_ban,0,0,0,1,0
+016,Desoto Parish,2019,Science,37,NA,pre_ban,0,0,0,1,0
+016,Desoto Parish,2021,Science,33,32,pre_ban,0,0,0,1,0
+016,Desoto Parish,2022,Science,33,32,pre_ban,0,0,0,1,0
+016,Desoto Parish,2023,Science,35,35,pre_ban,0,0,0,1,0
+016,Desoto Parish,2024,Science,35,35,pre_ban,0,0,0,1,0
+016,Desoto Parish,2025,Science,35,34,post_ban,0,0,0,1,0
+016,Desoto Parish,2018,Social Studies,35,34,pre_ban,0,0,0,0,1
+016,Desoto Parish,2019,Social Studies,39,37,pre_ban,0,0,0,0,1
+016,Desoto Parish,2021,Social Studies,35,32,pre_ban,0,0,0,0,1
+016,Desoto Parish,2022,Social Studies,32,31,pre_ban,0,0,0,0,1
+016,Desoto Parish,2023,Social Studies,33,31,pre_ban,0,0,0,0,1
+016,Desoto Parish,2024,Social Studies,NA,23,pre_ban,0,0,0,0,1
+016,Desoto Parish,2025,Social Studies,37,36,post_ban,0,0,0,0,1
+017,East Baton Rouge Parish,2018,All Subjects,30,30,pre_ban,1,0,0,0,0
+017,East Baton Rouge Parish,2019,All Subjects,32,32,pre_ban,1,0,0,0,0
+017,East Baton Rouge Parish,2021,All Subjects,24,24,pre_ban,1,0,0,0,0
+017,East Baton Rouge Parish,2022,All Subjects,25,25,pre_ban,1,0,0,0,0
+017,East Baton Rouge Parish,2023,All Subjects,26,27,pre_ban,1,0,0,0,0
+017,East Baton Rouge Parish,2024,All Subjects,29,29,pre_ban,1,0,0,0,0
+017,East Baton Rouge Parish,2025,All Subjects,28,28,post_ban,1,0,0,0,0
+017,East Baton Rouge Parish,2018,ELA,38,38,pre_ban,0,1,0,0,0
+017,East Baton Rouge Parish,2019,ELA,40,39,pre_ban,0,1,0,0,0
+017,East Baton Rouge Parish,2021,ELA,34,34,pre_ban,0,1,0,0,0
+017,East Baton Rouge Parish,2022,ELA,36,36,pre_ban,0,1,0,0,0
+017,East Baton Rouge Parish,2023,ELA,37,37,pre_ban,0,1,0,0,0
+017,East Baton Rouge Parish,2024,ELA,39,38,pre_ban,0,1,0,0,0
+017,East Baton Rouge Parish,2025,ELA,37,37,post_ban,0,1,0,0,0
+017,East Baton Rouge Parish,2018,Math,27,27,pre_ban,0,0,1,0,0
+017,East Baton Rouge Parish,2019,Math,31,30,pre_ban,0,0,1,0,0
+017,East Baton Rouge Parish,2021,Math,20,20,pre_ban,0,0,1,0,0
+017,East Baton Rouge Parish,2022,Math,23,22,pre_ban,0,0,1,0,0
+017,East Baton Rouge Parish,2023,Math,25,24,pre_ban,0,0,1,0,0
+017,East Baton Rouge Parish,2024,Math,26,24,pre_ban,0,0,1,0,0
+017,East Baton Rouge Parish,2025,Math,27,27,post_ban,0,0,1,0,0
+017,East Baton Rouge Parish,2018,Science,24,NA,pre_ban,0,0,0,1,0
+017,East Baton Rouge Parish,2019,Science,24,NA,pre_ban,0,0,0,1,0
+017,East Baton Rouge Parish,2021,Science,20,19,pre_ban,0,0,0,1,0
+017,East Baton Rouge Parish,2022,Science,21,21,pre_ban,0,0,0,1,0
+017,East Baton Rouge Parish,2023,Science,22,22,pre_ban,0,0,0,1,0
+017,East Baton Rouge Parish,2024,Science,24,23,pre_ban,0,0,0,1,0
+017,East Baton Rouge Parish,2025,Science,23,23,post_ban,0,0,0,1,0
+017,East Baton Rouge Parish,2018,Social Studies,24,24,pre_ban,0,0,0,0,1
+017,East Baton Rouge Parish,2019,Social Studies,26,26,pre_ban,0,0,0,0,1
+017,East Baton Rouge Parish,2021,Social Studies,21,21,pre_ban,0,0,0,0,1
+017,East Baton Rouge Parish,2022,Social Studies,21,22,pre_ban,0,0,0,0,1
+017,East Baton Rouge Parish,2023,Social Studies,21,22,pre_ban,0,0,0,0,1
+017,East Baton Rouge Parish,2024,Social Studies,NA,22,pre_ban,0,0,0,0,1
+017,East Baton Rouge Parish,2025,Social Studies,25,25,post_ban,0,0,0,0,1
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2018,All Subjects,29,29,pre_ban,1,0,0,0,0
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2019,All Subjects,31,31,pre_ban,1,0,0,0,0
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2018,ELA,37,37,pre_ban,0,1,0,0,0
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2019,ELA,39,38,pre_ban,0,1,0,0,0
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2018,Math,26,26,pre_ban,0,0,1,0,0
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2019,Math,30,29,pre_ban,0,0,1,0,0
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2018,Science,23,NA,pre_ban,0,0,0,1,0
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2019,Science,23,NA,pre_ban,0,0,0,1,0
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2018,Social Studies,23,23,pre_ban,0,0,0,0,1
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2019,Social Studies,25,25,pre_ban,0,0,0,0,1
+018,East Carroll Parish,2018,All Subjects,18,19,pre_ban,1,0,0,0,0
+018,East Carroll Parish,2019,All Subjects,10,10,pre_ban,1,0,0,0,0
+018,East Carroll Parish,2021,All Subjects,NA,NA,pre_ban,1,0,0,0,0
+018,East Carroll Parish,2022,All Subjects,5,5,pre_ban,1,0,0,0,0
+018,East Carroll Parish,2023,All Subjects,8,9,pre_ban,1,0,0,0,0
+018,East Carroll Parish,2024,All Subjects,6,9,pre_ban,1,0,0,0,0
+018,East Carroll Parish,2025,All Subjects,8,13,post_ban,1,0,0,0,0
+018,East Carroll Parish,2018,ELA,26,29,pre_ban,0,1,0,0,0
+018,East Carroll Parish,2019,ELA,16,17,pre_ban,0,1,0,0,0
+018,East Carroll Parish,2021,ELA,9,9,pre_ban,0,1,0,0,0
+018,East Carroll Parish,2022,ELA,11,12,pre_ban,0,1,0,0,0
+018,East Carroll Parish,2023,ELA,17,17,pre_ban,0,1,0,0,0
+018,East Carroll Parish,2024,ELA,7,10,pre_ban,0,1,0,0,0
+018,East Carroll Parish,2025,ELA,14,16,post_ban,0,1,0,0,0
+018,East Carroll Parish,2018,Math,14,15,pre_ban,0,0,1,0,0
+018,East Carroll Parish,2019,Math,9,9,pre_ban,0,0,1,0,0
+018,East Carroll Parish,2021,Math,NA,NA,pre_ban,0,0,1,0,0
+018,East Carroll Parish,2022,Math,5,6,pre_ban,0,0,1,0,0
+018,East Carroll Parish,2023,Math,11,12,pre_ban,0,0,1,0,0
+018,East Carroll Parish,2024,Math,9,12,pre_ban,0,0,1,0,0
+018,East Carroll Parish,2025,Math,11,15,post_ban,0,0,1,0,0
+018,East Carroll Parish,2018,Science,2,NA,pre_ban,0,0,0,1,0
+018,East Carroll Parish,2019,Science,2,NA,pre_ban,0,0,0,1,0
+018,East Carroll Parish,2021,Science,NA,NA,pre_ban,0,0,0,1,0
+018,East Carroll Parish,2022,Science,NA,NA,pre_ban,0,0,0,1,0
+018,East Carroll Parish,2023,Science,NA,NA,pre_ban,0,0,0,1,0
+018,East Carroll Parish,2024,Science,NA,NA,pre_ban,0,0,0,1,0
+018,East Carroll Parish,2025,Science,NA,7,post_ban,0,0,0,1,0
+018,East Carroll Parish,2018,Social Studies,16,14,pre_ban,0,0,0,0,1
+018,East Carroll Parish,2019,Social Studies,4,4,pre_ban,0,0,0,0,1
+018,East Carroll Parish,2021,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+018,East Carroll Parish,2022,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+018,East Carroll Parish,2023,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+018,East Carroll Parish,2024,Social Studies,NA,26,pre_ban,0,0,0,0,1
+018,East Carroll Parish,2025,Social Studies,NA,11,post_ban,0,0,0,0,1
+019,East Feliciana Parish,2018,All Subjects,23,26,pre_ban,1,0,0,0,0
+019,East Feliciana Parish,2019,All Subjects,27,29,pre_ban,1,0,0,0,0
+019,East Feliciana Parish,2021,All Subjects,19,21,pre_ban,1,0,0,0,0
+019,East Feliciana Parish,2022,All Subjects,24,25,pre_ban,1,0,0,0,0
+019,East Feliciana Parish,2023,All Subjects,24,26,pre_ban,1,0,0,0,0
+019,East Feliciana Parish,2024,All Subjects,25,28,pre_ban,1,0,0,0,0
+019,East Feliciana Parish,2025,All Subjects,24,27,post_ban,1,0,0,0,0
+019,East Feliciana Parish,2018,ELA,32,34,pre_ban,0,1,0,0,0
+019,East Feliciana Parish,2019,ELA,36,37,pre_ban,0,1,0,0,0
+019,East Feliciana Parish,2021,ELA,28,29,pre_ban,0,1,0,0,0
+019,East Feliciana Parish,2022,ELA,34,34,pre_ban,0,1,0,0,0
+019,East Feliciana Parish,2023,ELA,34,36,pre_ban,0,1,0,0,0
+019,East Feliciana Parish,2024,ELA,33,36,pre_ban,0,1,0,0,0
+019,East Feliciana Parish,2025,ELA,33,37,post_ban,0,1,0,0,0
+019,East Feliciana Parish,2018,Math,20,22,pre_ban,0,0,1,0,0
+019,East Feliciana Parish,2019,Math,24,27,pre_ban,0,0,1,0,0
+019,East Feliciana Parish,2021,Math,16,19,pre_ban,0,0,1,0,0
+019,East Feliciana Parish,2022,Math,26,28,pre_ban,0,0,1,0,0
+019,East Feliciana Parish,2023,Math,24,28,pre_ban,0,0,1,0,0
+019,East Feliciana Parish,2024,Math,22,27,pre_ban,0,0,1,0,0
+019,East Feliciana Parish,2025,Math,23,27,post_ban,0,0,1,0,0
+019,East Feliciana Parish,2018,Science,20,NA,pre_ban,0,0,0,1,0
+019,East Feliciana Parish,2019,Science,21,NA,pre_ban,0,0,0,1,0
+019,East Feliciana Parish,2021,Science,16,17,pre_ban,0,0,0,1,0
+019,East Feliciana Parish,2022,Science,18,19,pre_ban,0,0,0,1,0
+019,East Feliciana Parish,2023,Science,21,21,pre_ban,0,0,0,1,0
+019,East Feliciana Parish,2024,Science,21,23,pre_ban,0,0,0,1,0
+019,East Feliciana Parish,2025,Science,19,21,post_ban,0,0,0,1,0
+019,East Feliciana Parish,2018,Social Studies,19,21,pre_ban,0,0,0,0,1
+019,East Feliciana Parish,2019,Social Studies,22,24,pre_ban,0,0,0,0,1
+019,East Feliciana Parish,2021,Social Studies,16,18,pre_ban,0,0,0,0,1
+019,East Feliciana Parish,2022,Social Studies,17,18,pre_ban,0,0,0,0,1
+019,East Feliciana Parish,2023,Social Studies,17,17,pre_ban,0,0,0,0,1
+019,East Feliciana Parish,2024,Social Studies,NA,21,pre_ban,0,0,0,0,1
+019,East Feliciana Parish,2025,Social Studies,21,23,post_ban,0,0,0,0,1
+020,Evangeline Parish,2018,All Subjects,33,34,pre_ban,1,0,0,0,0
+020,Evangeline Parish,2019,All Subjects,34,36,pre_ban,1,0,0,0,0
+020,Evangeline Parish,2021,All Subjects,22,23,pre_ban,1,0,0,0,0
+020,Evangeline Parish,2022,All Subjects,23,24,pre_ban,1,0,0,0,0
+020,Evangeline Parish,2023,All Subjects,28,28,pre_ban,1,0,0,0,0
+020,Evangeline Parish,2024,All Subjects,30,30,pre_ban,1,0,0,0,0
+020,Evangeline Parish,2025,All Subjects,28,28,post_ban,1,0,0,0,0
+020,Evangeline Parish,2018,ELA,41,42,pre_ban,0,1,0,0,0
+020,Evangeline Parish,2019,ELA,43,44,pre_ban,0,1,0,0,0
+020,Evangeline Parish,2021,ELA,34,35,pre_ban,0,1,0,0,0
+020,Evangeline Parish,2022,ELA,34,35,pre_ban,0,1,0,0,0
+020,Evangeline Parish,2023,ELA,41,40,pre_ban,0,1,0,0,0
+020,Evangeline Parish,2024,ELA,40,39,pre_ban,0,1,0,0,0
+020,Evangeline Parish,2025,ELA,41,39,post_ban,0,1,0,0,0
+020,Evangeline Parish,2018,Math,35,36,pre_ban,0,0,1,0,0
+020,Evangeline Parish,2019,Math,35,38,pre_ban,0,0,1,0,0
+020,Evangeline Parish,2021,Math,21,22,pre_ban,0,0,1,0,0
+020,Evangeline Parish,2022,Math,24,25,pre_ban,0,0,1,0,0
+020,Evangeline Parish,2023,Math,28,29,pre_ban,0,0,1,0,0
+020,Evangeline Parish,2024,Math,27,28,pre_ban,0,0,1,0,0
+020,Evangeline Parish,2025,Math,28,29,post_ban,0,0,1,0,0
+020,Evangeline Parish,2018,Science,25,NA,pre_ban,0,0,0,1,0
+020,Evangeline Parish,2019,Science,25,NA,pre_ban,0,0,0,1,0
+020,Evangeline Parish,2021,Science,18,18,pre_ban,0,0,0,1,0
+020,Evangeline Parish,2022,Science,19,19,pre_ban,0,0,0,1,0
+020,Evangeline Parish,2023,Science,22,22,pre_ban,0,0,0,1,0
+020,Evangeline Parish,2024,Science,24,23,pre_ban,0,0,0,1,0
+020,Evangeline Parish,2025,Science,22,22,post_ban,0,0,0,1,0
+020,Evangeline Parish,2018,Social Studies,22,22,pre_ban,0,0,0,0,1
+020,Evangeline Parish,2019,Social Studies,23,23,pre_ban,0,0,0,0,1
+020,Evangeline Parish,2021,Social Studies,16,16,pre_ban,0,0,0,0,1
+020,Evangeline Parish,2022,Social Studies,17,18,pre_ban,0,0,0,0,1
+020,Evangeline Parish,2023,Social Studies,20,20,pre_ban,0,0,0,0,1
+020,Evangeline Parish,2024,Social Studies,NA,19,pre_ban,0,0,0,0,1
+020,Evangeline Parish,2025,Social Studies,22,21,post_ban,0,0,0,0,1
+021,Franklin Parish,2018,All Subjects,24,24,pre_ban,1,0,0,0,0
+021,Franklin Parish,2019,All Subjects,23,23,pre_ban,1,0,0,0,0
+021,Franklin Parish,2021,All Subjects,13,14,pre_ban,1,0,0,0,0
+021,Franklin Parish,2022,All Subjects,16,17,pre_ban,1,0,0,0,0
+021,Franklin Parish,2023,All Subjects,14,15,pre_ban,1,0,0,0,0
+021,Franklin Parish,2024,All Subjects,16,17,pre_ban,1,0,0,0,0
+021,Franklin Parish,2025,All Subjects,16,16,post_ban,1,0,0,0,0
+021,Franklin Parish,2018,ELA,31,29,pre_ban,0,1,0,0,0
+021,Franklin Parish,2019,ELA,28,27,pre_ban,0,1,0,0,0
+021,Franklin Parish,2021,ELA,21,21,pre_ban,0,1,0,0,0
+021,Franklin Parish,2022,ELA,24,26,pre_ban,0,1,0,0,0
+021,Franklin Parish,2023,ELA,22,23,pre_ban,0,1,0,0,0
+021,Franklin Parish,2024,ELA,23,23,pre_ban,0,1,0,0,0
+021,Franklin Parish,2025,ELA,22,23,post_ban,0,1,0,0,0
+021,Franklin Parish,2018,Math,27,26,pre_ban,0,0,1,0,0
+021,Franklin Parish,2019,Math,26,26,pre_ban,0,0,1,0,0
+021,Franklin Parish,2021,Math,12,12,pre_ban,0,0,1,0,0
+021,Franklin Parish,2022,Math,15,15,pre_ban,0,0,1,0,0
+021,Franklin Parish,2023,Math,13,13,pre_ban,0,0,1,0,0
+021,Franklin Parish,2024,Math,14,13,pre_ban,0,0,1,0,0
+021,Franklin Parish,2025,Math,15,15,post_ban,0,0,1,0,0
+021,Franklin Parish,2018,Science,13,NA,pre_ban,0,0,0,1,0
+021,Franklin Parish,2019,Science,14,NA,pre_ban,0,0,0,1,0
+021,Franklin Parish,2021,Science,11,10,pre_ban,0,0,0,1,0
+021,Franklin Parish,2022,Science,13,13,pre_ban,0,0,0,1,0
+021,Franklin Parish,2023,Science,11,11,pre_ban,0,0,0,1,0
+021,Franklin Parish,2024,Science,13,12,pre_ban,0,0,0,1,0
+021,Franklin Parish,2025,Science,12,12,post_ban,0,0,0,1,0
+021,Franklin Parish,2018,Social Studies,15,14,pre_ban,0,0,0,0,1
+021,Franklin Parish,2019,Social Studies,15,14,pre_ban,0,0,0,0,1
+021,Franklin Parish,2021,Social Studies,10,10,pre_ban,0,0,0,0,1
+021,Franklin Parish,2022,Social Studies,13,13,pre_ban,0,0,0,0,1
+021,Franklin Parish,2023,Social Studies,11,12,pre_ban,0,0,0,0,1
+021,Franklin Parish,2024,Social Studies,NA,20,pre_ban,0,0,0,0,1
+021,Franklin Parish,2025,Social Studies,15,14,post_ban,0,0,0,0,1
+022,Grant Parish,2018,All Subjects,34,34,pre_ban,1,0,0,0,0
+022,Grant Parish,2019,All Subjects,35,36,pre_ban,1,0,0,0,0
+022,Grant Parish,2021,All Subjects,25,28,pre_ban,1,0,0,0,0
+022,Grant Parish,2022,All Subjects,29,30,pre_ban,1,0,0,0,0
+022,Grant Parish,2023,All Subjects,30,31,pre_ban,1,0,0,0,0
+022,Grant Parish,2024,All Subjects,29,30,pre_ban,1,0,0,0,0
+022,Grant Parish,2025,All Subjects,28,27,post_ban,1,0,0,0,0
+022,Grant Parish,2018,ELA,43,41,pre_ban,0,1,0,0,0
+022,Grant Parish,2019,ELA,44,44,pre_ban,0,1,0,0,0
+022,Grant Parish,2021,ELA,31,34,pre_ban,0,1,0,0,0
+022,Grant Parish,2022,ELA,38,39,pre_ban,0,1,0,0,0
+022,Grant Parish,2023,ELA,39,40,pre_ban,0,1,0,0,0
+022,Grant Parish,2024,ELA,33,35,pre_ban,0,1,0,0,0
+022,Grant Parish,2025,ELA,36,36,post_ban,0,1,0,0,0
+022,Grant Parish,2018,Math,34,33,pre_ban,0,0,1,0,0
+022,Grant Parish,2019,Math,34,35,pre_ban,0,0,1,0,0
+022,Grant Parish,2021,Math,25,27,pre_ban,0,0,1,0,0
+022,Grant Parish,2022,Math,32,32,pre_ban,0,0,1,0,0
+022,Grant Parish,2023,Math,30,30,pre_ban,0,0,1,0,0
+022,Grant Parish,2024,Math,29,31,pre_ban,0,0,1,0,0
+022,Grant Parish,2025,Math,29,28,post_ban,0,0,1,0,0
+022,Grant Parish,2018,Science,30,NA,pre_ban,0,0,0,1,0
+022,Grant Parish,2019,Science,29,NA,pre_ban,0,0,0,1,0
+022,Grant Parish,2021,Science,24,25,pre_ban,0,0,0,1,0
+022,Grant Parish,2022,Science,24,25,pre_ban,0,0,0,1,0
+022,Grant Parish,2023,Science,27,27,pre_ban,0,0,0,1,0
+022,Grant Parish,2024,Science,24,25,pre_ban,0,0,0,1,0
+022,Grant Parish,2025,Science,23,21,post_ban,0,0,0,1,0
+022,Grant Parish,2018,Social Studies,24,25,pre_ban,0,0,0,0,1
+022,Grant Parish,2019,Social Studies,28,28,pre_ban,0,0,0,0,1
+022,Grant Parish,2021,Social Studies,21,23,pre_ban,0,0,0,0,1
+022,Grant Parish,2022,Social Studies,23,24,pre_ban,0,0,0,0,1
+022,Grant Parish,2023,Social Studies,22,24,pre_ban,0,0,0,0,1
+022,Grant Parish,2024,Social Studies,NA,27,pre_ban,0,0,0,0,1
+022,Grant Parish,2025,Social Studies,24,23,post_ban,0,0,0,0,1
+023,Iberia Parish,2018,All Subjects,38,39,pre_ban,1,0,0,0,0
+023,Iberia Parish,2019,All Subjects,39,39,pre_ban,1,0,0,0,0
+023,Iberia Parish,2021,All Subjects,31,31,pre_ban,1,0,0,0,0
+023,Iberia Parish,2022,All Subjects,33,34,pre_ban,1,0,0,0,0
+023,Iberia Parish,2023,All Subjects,33,34,pre_ban,1,0,0,0,0
+023,Iberia Parish,2024,All Subjects,36,37,pre_ban,1,0,0,0,0
+023,Iberia Parish,2025,All Subjects,34,35,post_ban,1,0,0,0,0
+023,Iberia Parish,2018,ELA,47,47,pre_ban,0,1,0,0,0
+023,Iberia Parish,2019,ELA,47,47,pre_ban,0,1,0,0,0
+023,Iberia Parish,2021,ELA,42,43,pre_ban,0,1,0,0,0
+023,Iberia Parish,2022,ELA,46,47,pre_ban,0,1,0,0,0
+023,Iberia Parish,2023,ELA,46,47,pre_ban,0,1,0,0,0
+023,Iberia Parish,2024,ELA,46,47,pre_ban,0,1,0,0,0
+023,Iberia Parish,2025,ELA,44,45,post_ban,0,1,0,0,0
+023,Iberia Parish,2018,Math,40,40,pre_ban,0,0,1,0,0
+023,Iberia Parish,2019,Math,42,41,pre_ban,0,0,1,0,0
+023,Iberia Parish,2021,Math,31,32,pre_ban,0,0,1,0,0
+023,Iberia Parish,2022,Math,34,35,pre_ban,0,0,1,0,0
+023,Iberia Parish,2023,Math,34,36,pre_ban,0,0,1,0,0
+023,Iberia Parish,2024,Math,35,37,pre_ban,0,0,1,0,0
+023,Iberia Parish,2025,Math,36,37,post_ban,0,0,1,0,0
+023,Iberia Parish,2018,Science,27,NA,pre_ban,0,0,0,1,0
+023,Iberia Parish,2019,Science,28,NA,pre_ban,0,0,0,1,0
+023,Iberia Parish,2021,Science,25,24,pre_ban,0,0,0,1,0
+023,Iberia Parish,2022,Science,26,26,pre_ban,0,0,0,1,0
+023,Iberia Parish,2023,Science,27,27,pre_ban,0,0,0,1,0
+023,Iberia Parish,2024,Science,27,28,pre_ban,0,0,0,1,0
+023,Iberia Parish,2025,Science,26,27,post_ban,0,0,0,1,0
+023,Iberia Parish,2018,Social Studies,28,29,pre_ban,0,0,0,0,1
+023,Iberia Parish,2019,Social Studies,27,28,pre_ban,0,0,0,0,1
+023,Iberia Parish,2021,Social Studies,25,25,pre_ban,0,0,0,0,1
+023,Iberia Parish,2022,Social Studies,24,25,pre_ban,0,0,0,0,1
+023,Iberia Parish,2023,Social Studies,25,25,pre_ban,0,0,0,0,1
+023,Iberia Parish,2024,Social Studies,NA,31,pre_ban,0,0,0,0,1
+023,Iberia Parish,2025,Social Studies,30,30,post_ban,0,0,0,0,1
+024,Iberville Parish,2018,All Subjects,30,30,pre_ban,1,0,0,0,0
+024,Iberville Parish,2019,All Subjects,30,30,pre_ban,1,0,0,0,0
+024,Iberville Parish,2021,All Subjects,24,24,pre_ban,1,0,0,0,0
+024,Iberville Parish,2022,All Subjects,26,25,pre_ban,1,0,0,0,0
+024,Iberville Parish,2023,All Subjects,28,27,pre_ban,1,0,0,0,0
+024,Iberville Parish,2024,All Subjects,31,29,pre_ban,1,0,0,0,0
+024,Iberville Parish,2025,All Subjects,28,27,post_ban,1,0,0,0,0
+024,Iberville Parish,2018,ELA,38,39,pre_ban,0,1,0,0,0
+024,Iberville Parish,2019,ELA,38,39,pre_ban,0,1,0,0,0
+024,Iberville Parish,2021,ELA,35,35,pre_ban,0,1,0,0,0
+024,Iberville Parish,2022,ELA,38,36,pre_ban,0,1,0,0,0
+024,Iberville Parish,2023,ELA,39,38,pre_ban,0,1,0,0,0
+024,Iberville Parish,2024,ELA,41,38,pre_ban,0,1,0,0,0
+024,Iberville Parish,2025,ELA,37,35,post_ban,0,1,0,0,0
+024,Iberville Parish,2018,Math,29,29,pre_ban,0,0,1,0,0
+024,Iberville Parish,2019,Math,31,30,pre_ban,0,0,1,0,0
+024,Iberville Parish,2021,Math,22,21,pre_ban,0,0,1,0,0
+024,Iberville Parish,2022,Math,26,24,pre_ban,0,0,1,0,0
+024,Iberville Parish,2023,Math,29,27,pre_ban,0,0,1,0,0
+024,Iberville Parish,2024,Math,27,25,pre_ban,0,0,1,0,0
+024,Iberville Parish,2025,Math,27,26,post_ban,0,0,1,0,0
+024,Iberville Parish,2018,Science,21,NA,pre_ban,0,0,0,1,0
+024,Iberville Parish,2019,Science,20,NA,pre_ban,0,0,0,1,0
+024,Iberville Parish,2021,Science,19,18,pre_ban,0,0,0,1,0
+024,Iberville Parish,2022,Science,22,20,pre_ban,0,0,0,1,0
+024,Iberville Parish,2023,Science,23,22,pre_ban,0,0,0,1,0
+024,Iberville Parish,2024,Science,24,22,pre_ban,0,0,0,1,0
+024,Iberville Parish,2025,Science,24,23,post_ban,0,0,0,1,0
+024,Iberville Parish,2018,Social Studies,22,22,pre_ban,0,0,0,0,1
+024,Iberville Parish,2019,Social Studies,20,20,pre_ban,0,0,0,0,1
+024,Iberville Parish,2021,Social Studies,19,20,pre_ban,0,0,0,0,1
+024,Iberville Parish,2022,Social Studies,19,20,pre_ban,0,0,0,0,1
+024,Iberville Parish,2023,Social Studies,20,20,pre_ban,0,0,0,0,1
+024,Iberville Parish,2024,Social Studies,NA,20,pre_ban,0,0,0,0,1
+024,Iberville Parish,2025,Social Studies,23,22,post_ban,0,0,0,0,1
+025,Jackson Parish,2018,All Subjects,21,21,pre_ban,1,0,0,0,0
+025,Jackson Parish,2019,All Subjects,22,22,pre_ban,1,0,0,0,0
+025,Jackson Parish,2021,All Subjects,22,22,pre_ban,1,0,0,0,0
+025,Jackson Parish,2022,All Subjects,23,23,pre_ban,1,0,0,0,0
+025,Jackson Parish,2023,All Subjects,24,24,pre_ban,1,0,0,0,0
+025,Jackson Parish,2024,All Subjects,25,26,pre_ban,1,0,0,0,0
+025,Jackson Parish,2025,All Subjects,26,27,post_ban,1,0,0,0,0
+025,Jackson Parish,2018,ELA,31,31,pre_ban,0,1,0,0,0
+025,Jackson Parish,2019,ELA,30,30,pre_ban,0,1,0,0,0
+025,Jackson Parish,2021,ELA,32,30,pre_ban,0,1,0,0,0
+025,Jackson Parish,2022,ELA,34,33,pre_ban,0,1,0,0,0
+025,Jackson Parish,2023,ELA,32,33,pre_ban,0,1,0,0,0
+025,Jackson Parish,2024,ELA,31,32,pre_ban,0,1,0,0,0
+025,Jackson Parish,2025,ELA,33,35,post_ban,0,1,0,0,0
+025,Jackson Parish,2018,Math,16,16,pre_ban,0,0,1,0,0
+025,Jackson Parish,2019,Math,22,21,pre_ban,0,0,1,0,0
+025,Jackson Parish,2021,Math,24,23,pre_ban,0,0,1,0,0
+025,Jackson Parish,2022,Math,23,24,pre_ban,0,0,1,0,0
+025,Jackson Parish,2023,Math,26,26,pre_ban,0,0,1,0,0
+025,Jackson Parish,2024,Math,25,25,pre_ban,0,0,1,0,0
+025,Jackson Parish,2025,Math,29,31,post_ban,0,0,1,0,0
+025,Jackson Parish,2018,Science,16,NA,pre_ban,0,0,0,1,0
+025,Jackson Parish,2019,Science,15,NA,pre_ban,0,0,0,1,0
+025,Jackson Parish,2021,Science,18,17,pre_ban,0,0,0,1,0
+025,Jackson Parish,2022,Science,16,16,pre_ban,0,0,0,1,0
+025,Jackson Parish,2023,Science,21,20,pre_ban,0,0,0,1,0
+025,Jackson Parish,2024,Science,20,20,pre_ban,0,0,0,1,0
+025,Jackson Parish,2025,Science,21,20,post_ban,0,0,0,1,0
+025,Jackson Parish,2018,Social Studies,16,17,pre_ban,0,0,0,0,1
+025,Jackson Parish,2019,Social Studies,15,15,pre_ban,0,0,0,0,1
+025,Jackson Parish,2021,Social Studies,17,17,pre_ban,0,0,0,0,1
+025,Jackson Parish,2022,Social Studies,18,17,pre_ban,0,0,0,0,1
+025,Jackson Parish,2023,Social Studies,17,17,pre_ban,0,0,0,0,1
+025,Jackson Parish,2024,Social Studies,NA,23,pre_ban,0,0,0,0,1
+025,Jackson Parish,2025,Social Studies,23,22,post_ban,0,0,0,0,1
+026,Jefferson Parish,2018,All Subjects,31,31,pre_ban,1,0,0,0,0
+026,Jefferson Parish,2019,All Subjects,32,32,pre_ban,1,0,0,0,0
+026,Jefferson Parish,2021,All Subjects,26,26,pre_ban,1,0,0,0,0
+026,Jefferson Parish,2022,All Subjects,28,29,pre_ban,1,0,0,0,0
+026,Jefferson Parish,2023,All Subjects,28,28,pre_ban,1,0,0,0,0
+026,Jefferson Parish,2024,All Subjects,29,29,pre_ban,1,0,0,0,0
+026,Jefferson Parish,2025,All Subjects,30,30,post_ban,1,0,0,0,0
+026,Jefferson Parish,2018,ELA,38,39,pre_ban,0,1,0,0,0
+026,Jefferson Parish,2019,ELA,38,38,pre_ban,0,1,0,0,0
+026,Jefferson Parish,2021,ELA,34,34,pre_ban,0,1,0,0,0
+026,Jefferson Parish,2022,ELA,38,38,pre_ban,0,1,0,0,0
+026,Jefferson Parish,2023,ELA,37,38,pre_ban,0,1,0,0,0
+026,Jefferson Parish,2024,ELA,37,37,pre_ban,0,1,0,0,0
+026,Jefferson Parish,2025,ELA,37,37,post_ban,0,1,0,0,0
+026,Jefferson Parish,2018,Math,30,30,pre_ban,0,0,1,0,0
+026,Jefferson Parish,2019,Math,31,30,pre_ban,0,0,1,0,0
+026,Jefferson Parish,2021,Math,22,23,pre_ban,0,0,1,0,0
+026,Jefferson Parish,2022,Math,26,26,pre_ban,0,0,1,0,0
+026,Jefferson Parish,2023,Math,25,26,pre_ban,0,0,1,0,0
+026,Jefferson Parish,2024,Math,25,26,pre_ban,0,0,1,0,0
+026,Jefferson Parish,2025,Math,27,28,post_ban,0,0,1,0,0
+026,Jefferson Parish,2018,Science,28,NA,pre_ban,0,0,0,1,0
+026,Jefferson Parish,2019,Science,28,NA,pre_ban,0,0,0,1,0
+026,Jefferson Parish,2021,Science,25,25,pre_ban,0,0,0,1,0
+026,Jefferson Parish,2022,Science,26,26,pre_ban,0,0,0,1,0
+026,Jefferson Parish,2023,Science,25,25,pre_ban,0,0,0,1,0
+026,Jefferson Parish,2024,Science,24,24,pre_ban,0,0,0,1,0
+026,Jefferson Parish,2025,Science,26,26,post_ban,0,0,0,1,0
+026,Jefferson Parish,2018,Social Studies,24,25,pre_ban,0,0,0,0,1
+026,Jefferson Parish,2019,Social Studies,26,26,pre_ban,0,0,0,0,1
+026,Jefferson Parish,2021,Social Studies,23,24,pre_ban,0,0,0,0,1
+026,Jefferson Parish,2022,Social Studies,24,24,pre_ban,0,0,0,0,1
+026,Jefferson Parish,2023,Social Studies,23,23,pre_ban,0,0,0,0,1
+026,Jefferson Parish,2024,Social Studies,NA,26,pre_ban,0,0,0,0,1
+026,Jefferson Parish,2025,Social Studies,28,28,post_ban,0,0,0,0,1
+027,Jefferson Davis Parish,2018,All Subjects,35,36,pre_ban,1,0,0,0,0
+027,Jefferson Davis Parish,2019,All Subjects,37,37,pre_ban,1,0,0,0,0
+027,Jefferson Davis Parish,2021,All Subjects,32,32,pre_ban,1,0,0,0,0
+027,Jefferson Davis Parish,2022,All Subjects,35,35,pre_ban,1,0,0,0,0
+027,Jefferson Davis Parish,2023,All Subjects,34,35,pre_ban,1,0,0,0,0
+027,Jefferson Davis Parish,2024,All Subjects,35,35,pre_ban,1,0,0,0,0
+027,Jefferson Davis Parish,2025,All Subjects,35,34,post_ban,1,0,0,0,0
+027,Jefferson Davis Parish,2018,ELA,41,43,pre_ban,0,1,0,0,0
+027,Jefferson Davis Parish,2019,ELA,44,45,pre_ban,0,1,0,0,0
+027,Jefferson Davis Parish,2021,ELA,41,42,pre_ban,0,1,0,0,0
+027,Jefferson Davis Parish,2022,ELA,42,43,pre_ban,0,1,0,0,0
+027,Jefferson Davis Parish,2023,ELA,38,40,pre_ban,0,1,0,0,0
+027,Jefferson Davis Parish,2024,ELA,39,40,pre_ban,0,1,0,0,0
+027,Jefferson Davis Parish,2025,ELA,39,40,post_ban,0,1,0,0,0
+027,Jefferson Davis Parish,2018,Math,35,36,pre_ban,0,0,1,0,0
+027,Jefferson Davis Parish,2019,Math,37,36,pre_ban,0,0,1,0,0
+027,Jefferson Davis Parish,2021,Math,31,30,pre_ban,0,0,1,0,0
+027,Jefferson Davis Parish,2022,Math,37,37,pre_ban,0,0,1,0,0
+027,Jefferson Davis Parish,2023,Math,38,38,pre_ban,0,0,1,0,0
+027,Jefferson Davis Parish,2024,Math,37,36,pre_ban,0,0,1,0,0
+027,Jefferson Davis Parish,2025,Math,39,37,post_ban,0,0,1,0,0
+027,Jefferson Davis Parish,2018,Science,31,NA,pre_ban,0,0,0,1,0
+027,Jefferson Davis Parish,2019,Science,32,NA,pre_ban,0,0,0,1,0
+027,Jefferson Davis Parish,2021,Science,30,29,pre_ban,0,0,0,1,0
+027,Jefferson Davis Parish,2022,Science,33,32,pre_ban,0,0,0,1,0
+027,Jefferson Davis Parish,2023,Science,31,31,pre_ban,0,0,0,1,0
+027,Jefferson Davis Parish,2024,Science,29,29,pre_ban,0,0,0,1,0
+027,Jefferson Davis Parish,2025,Science,30,30,post_ban,0,0,0,1,0
+027,Jefferson Davis Parish,2018,Social Studies,29,28,pre_ban,0,0,0,0,1
+027,Jefferson Davis Parish,2019,Social Studies,30,28,pre_ban,0,0,0,0,1
+027,Jefferson Davis Parish,2021,Social Studies,26,25,pre_ban,0,0,0,0,1
+027,Jefferson Davis Parish,2022,Social Studies,28,28,pre_ban,0,0,0,0,1
+027,Jefferson Davis Parish,2023,Social Studies,28,27,pre_ban,0,0,0,0,1
+027,Jefferson Davis Parish,2024,Social Studies,NA,23,pre_ban,0,0,0,0,1
+027,Jefferson Davis Parish,2025,Social Studies,33,30,post_ban,0,0,0,0,1
+028,Lafayette Parish,2018,All Subjects,37,38,pre_ban,1,0,0,0,0
+028,Lafayette Parish,2019,All Subjects,39,40,pre_ban,1,0,0,0,0
+028,Lafayette Parish,2021,All Subjects,35,36,pre_ban,1,0,0,0,0
+028,Lafayette Parish,2022,All Subjects,39,39,pre_ban,1,0,0,0,0
+028,Lafayette Parish,2023,All Subjects,40,41,pre_ban,1,0,0,0,0
+028,Lafayette Parish,2024,All Subjects,42,43,pre_ban,1,0,0,0,0
+028,Lafayette Parish,2025,All Subjects,42,42,post_ban,1,0,0,0,0
+028,Lafayette Parish,2018,ELA,43,43,pre_ban,0,1,0,0,0
+028,Lafayette Parish,2019,ELA,46,46,pre_ban,0,1,0,0,0
+028,Lafayette Parish,2021,ELA,46,47,pre_ban,0,1,0,0,0
+028,Lafayette Parish,2022,ELA,49,48,pre_ban,0,1,0,0,0
+028,Lafayette Parish,2023,ELA,50,50,pre_ban,0,1,0,0,0
+028,Lafayette Parish,2024,ELA,49,51,pre_ban,0,1,0,0,0
+028,Lafayette Parish,2025,ELA,49,50,post_ban,0,1,0,0,0
+028,Lafayette Parish,2018,Math,39,40,pre_ban,0,0,1,0,0
+028,Lafayette Parish,2019,Math,42,42,pre_ban,0,0,1,0,0
+028,Lafayette Parish,2021,Math,37,37,pre_ban,0,0,1,0,0
+028,Lafayette Parish,2022,Math,41,43,pre_ban,0,0,1,0,0
+028,Lafayette Parish,2023,Math,44,46,pre_ban,0,0,1,0,0
+028,Lafayette Parish,2024,Math,43,44,pre_ban,0,0,1,0,0
+028,Lafayette Parish,2025,Math,44,44,post_ban,0,0,1,0,0
+028,Lafayette Parish,2018,Science,33,NA,pre_ban,0,0,0,1,0
+028,Lafayette Parish,2019,Science,32,NA,pre_ban,0,0,0,1,0
+028,Lafayette Parish,2021,Science,29,29,pre_ban,0,0,0,1,0
+028,Lafayette Parish,2022,Science,32,31,pre_ban,0,0,0,1,0
+028,Lafayette Parish,2023,Science,34,34,pre_ban,0,0,0,1,0
+028,Lafayette Parish,2024,Science,35,35,pre_ban,0,0,0,1,0
+028,Lafayette Parish,2025,Science,36,35,post_ban,0,0,0,1,0
+028,Lafayette Parish,2018,Social Studies,28,30,pre_ban,0,0,0,0,1
+028,Lafayette Parish,2019,Social Studies,29,30,pre_ban,0,0,0,0,1
+028,Lafayette Parish,2021,Social Studies,28,28,pre_ban,0,0,0,0,1
+028,Lafayette Parish,2022,Social Studies,31,31,pre_ban,0,0,0,0,1
+028,Lafayette Parish,2023,Social Studies,32,32,pre_ban,0,0,0,0,1
+028,Lafayette Parish,2024,Social Studies,NA,35,pre_ban,0,0,0,0,1
+028,Lafayette Parish,2025,Social Studies,38,37,post_ban,0,0,0,0,1
+029,Lafourche Parish,2018,All Subjects,43,45,pre_ban,1,0,0,0,0
+029,Lafourche Parish,2019,All Subjects,44,47,pre_ban,1,0,0,0,0
+029,Lafourche Parish,2021,All Subjects,35,36,pre_ban,1,0,0,0,0
+029,Lafourche Parish,2022,All Subjects,38,40,pre_ban,1,0,0,0,0
+029,Lafourche Parish,2023,All Subjects,39,41,pre_ban,1,0,0,0,0
+029,Lafourche Parish,2024,All Subjects,44,44,pre_ban,1,0,0,0,0
+029,Lafourche Parish,2025,All Subjects,43,42,post_ban,1,0,0,0,0
+029,Lafourche Parish,2018,ELA,56,57,pre_ban,0,1,0,0,0
+029,Lafourche Parish,2019,ELA,56,57,pre_ban,0,1,0,0,0
+029,Lafourche Parish,2021,ELA,49,50,pre_ban,0,1,0,0,0
+029,Lafourche Parish,2022,ELA,53,54,pre_ban,0,1,0,0,0
+029,Lafourche Parish,2023,ELA,52,54,pre_ban,0,1,0,0,0
+029,Lafourche Parish,2024,ELA,55,54,pre_ban,0,1,0,0,0
+029,Lafourche Parish,2025,ELA,51,52,post_ban,0,1,0,0,0
+029,Lafourche Parish,2018,Math,38,40,pre_ban,0,0,1,0,0
+029,Lafourche Parish,2019,Math,40,44,pre_ban,0,0,1,0,0
+029,Lafourche Parish,2021,Math,30,32,pre_ban,0,0,1,0,0
+029,Lafourche Parish,2022,Math,34,37,pre_ban,0,0,1,0,0
+029,Lafourche Parish,2023,Math,36,39,pre_ban,0,0,1,0,0
+029,Lafourche Parish,2024,Math,41,41,pre_ban,0,0,1,0,0
+029,Lafourche Parish,2025,Math,45,42,post_ban,0,0,1,0,0
+029,Lafourche Parish,2018,Science,36,NA,pre_ban,0,0,0,1,0
+029,Lafourche Parish,2019,Science,37,NA,pre_ban,0,0,0,1,0
+029,Lafourche Parish,2021,Science,31,31,pre_ban,0,0,0,1,0
+029,Lafourche Parish,2022,Science,34,33,pre_ban,0,0,0,1,0
+029,Lafourche Parish,2023,Science,36,36,pre_ban,0,0,0,1,0
+029,Lafourche Parish,2024,Science,36,36,pre_ban,0,0,0,1,0
+029,Lafourche Parish,2025,Science,36,35,post_ban,0,0,0,1,0
+029,Lafourche Parish,2018,Social Studies,36,37,pre_ban,0,0,0,0,1
+029,Lafourche Parish,2019,Social Studies,37,38,pre_ban,0,0,0,0,1
+029,Lafourche Parish,2021,Social Studies,30,31,pre_ban,0,0,0,0,1
+029,Lafourche Parish,2022,Social Studies,31,33,pre_ban,0,0,0,0,1
+029,Lafourche Parish,2023,Social Studies,33,34,pre_ban,0,0,0,0,1
+029,Lafourche Parish,2024,Social Studies,NA,40,pre_ban,0,0,0,0,1
+029,Lafourche Parish,2025,Social Studies,41,38,post_ban,0,0,0,0,1
+030,Lasalle Parish,2018,All Subjects,39,35,pre_ban,1,0,0,0,0
+030,Lasalle Parish,2019,All Subjects,42,40,pre_ban,1,0,0,0,0
+030,Lasalle Parish,2021,All Subjects,35,34,pre_ban,1,0,0,0,0
+030,Lasalle Parish,2022,All Subjects,36,35,pre_ban,1,0,0,0,0
+030,Lasalle Parish,2023,All Subjects,38,37,pre_ban,1,0,0,0,0
+030,Lasalle Parish,2024,All Subjects,42,40,pre_ban,1,0,0,0,0
+030,Lasalle Parish,2025,All Subjects,41,39,post_ban,1,0,0,0,0
+030,Lasalle Parish,2018,ELA,48,42,pre_ban,0,1,0,0,0
+030,Lasalle Parish,2019,ELA,51,48,pre_ban,0,1,0,0,0
+030,Lasalle Parish,2021,ELA,46,45,pre_ban,0,1,0,0,0
+030,Lasalle Parish,2022,ELA,50,48,pre_ban,0,1,0,0,0
+030,Lasalle Parish,2023,ELA,47,46,pre_ban,0,1,0,0,0
+030,Lasalle Parish,2024,ELA,50,48,pre_ban,0,1,0,0,0
+030,Lasalle Parish,2025,ELA,56,54,post_ban,0,1,0,0,0
+030,Lasalle Parish,2018,Math,38,34,pre_ban,0,0,1,0,0
+030,Lasalle Parish,2019,Math,44,41,pre_ban,0,0,1,0,0
+030,Lasalle Parish,2021,Math,34,31,pre_ban,0,0,1,0,0
+030,Lasalle Parish,2022,Math,36,33,pre_ban,0,0,1,0,0
+030,Lasalle Parish,2023,Math,41,37,pre_ban,0,0,1,0,0
+030,Lasalle Parish,2024,Math,40,38,pre_ban,0,0,1,0,0
+030,Lasalle Parish,2025,Math,38,36,post_ban,0,0,1,0,0
+030,Lasalle Parish,2018,Science,33,NA,pre_ban,0,0,0,1,0
+030,Lasalle Parish,2019,Science,31,NA,pre_ban,0,0,0,1,0
+030,Lasalle Parish,2021,Science,28,28,pre_ban,0,0,0,1,0
+030,Lasalle Parish,2022,Science,32,30,pre_ban,0,0,0,1,0
+030,Lasalle Parish,2023,Science,33,31,pre_ban,0,0,0,1,0
+030,Lasalle Parish,2024,Science,37,35,pre_ban,0,0,0,1,0
+030,Lasalle Parish,2025,Science,33,31,post_ban,0,0,0,1,0
+030,Lasalle Parish,2018,Social Studies,32,30,pre_ban,0,0,0,0,1
+030,Lasalle Parish,2019,Social Studies,30,30,pre_ban,0,0,0,0,1
+030,Lasalle Parish,2021,Social Studies,31,31,pre_ban,0,0,0,0,1
+030,Lasalle Parish,2022,Social Studies,26,26,pre_ban,0,0,0,0,1
+030,Lasalle Parish,2023,Social Studies,32,31,pre_ban,0,0,0,0,1
+030,Lasalle Parish,2024,Social Studies,NA,26,pre_ban,0,0,0,0,1
+030,Lasalle Parish,2025,Social Studies,37,34,post_ban,0,0,0,0,1
+031,Lincoln Parish,2018,All Subjects,34,37,pre_ban,1,0,0,0,0
+031,Lincoln Parish,2019,All Subjects,37,39,pre_ban,1,0,0,0,0
+031,Lincoln Parish,2021,All Subjects,31,34,pre_ban,1,0,0,0,0
+031,Lincoln Parish,2022,All Subjects,35,37,pre_ban,1,0,0,0,0
+031,Lincoln Parish,2023,All Subjects,41,43,pre_ban,1,0,0,0,0
+031,Lincoln Parish,2024,All Subjects,41,43,pre_ban,1,0,0,0,0
+031,Lincoln Parish,2025,All Subjects,41,42,post_ban,1,0,0,0,0
+031,Lincoln Parish,2018,ELA,41,44,pre_ban,0,1,0,0,0
+031,Lincoln Parish,2019,ELA,44,45,pre_ban,0,1,0,0,0
+031,Lincoln Parish,2021,ELA,41,44,pre_ban,0,1,0,0,0
+031,Lincoln Parish,2022,ELA,43,47,pre_ban,0,1,0,0,0
+031,Lincoln Parish,2023,ELA,50,53,pre_ban,0,1,0,0,0
+031,Lincoln Parish,2024,ELA,48,50,pre_ban,0,1,0,0,0
+031,Lincoln Parish,2025,ELA,48,50,post_ban,0,1,0,0,0
+031,Lincoln Parish,2018,Math,34,38,pre_ban,0,0,1,0,0
+031,Lincoln Parish,2019,Math,38,40,pre_ban,0,0,1,0,0
+031,Lincoln Parish,2021,Math,30,33,pre_ban,0,0,1,0,0
+031,Lincoln Parish,2022,Math,34,36,pre_ban,0,0,1,0,0
+031,Lincoln Parish,2023,Math,42,44,pre_ban,0,0,1,0,0
+031,Lincoln Parish,2024,Math,40,42,pre_ban,0,0,1,0,0
+031,Lincoln Parish,2025,Math,42,43,post_ban,0,0,1,0,0
+031,Lincoln Parish,2018,Science,29,NA,pre_ban,0,0,0,1,0
+031,Lincoln Parish,2019,Science,29,NA,pre_ban,0,0,0,1,0
+031,Lincoln Parish,2021,Science,25,26,pre_ban,0,0,0,1,0
+031,Lincoln Parish,2022,Science,31,31,pre_ban,0,0,0,1,0
+031,Lincoln Parish,2023,Science,37,37,pre_ban,0,0,0,1,0
+031,Lincoln Parish,2024,Science,36,36,pre_ban,0,0,0,1,0
+031,Lincoln Parish,2025,Science,35,35,post_ban,0,0,0,1,0
+031,Lincoln Parish,2018,Social Studies,27,27,pre_ban,0,0,0,0,1
+031,Lincoln Parish,2019,Social Studies,30,30,pre_ban,0,0,0,0,1
+031,Lincoln Parish,2021,Social Studies,28,29,pre_ban,0,0,0,0,1
+031,Lincoln Parish,2022,Social Studies,34,34,pre_ban,0,0,0,0,1
+031,Lincoln Parish,2023,Social Studies,37,37,pre_ban,0,0,0,0,1
+031,Lincoln Parish,2024,Social Studies,NA,36,pre_ban,0,0,0,0,1
+031,Lincoln Parish,2025,Social Studies,41,40,post_ban,0,0,0,0,1
+032,Livingston Parish,2018,All Subjects,43,45,pre_ban,1,0,0,0,0
+032,Livingston Parish,2019,All Subjects,47,48,pre_ban,1,0,0,0,0
+032,Livingston Parish,2021,All Subjects,42,42,pre_ban,1,0,0,0,0
+032,Livingston Parish,2022,All Subjects,40,41,pre_ban,1,0,0,0,0
+032,Livingston Parish,2023,All Subjects,40,41,pre_ban,1,0,0,0,0
+032,Livingston Parish,2024,All Subjects,42,43,pre_ban,1,0,0,0,0
+032,Livingston Parish,2025,All Subjects,42,42,post_ban,1,0,0,0,0
+032,Livingston Parish,2018,ELA,55,56,pre_ban,0,1,0,0,0
+032,Livingston Parish,2019,ELA,58,58,pre_ban,0,1,0,0,0
+032,Livingston Parish,2021,ELA,52,53,pre_ban,0,1,0,0,0
+032,Livingston Parish,2022,ELA,52,53,pre_ban,0,1,0,0,0
+032,Livingston Parish,2023,ELA,52,53,pre_ban,0,1,0,0,0
+032,Livingston Parish,2024,ELA,53,53,pre_ban,0,1,0,0,0
+032,Livingston Parish,2025,ELA,52,53,post_ban,0,1,0,0,0
+032,Livingston Parish,2018,Math,40,42,pre_ban,0,0,1,0,0
+032,Livingston Parish,2019,Math,44,45,pre_ban,0,0,1,0,0
+032,Livingston Parish,2021,Math,38,39,pre_ban,0,0,1,0,0
+032,Livingston Parish,2022,Math,37,39,pre_ban,0,0,1,0,0
+032,Livingston Parish,2023,Math,36,39,pre_ban,0,0,1,0,0
+032,Livingston Parish,2024,Math,36,38,pre_ban,0,0,1,0,0
+032,Livingston Parish,2025,Math,39,40,post_ban,0,0,1,0,0
+032,Livingston Parish,2018,Science,41,NA,pre_ban,0,0,0,1,0
+032,Livingston Parish,2019,Science,41,NA,pre_ban,0,0,0,1,0
+032,Livingston Parish,2021,Science,40,39,pre_ban,0,0,0,1,0
+032,Livingston Parish,2022,Science,38,37,pre_ban,0,0,0,1,0
+032,Livingston Parish,2023,Science,37,37,pre_ban,0,0,0,1,0
+032,Livingston Parish,2024,Science,37,37,pre_ban,0,0,0,1,0
+032,Livingston Parish,2025,Science,37,37,post_ban,0,0,0,1,0
+032,Livingston Parish,2018,Social Studies,35,36,pre_ban,0,0,0,0,1
+032,Livingston Parish,2019,Social Studies,40,40,pre_ban,0,0,0,0,1
+032,Livingston Parish,2021,Social Studies,37,37,pre_ban,0,0,0,0,1
+032,Livingston Parish,2022,Social Studies,33,34,pre_ban,0,0,0,0,1
+032,Livingston Parish,2023,Social Studies,34,34,pre_ban,0,0,0,0,1
+032,Livingston Parish,2024,Social Studies,NA,35,pre_ban,0,0,0,0,1
+032,Livingston Parish,2025,Social Studies,39,39,post_ban,0,0,0,0,1
+033,Madison Parish,2018,All Subjects,8,9,pre_ban,1,0,0,0,0
+033,Madison Parish,2019,All Subjects,11,11,pre_ban,1,0,0,0,0
+033,Madison Parish,2021,All Subjects,NA,NA,pre_ban,1,0,0,0,0
+033,Madison Parish,2022,All Subjects,5,6,pre_ban,1,0,0,0,0
+033,Madison Parish,2023,All Subjects,6,7,pre_ban,1,0,0,0,0
+033,Madison Parish,2024,All Subjects,5,6,pre_ban,1,0,0,0,0
+033,Madison Parish,2025,All Subjects,6,7,post_ban,1,0,0,0,0
+033,Madison Parish,2018,ELA,14,16,pre_ban,0,1,0,0,0
+033,Madison Parish,2019,ELA,16,16,pre_ban,0,1,0,0,0
+033,Madison Parish,2021,ELA,8,9,pre_ban,0,1,0,0,0
+033,Madison Parish,2022,ELA,10,13,pre_ban,0,1,0,0,0
+033,Madison Parish,2023,ELA,12,14,pre_ban,0,1,0,0,0
+033,Madison Parish,2024,ELA,11,12,pre_ban,0,1,0,0,0
+033,Madison Parish,2025,ELA,13,14,post_ban,0,1,0,0,0
+033,Madison Parish,2018,Math,5,5,pre_ban,0,0,1,0,0
+033,Madison Parish,2019,Math,13,11,pre_ban,0,0,1,0,0
+033,Madison Parish,2021,Math,NA,NA,pre_ban,0,0,1,0,0
+033,Madison Parish,2022,Math,5,5,pre_ban,0,0,1,0,0
+033,Madison Parish,2023,Math,NA,NA,pre_ban,0,0,1,0,0
+033,Madison Parish,2024,Math,NA,NA,pre_ban,0,0,1,0,0
+033,Madison Parish,2025,Math,NA,5,post_ban,0,0,1,0,0
+033,Madison Parish,2018,Science,4,NA,pre_ban,0,0,0,1,0
+033,Madison Parish,2019,Science,5,NA,pre_ban,0,0,0,1,0
+033,Madison Parish,2021,Science,NA,NA,pre_ban,0,0,0,1,0
+033,Madison Parish,2022,Science,NA,NA,pre_ban,0,0,0,1,0
+033,Madison Parish,2023,Science,5,5,pre_ban,0,0,0,1,0
+033,Madison Parish,2024,Science,NA,NA,pre_ban,0,0,0,1,0
+033,Madison Parish,2025,Science,5,NA,post_ban,0,0,0,1,0
+033,Madison Parish,2018,Social Studies,5,5,pre_ban,0,0,0,0,1
+033,Madison Parish,2019,Social Studies,4,5,pre_ban,0,0,0,0,1
+033,Madison Parish,2021,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+033,Madison Parish,2022,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+033,Madison Parish,2023,Social Studies,NA,5,pre_ban,0,0,0,0,1
+033,Madison Parish,2024,Social Studies,NA,6,pre_ban,0,0,0,0,1
+033,Madison Parish,2025,Social Studies,NA,5,post_ban,0,0,0,0,1
+034,Morehouse Parish,2018,All Subjects,17,17,pre_ban,1,0,0,0,0
+034,Morehouse Parish,2019,All Subjects,16,16,pre_ban,1,0,0,0,0
+034,Morehouse Parish,2021,All Subjects,10,11,pre_ban,1,0,0,0,0
+034,Morehouse Parish,2022,All Subjects,12,12,pre_ban,1,0,0,0,0
+034,Morehouse Parish,2023,All Subjects,13,14,pre_ban,1,0,0,0,0
+034,Morehouse Parish,2024,All Subjects,15,15,pre_ban,1,0,0,0,0
+034,Morehouse Parish,2025,All Subjects,16,15,post_ban,1,0,0,0,0
+034,Morehouse Parish,2018,ELA,23,24,pre_ban,0,1,0,0,0
+034,Morehouse Parish,2019,ELA,23,23,pre_ban,0,1,0,0,0
+034,Morehouse Parish,2021,ELA,17,18,pre_ban,0,1,0,0,0
+034,Morehouse Parish,2022,ELA,19,19,pre_ban,0,1,0,0,0
+034,Morehouse Parish,2023,ELA,19,19,pre_ban,0,1,0,0,0
+034,Morehouse Parish,2024,ELA,20,21,pre_ban,0,1,0,0,0
+034,Morehouse Parish,2025,ELA,23,23,post_ban,0,1,0,0,0
+034,Morehouse Parish,2018,Math,15,14,pre_ban,0,0,1,0,0
+034,Morehouse Parish,2019,Math,14,13,pre_ban,0,0,1,0,0
+034,Morehouse Parish,2021,Math,8,8,pre_ban,0,0,1,0,0
+034,Morehouse Parish,2022,Math,11,11,pre_ban,0,0,1,0,0
+034,Morehouse Parish,2023,Math,14,14,pre_ban,0,0,1,0,0
+034,Morehouse Parish,2024,Math,11,12,pre_ban,0,0,1,0,0
+034,Morehouse Parish,2025,Math,13,13,post_ban,0,0,1,0,0
+034,Morehouse Parish,2018,Science,12,NA,pre_ban,0,0,0,1,0
+034,Morehouse Parish,2019,Science,12,NA,pre_ban,0,0,0,1,0
+034,Morehouse Parish,2021,Science,7,8,pre_ban,0,0,0,1,0
+034,Morehouse Parish,2022,Science,9,9,pre_ban,0,0,0,1,0
+034,Morehouse Parish,2023,Science,11,11,pre_ban,0,0,0,1,0
+034,Morehouse Parish,2024,Science,12,11,pre_ban,0,0,0,1,0
+034,Morehouse Parish,2025,Science,14,13,post_ban,0,0,0,1,0
+034,Morehouse Parish,2018,Social Studies,12,12,pre_ban,0,0,0,0,1
+034,Morehouse Parish,2019,Social Studies,12,11,pre_ban,0,0,0,0,1
+034,Morehouse Parish,2021,Social Studies,8,8,pre_ban,0,0,0,0,1
+034,Morehouse Parish,2022,Social Studies,10,9,pre_ban,0,0,0,0,1
+034,Morehouse Parish,2023,Social Studies,9,9,pre_ban,0,0,0,0,1
+034,Morehouse Parish,2024,Social Studies,NA,8,pre_ban,0,0,0,0,1
+034,Morehouse Parish,2025,Social Studies,13,12,post_ban,0,0,0,0,1
+035,Natchitoches Parish,2018,All Subjects,30,31,pre_ban,1,0,0,0,0
+035,Natchitoches Parish,2019,All Subjects,30,31,pre_ban,1,0,0,0,0
+035,Natchitoches Parish,2021,All Subjects,27,27,pre_ban,1,0,0,0,0
+035,Natchitoches Parish,2022,All Subjects,30,31,pre_ban,1,0,0,0,0
+035,Natchitoches Parish,2023,All Subjects,33,34,pre_ban,1,0,0,0,0
+035,Natchitoches Parish,2024,All Subjects,36,36,pre_ban,1,0,0,0,0
+035,Natchitoches Parish,2025,All Subjects,39,38,post_ban,1,0,0,0,0
+035,Natchitoches Parish,2018,ELA,39,39,pre_ban,0,1,0,0,0
+035,Natchitoches Parish,2019,ELA,37,38,pre_ban,0,1,0,0,0
+035,Natchitoches Parish,2021,ELA,37,36,pre_ban,0,1,0,0,0
+035,Natchitoches Parish,2022,ELA,40,39,pre_ban,0,1,0,0,0
+035,Natchitoches Parish,2023,ELA,44,44,pre_ban,0,1,0,0,0
+035,Natchitoches Parish,2024,ELA,46,45,pre_ban,0,1,0,0,0
+035,Natchitoches Parish,2025,ELA,44,43,post_ban,0,1,0,0,0
+035,Natchitoches Parish,2018,Math,27,29,pre_ban,0,0,1,0,0
+035,Natchitoches Parish,2019,Math,29,30,pre_ban,0,0,1,0,0
+035,Natchitoches Parish,2021,Math,27,27,pre_ban,0,0,1,0,0
+035,Natchitoches Parish,2022,Math,30,32,pre_ban,0,0,1,0,0
+035,Natchitoches Parish,2023,Math,32,34,pre_ban,0,0,1,0,0
+035,Natchitoches Parish,2024,Math,32,32,pre_ban,0,0,1,0,0
+035,Natchitoches Parish,2025,Math,36,38,post_ban,0,0,1,0,0
+035,Natchitoches Parish,2018,Science,26,NA,pre_ban,0,0,0,1,0
+035,Natchitoches Parish,2019,Science,26,NA,pre_ban,0,0,0,1,0
+035,Natchitoches Parish,2021,Science,20,21,pre_ban,0,0,0,1,0
+035,Natchitoches Parish,2022,Science,25,24,pre_ban,0,0,0,1,0
+035,Natchitoches Parish,2023,Science,30,30,pre_ban,0,0,0,1,0
+035,Natchitoches Parish,2024,Science,31,30,pre_ban,0,0,0,1,0
+035,Natchitoches Parish,2025,Science,36,34,post_ban,0,0,0,1,0
+035,Natchitoches Parish,2018,Social Studies,24,25,pre_ban,0,0,0,0,1
+035,Natchitoches Parish,2019,Social Studies,24,24,pre_ban,0,0,0,0,1
+035,Natchitoches Parish,2021,Social Studies,22,22,pre_ban,0,0,0,0,1
+035,Natchitoches Parish,2022,Social Studies,24,25,pre_ban,0,0,0,0,1
+035,Natchitoches Parish,2023,Social Studies,26,26,pre_ban,0,0,0,0,1
+035,Natchitoches Parish,2024,Social Studies,NA,33,pre_ban,0,0,0,0,1
+035,Natchitoches Parish,2025,Social Studies,40,37,post_ban,0,0,0,0,1
+037,Ouachita Parish,2018,All Subjects,38,38,pre_ban,1,0,0,0,0
+037,Ouachita Parish,2019,All Subjects,39,39,pre_ban,1,0,0,0,0
+037,Ouachita Parish,2021,All Subjects,34,34,pre_ban,1,0,0,0,0
+037,Ouachita Parish,2022,All Subjects,35,35,pre_ban,1,0,0,0,0
+037,Ouachita Parish,2023,All Subjects,37,37,pre_ban,1,0,0,0,0
+037,Ouachita Parish,2024,All Subjects,37,38,pre_ban,1,0,0,0,0
+037,Ouachita Parish,2025,All Subjects,37,37,post_ban,1,0,0,0,0
+037,Ouachita Parish,2018,ELA,48,48,pre_ban,0,1,0,0,0
+037,Ouachita Parish,2019,ELA,49,48,pre_ban,0,1,0,0,0
+037,Ouachita Parish,2021,ELA,46,45,pre_ban,0,1,0,0,0
+037,Ouachita Parish,2022,ELA,46,46,pre_ban,0,1,0,0,0
+037,Ouachita Parish,2023,ELA,46,46,pre_ban,0,1,0,0,0
+037,Ouachita Parish,2024,ELA,45,45,pre_ban,0,1,0,0,0
+037,Ouachita Parish,2025,ELA,46,46,post_ban,0,1,0,0,0
+037,Ouachita Parish,2018,Math,34,35,pre_ban,0,0,1,0,0
+037,Ouachita Parish,2019,Math,36,37,pre_ban,0,0,1,0,0
+037,Ouachita Parish,2021,Math,28,29,pre_ban,0,0,1,0,0
+037,Ouachita Parish,2022,Math,31,32,pre_ban,0,0,1,0,0
+037,Ouachita Parish,2023,Math,33,35,pre_ban,0,0,1,0,0
+037,Ouachita Parish,2024,Math,33,35,pre_ban,0,0,1,0,0
+037,Ouachita Parish,2025,Math,34,35,post_ban,0,0,1,0,0
+037,Ouachita Parish,2018,Science,33,NA,pre_ban,0,0,0,1,0
+037,Ouachita Parish,2019,Science,33,NA,pre_ban,0,0,0,1,0
+037,Ouachita Parish,2021,Science,32,30,pre_ban,0,0,0,1,0
+037,Ouachita Parish,2022,Science,33,32,pre_ban,0,0,0,1,0
+037,Ouachita Parish,2023,Science,35,33,pre_ban,0,0,0,1,0
+037,Ouachita Parish,2024,Science,34,33,pre_ban,0,0,0,1,0
+037,Ouachita Parish,2025,Science,33,33,post_ban,0,0,0,1,0
+037,Ouachita Parish,2018,Social Studies,32,31,pre_ban,0,0,0,0,1
+037,Ouachita Parish,2019,Social Studies,30,30,pre_ban,0,0,0,0,1
+037,Ouachita Parish,2021,Social Studies,30,29,pre_ban,0,0,0,0,1
+037,Ouachita Parish,2022,Social Studies,30,29,pre_ban,0,0,0,0,1
+037,Ouachita Parish,2023,Social Studies,33,32,pre_ban,0,0,0,0,1
+037,Ouachita Parish,2024,Social Studies,NA,27,pre_ban,0,0,0,0,1
+037,Ouachita Parish,2025,Social Studies,36,34,post_ban,0,0,0,0,1
+038,Plaquemines Parish,2018,All Subjects,45,47,pre_ban,1,0,0,0,0
+038,Plaquemines Parish,2019,All Subjects,47,48,pre_ban,1,0,0,0,0
+038,Plaquemines Parish,2021,All Subjects,38,39,pre_ban,1,0,0,0,0
+038,Plaquemines Parish,2022,All Subjects,42,42,pre_ban,1,0,0,0,0
+038,Plaquemines Parish,2023,All Subjects,44,45,pre_ban,1,0,0,0,0
+038,Plaquemines Parish,2024,All Subjects,49,50,pre_ban,1,0,0,0,0
+038,Plaquemines Parish,2025,All Subjects,49,49,post_ban,1,0,0,0,0
+038,Plaquemines Parish,2018,ELA,51,53,pre_ban,0,1,0,0,0
+038,Plaquemines Parish,2019,ELA,53,55,pre_ban,0,1,0,0,0
+038,Plaquemines Parish,2021,ELA,46,48,pre_ban,0,1,0,0,0
+038,Plaquemines Parish,2022,ELA,54,54,pre_ban,0,1,0,0,0
+038,Plaquemines Parish,2023,ELA,53,55,pre_ban,0,1,0,0,0
+038,Plaquemines Parish,2024,ELA,56,58,pre_ban,0,1,0,0,0
+038,Plaquemines Parish,2025,ELA,53,53,post_ban,0,1,0,0,0
+038,Plaquemines Parish,2018,Math,44,46,pre_ban,0,0,1,0,0
+038,Plaquemines Parish,2019,Math,46,48,pre_ban,0,0,1,0,0
+038,Plaquemines Parish,2021,Math,37,39,pre_ban,0,0,1,0,0
+038,Plaquemines Parish,2022,Math,41,41,pre_ban,0,0,1,0,0
+038,Plaquemines Parish,2023,Math,48,48,pre_ban,0,0,1,0,0
+038,Plaquemines Parish,2024,Math,49,51,pre_ban,0,0,1,0,0
+038,Plaquemines Parish,2025,Math,50,50,post_ban,0,0,1,0,0
+038,Plaquemines Parish,2018,Science,43,NA,pre_ban,0,0,0,1,0
+038,Plaquemines Parish,2019,Science,43,NA,pre_ban,0,0,0,1,0
+038,Plaquemines Parish,2021,Science,32,32,pre_ban,0,0,0,1,0
+038,Plaquemines Parish,2022,Science,36,36,pre_ban,0,0,0,1,0
+038,Plaquemines Parish,2023,Science,39,39,pre_ban,0,0,0,1,0
+038,Plaquemines Parish,2024,Science,41,41,pre_ban,0,0,0,1,0
+038,Plaquemines Parish,2025,Science,44,44,post_ban,0,0,0,1,0
+038,Plaquemines Parish,2018,Social Studies,41,40,pre_ban,0,0,0,0,1
+038,Plaquemines Parish,2019,Social Studies,41,41,pre_ban,0,0,0,0,1
+038,Plaquemines Parish,2021,Social Studies,36,36,pre_ban,0,0,0,0,1
+038,Plaquemines Parish,2022,Social Studies,36,36,pre_ban,0,0,0,0,1
+038,Plaquemines Parish,2023,Social Studies,37,38,pre_ban,0,0,0,0,1
+038,Plaquemines Parish,2024,Social Studies,NA,48,pre_ban,0,0,0,0,1
+038,Plaquemines Parish,2025,Social Studies,48,49,post_ban,0,0,0,0,1
+039,Pointe Coupee Parish,2018,All Subjects,25,26,pre_ban,1,0,0,0,0
+039,Pointe Coupee Parish,2019,All Subjects,23,25,pre_ban,1,0,0,0,0
+039,Pointe Coupee Parish,2021,All Subjects,20,21,pre_ban,1,0,0,0,0
+039,Pointe Coupee Parish,2022,All Subjects,20,20,pre_ban,1,0,0,0,0
+039,Pointe Coupee Parish,2023,All Subjects,21,21,pre_ban,1,0,0,0,0
+039,Pointe Coupee Parish,2024,All Subjects,23,24,pre_ban,1,0,0,0,0
+039,Pointe Coupee Parish,2025,All Subjects,23,25,post_ban,1,0,0,0,0
+039,Pointe Coupee Parish,2018,ELA,31,34,pre_ban,0,1,0,0,0
+039,Pointe Coupee Parish,2019,ELA,31,32,pre_ban,0,1,0,0,0
+039,Pointe Coupee Parish,2021,ELA,27,29,pre_ban,0,1,0,0,0
+039,Pointe Coupee Parish,2022,ELA,32,31,pre_ban,0,1,0,0,0
+039,Pointe Coupee Parish,2023,ELA,31,31,pre_ban,0,1,0,0,0
+039,Pointe Coupee Parish,2024,ELA,31,33,pre_ban,0,1,0,0,0
+039,Pointe Coupee Parish,2025,ELA,33,34,post_ban,0,1,0,0,0
+039,Pointe Coupee Parish,2018,Math,24,24,pre_ban,0,0,1,0,0
+039,Pointe Coupee Parish,2019,Math,25,26,pre_ban,0,0,1,0,0
+039,Pointe Coupee Parish,2021,Math,20,19,pre_ban,0,0,1,0,0
+039,Pointe Coupee Parish,2022,Math,20,20,pre_ban,0,0,1,0,0
+039,Pointe Coupee Parish,2023,Math,21,20,pre_ban,0,0,1,0,0
+039,Pointe Coupee Parish,2024,Math,20,22,pre_ban,0,0,1,0,0
+039,Pointe Coupee Parish,2025,Math,23,26,post_ban,0,0,1,0,0
+039,Pointe Coupee Parish,2018,Science,19,NA,pre_ban,0,0,0,1,0
+039,Pointe Coupee Parish,2019,Science,19,NA,pre_ban,0,0,0,1,0
+039,Pointe Coupee Parish,2021,Science,20,20,pre_ban,0,0,0,1,0
+039,Pointe Coupee Parish,2022,Science,17,16,pre_ban,0,0,0,1,0
+039,Pointe Coupee Parish,2023,Science,17,17,pre_ban,0,0,0,1,0
+039,Pointe Coupee Parish,2024,Science,18,17,pre_ban,0,0,0,1,0
+039,Pointe Coupee Parish,2025,Science,17,17,post_ban,0,0,0,1,0
+039,Pointe Coupee Parish,2018,Social Studies,19,19,pre_ban,0,0,0,0,1
+039,Pointe Coupee Parish,2019,Social Studies,15,15,pre_ban,0,0,0,0,1
+039,Pointe Coupee Parish,2021,Social Studies,13,14,pre_ban,0,0,0,0,1
+039,Pointe Coupee Parish,2022,Social Studies,11,12,pre_ban,0,0,0,0,1
+039,Pointe Coupee Parish,2023,Social Studies,14,14,pre_ban,0,0,0,0,1
+039,Pointe Coupee Parish,2024,Social Studies,NA,14,pre_ban,0,0,0,0,1
+039,Pointe Coupee Parish,2025,Social Studies,21,20,post_ban,0,0,0,0,1
+040,Rapides Parish,2018,All Subjects,33,34,pre_ban,1,0,0,0,0
+040,Rapides Parish,2019,All Subjects,35,36,pre_ban,1,0,0,0,0
+040,Rapides Parish,2021,All Subjects,31,31,pre_ban,1,0,0,0,0
+040,Rapides Parish,2022,All Subjects,33,33,pre_ban,1,0,0,0,0
+040,Rapides Parish,2023,All Subjects,36,36,pre_ban,1,0,0,0,0
+040,Rapides Parish,2024,All Subjects,36,36,pre_ban,1,0,0,0,0
+040,Rapides Parish,2025,All Subjects,38,38,post_ban,1,0,0,0,0
+040,Rapides Parish,2018,ELA,41,43,pre_ban,0,1,0,0,0
+040,Rapides Parish,2019,ELA,45,45,pre_ban,0,1,0,0,0
+040,Rapides Parish,2021,ELA,43,43,pre_ban,0,1,0,0,0
+040,Rapides Parish,2022,ELA,45,44,pre_ban,0,1,0,0,0
+040,Rapides Parish,2023,ELA,47,45,pre_ban,0,1,0,0,0
+040,Rapides Parish,2024,ELA,46,46,pre_ban,0,1,0,0,0
+040,Rapides Parish,2025,ELA,49,49,post_ban,0,1,0,0,0
+040,Rapides Parish,2018,Math,32,32,pre_ban,0,0,1,0,0
+040,Rapides Parish,2019,Math,33,34,pre_ban,0,0,1,0,0
+040,Rapides Parish,2021,Math,27,29,pre_ban,0,0,1,0,0
+040,Rapides Parish,2022,Math,31,31,pre_ban,0,0,1,0,0
+040,Rapides Parish,2023,Math,33,34,pre_ban,0,0,1,0,0
+040,Rapides Parish,2024,Math,32,34,pre_ban,0,0,1,0,0
+040,Rapides Parish,2025,Math,36,37,post_ban,0,0,1,0,0
+040,Rapides Parish,2018,Science,27,NA,pre_ban,0,0,0,1,0
+040,Rapides Parish,2019,Science,27,NA,pre_ban,0,0,0,1,0
+040,Rapides Parish,2021,Science,26,25,pre_ban,0,0,0,1,0
+040,Rapides Parish,2022,Science,29,29,pre_ban,0,0,0,1,0
+040,Rapides Parish,2023,Science,33,32,pre_ban,0,0,0,1,0
+040,Rapides Parish,2024,Science,31,30,pre_ban,0,0,0,1,0
+040,Rapides Parish,2025,Science,32,31,post_ban,0,0,0,1,0
+040,Rapides Parish,2018,Social Studies,25,26,pre_ban,0,0,0,0,1
+040,Rapides Parish,2019,Social Studies,28,28,pre_ban,0,0,0,0,1
+040,Rapides Parish,2021,Social Studies,27,26,pre_ban,0,0,0,0,1
+040,Rapides Parish,2022,Social Studies,29,28,pre_ban,0,0,0,0,1
+040,Rapides Parish,2023,Social Studies,30,30,pre_ban,0,0,0,0,1
+040,Rapides Parish,2024,Social Studies,NA,27,pre_ban,0,0,0,0,1
+040,Rapides Parish,2025,Social Studies,36,34,post_ban,0,0,0,0,1
+041,Red River Parish,2018,All Subjects,20,20,pre_ban,1,0,0,0,0
+041,Red River Parish,2019,All Subjects,18,18,pre_ban,1,0,0,0,0
+041,Red River Parish,2021,All Subjects,15,15,pre_ban,1,0,0,0,0
+041,Red River Parish,2022,All Subjects,17,17,pre_ban,1,0,0,0,0
+041,Red River Parish,2023,All Subjects,18,18,pre_ban,1,0,0,0,0
+041,Red River Parish,2024,All Subjects,19,21,pre_ban,1,0,0,0,0
+041,Red River Parish,2025,All Subjects,21,21,post_ban,1,0,0,0,0
+041,Red River Parish,2018,ELA,28,27,pre_ban,0,1,0,0,0
+041,Red River Parish,2019,ELA,21,20,pre_ban,0,1,0,0,0
+041,Red River Parish,2021,ELA,23,24,pre_ban,0,1,0,0,0
+041,Red River Parish,2022,ELA,24,24,pre_ban,0,1,0,0,0
+041,Red River Parish,2023,ELA,26,25,pre_ban,0,1,0,0,0
+041,Red River Parish,2024,ELA,22,25,pre_ban,0,1,0,0,0
+041,Red River Parish,2025,ELA,27,29,post_ban,0,1,0,0,0
+041,Red River Parish,2018,Math,18,17,pre_ban,0,0,1,0,0
+041,Red River Parish,2019,Math,18,18,pre_ban,0,0,1,0,0
+041,Red River Parish,2021,Math,16,14,pre_ban,0,0,1,0,0
+041,Red River Parish,2022,Math,18,19,pre_ban,0,0,1,0,0
+041,Red River Parish,2023,Math,20,21,pre_ban,0,0,1,0,0
+041,Red River Parish,2024,Math,18,21,pre_ban,0,0,1,0,0
+041,Red River Parish,2025,Math,24,21,post_ban,0,0,1,0,0
+041,Red River Parish,2018,Science,13,NA,pre_ban,0,0,0,1,0
+041,Red River Parish,2019,Science,12,NA,pre_ban,0,0,0,1,0
+041,Red River Parish,2021,Science,11,11,pre_ban,0,0,0,1,0
+041,Red River Parish,2022,Science,15,13,pre_ban,0,0,0,1,0
+041,Red River Parish,2023,Science,13,13,pre_ban,0,0,0,1,0
+041,Red River Parish,2024,Science,16,15,pre_ban,0,0,0,1,0
+041,Red River Parish,2025,Science,19,19,post_ban,0,0,0,1,0
+041,Red River Parish,2018,Social Studies,15,15,pre_ban,0,0,0,0,1
+041,Red River Parish,2019,Social Studies,16,16,pre_ban,0,0,0,0,1
+041,Red River Parish,2021,Social Studies,12,11,pre_ban,0,0,0,0,1
+041,Red River Parish,2022,Social Studies,12,11,pre_ban,0,0,0,0,1
+041,Red River Parish,2023,Social Studies,11,10,pre_ban,0,0,0,0,1
+041,Red River Parish,2024,Social Studies,NA,16,pre_ban,0,0,0,0,1
+041,Red River Parish,2025,Social Studies,14,13,post_ban,0,0,0,0,1
+042,Richland Parish,2018,All Subjects,21,22,pre_ban,1,0,0,0,0
+042,Richland Parish,2019,All Subjects,21,21,pre_ban,1,0,0,0,0
+042,Richland Parish,2021,All Subjects,15,15,pre_ban,1,0,0,0,0
+042,Richland Parish,2022,All Subjects,15,16,pre_ban,1,0,0,0,0
+042,Richland Parish,2023,All Subjects,19,19,pre_ban,1,0,0,0,0
+042,Richland Parish,2024,All Subjects,22,21,pre_ban,1,0,0,0,0
+042,Richland Parish,2025,All Subjects,22,21,post_ban,1,0,0,0,0
+042,Richland Parish,2018,ELA,28,29,pre_ban,0,1,0,0,0
+042,Richland Parish,2019,ELA,26,26,pre_ban,0,1,0,0,0
+042,Richland Parish,2021,ELA,22,22,pre_ban,0,1,0,0,0
+042,Richland Parish,2022,ELA,24,23,pre_ban,0,1,0,0,0
+042,Richland Parish,2023,ELA,27,27,pre_ban,0,1,0,0,0
+042,Richland Parish,2024,ELA,27,26,pre_ban,0,1,0,0,0
+042,Richland Parish,2025,ELA,30,29,post_ban,0,1,0,0,0
+042,Richland Parish,2018,Math,20,21,pre_ban,0,0,1,0,0
+042,Richland Parish,2019,Math,20,19,pre_ban,0,0,1,0,0
+042,Richland Parish,2021,Math,11,11,pre_ban,0,0,1,0,0
+042,Richland Parish,2022,Math,13,14,pre_ban,0,0,1,0,0
+042,Richland Parish,2023,Math,19,17,pre_ban,0,0,1,0,0
+042,Richland Parish,2024,Math,20,20,pre_ban,0,0,1,0,0
+042,Richland Parish,2025,Math,20,19,post_ban,0,0,1,0,0
+042,Richland Parish,2018,Science,18,NA,pre_ban,0,0,0,1,0
+042,Richland Parish,2019,Science,18,NA,pre_ban,0,0,0,1,0
+042,Richland Parish,2021,Science,13,12,pre_ban,0,0,0,1,0
+042,Richland Parish,2022,Science,13,12,pre_ban,0,0,0,1,0
+042,Richland Parish,2023,Science,16,16,pre_ban,0,0,0,1,0
+042,Richland Parish,2024,Science,20,19,pre_ban,0,0,0,1,0
+042,Richland Parish,2025,Science,18,17,post_ban,0,0,0,1,0
+042,Richland Parish,2018,Social Studies,16,15,pre_ban,0,0,0,0,1
+042,Richland Parish,2019,Social Studies,17,16,pre_ban,0,0,0,0,1
+042,Richland Parish,2021,Social Studies,13,13,pre_ban,0,0,0,0,1
+042,Richland Parish,2022,Social Studies,13,12,pre_ban,0,0,0,0,1
+042,Richland Parish,2023,Social Studies,16,16,pre_ban,0,0,0,0,1
+042,Richland Parish,2024,Social Studies,NA,8,pre_ban,0,0,0,0,1
+042,Richland Parish,2025,Social Studies,19,17,post_ban,0,0,0,0,1
+043,Sabine Parish,2018,All Subjects,34,35,pre_ban,1,0,0,0,0
+043,Sabine Parish,2019,All Subjects,33,36,pre_ban,1,0,0,0,0
+043,Sabine Parish,2021,All Subjects,27,29,pre_ban,1,0,0,0,0
+043,Sabine Parish,2022,All Subjects,28,30,pre_ban,1,0,0,0,0
+043,Sabine Parish,2023,All Subjects,29,31,pre_ban,1,0,0,0,0
+043,Sabine Parish,2024,All Subjects,32,33,pre_ban,1,0,0,0,0
+043,Sabine Parish,2025,All Subjects,31,32,post_ban,1,0,0,0,0
+043,Sabine Parish,2018,ELA,44,44,pre_ban,0,1,0,0,0
+043,Sabine Parish,2019,ELA,43,45,pre_ban,0,1,0,0,0
+043,Sabine Parish,2021,ELA,38,39,pre_ban,0,1,0,0,0
+043,Sabine Parish,2022,ELA,40,41,pre_ban,0,1,0,0,0
+043,Sabine Parish,2023,ELA,42,42,pre_ban,0,1,0,0,0
+043,Sabine Parish,2024,ELA,41,43,pre_ban,0,1,0,0,0
+043,Sabine Parish,2025,ELA,41,41,post_ban,0,1,0,0,0
+043,Sabine Parish,2018,Math,31,34,pre_ban,0,0,1,0,0
+043,Sabine Parish,2019,Math,33,36,pre_ban,0,0,1,0,0
+043,Sabine Parish,2021,Math,25,28,pre_ban,0,0,1,0,0
+043,Sabine Parish,2022,Math,27,31,pre_ban,0,0,1,0,0
+043,Sabine Parish,2023,Math,30,33,pre_ban,0,0,1,0,0
+043,Sabine Parish,2024,Math,31,34,pre_ban,0,0,1,0,0
+043,Sabine Parish,2025,Math,32,33,post_ban,0,0,1,0,0
+043,Sabine Parish,2018,Science,24,NA,pre_ban,0,0,0,1,0
+043,Sabine Parish,2019,Science,24,NA,pre_ban,0,0,0,1,0
+043,Sabine Parish,2021,Science,24,24,pre_ban,0,0,0,1,0
+043,Sabine Parish,2022,Science,23,24,pre_ban,0,0,0,1,0
+043,Sabine Parish,2023,Science,25,26,pre_ban,0,0,0,1,0
+043,Sabine Parish,2024,Science,23,24,pre_ban,0,0,0,1,0
+043,Sabine Parish,2025,Science,26,26,post_ban,0,0,0,1,0
+043,Sabine Parish,2018,Social Studies,26,27,pre_ban,0,0,0,0,1
+043,Sabine Parish,2019,Social Studies,23,24,pre_ban,0,0,0,0,1
+043,Sabine Parish,2021,Social Studies,23,24,pre_ban,0,0,0,0,1
+043,Sabine Parish,2022,Social Studies,23,23,pre_ban,0,0,0,0,1
+043,Sabine Parish,2023,Social Studies,20,22,pre_ban,0,0,0,0,1
+043,Sabine Parish,2024,Social Studies,NA,26,pre_ban,0,0,0,0,1
+043,Sabine Parish,2025,Social Studies,27,27,post_ban,0,0,0,0,1
+044,St. Bernard Parish,2018,All Subjects,37,38,pre_ban,1,0,0,0,0
+044,St. Bernard Parish,2019,All Subjects,37,38,pre_ban,1,0,0,0,0
+044,St. Bernard Parish,2021,All Subjects,34,34,pre_ban,1,0,0,0,0
+044,St. Bernard Parish,2022,All Subjects,35,35,pre_ban,1,0,0,0,0
+044,St. Bernard Parish,2023,All Subjects,34,35,pre_ban,1,0,0,0,0
+044,St. Bernard Parish,2024,All Subjects,36,35,pre_ban,1,0,0,0,0
+044,St. Bernard Parish,2025,All Subjects,35,34,post_ban,1,0,0,0,0
+044,St. Bernard Parish,2018,ELA,45,45,pre_ban,0,1,0,0,0
+044,St. Bernard Parish,2019,ELA,45,44,pre_ban,0,1,0,0,0
+044,St. Bernard Parish,2021,ELA,44,44,pre_ban,0,1,0,0,0
+044,St. Bernard Parish,2022,ELA,45,44,pre_ban,0,1,0,0,0
+044,St. Bernard Parish,2023,ELA,47,46,pre_ban,0,1,0,0,0
+044,St. Bernard Parish,2024,ELA,46,45,pre_ban,0,1,0,0,0
+044,St. Bernard Parish,2025,ELA,45,43,post_ban,0,1,0,0,0
+044,St. Bernard Parish,2018,Math,39,38,pre_ban,0,0,1,0,0
+044,St. Bernard Parish,2019,Math,41,41,pre_ban,0,0,1,0,0
+044,St. Bernard Parish,2021,Math,36,35,pre_ban,0,0,1,0,0
+044,St. Bernard Parish,2022,Math,36,36,pre_ban,0,0,1,0,0
+044,St. Bernard Parish,2023,Math,34,36,pre_ban,0,0,1,0,0
+044,St. Bernard Parish,2024,Math,33,34,pre_ban,0,0,1,0,0
+044,St. Bernard Parish,2025,Math,35,35,post_ban,0,0,1,0,0
+044,St. Bernard Parish,2018,Science,30,NA,pre_ban,0,0,0,1,0
+044,St. Bernard Parish,2019,Science,30,NA,pre_ban,0,0,0,1,0
+044,St. Bernard Parish,2021,Science,28,28,pre_ban,0,0,0,1,0
+044,St. Bernard Parish,2022,Science,29,29,pre_ban,0,0,0,1,0
+044,St. Bernard Parish,2023,Science,27,26,pre_ban,0,0,0,1,0
+044,St. Bernard Parish,2024,Science,28,28,pre_ban,0,0,0,1,0
+044,St. Bernard Parish,2025,Science,28,27,post_ban,0,0,0,1,0
+044,St. Bernard Parish,2018,Social Studies,27,28,pre_ban,0,0,0,0,1
+044,St. Bernard Parish,2019,Social Studies,27,28,pre_ban,0,0,0,0,1
+044,St. Bernard Parish,2021,Social Studies,28,27,pre_ban,0,0,0,0,1
+044,St. Bernard Parish,2022,Social Studies,29,29,pre_ban,0,0,0,0,1
+044,St. Bernard Parish,2023,Social Studies,28,28,pre_ban,0,0,0,0,1
+044,St. Bernard Parish,2024,Social Studies,NA,22,pre_ban,0,0,0,0,1
+044,St. Bernard Parish,2025,Social Studies,32,31,post_ban,0,0,0,0,1
+045,St. Charles Parish,2018,All Subjects,50,48,pre_ban,1,0,0,0,0
+045,St. Charles Parish,2019,All Subjects,47,48,pre_ban,1,0,0,0,0
+045,St. Charles Parish,2021,All Subjects,43,42,pre_ban,1,0,0,0,0
+045,St. Charles Parish,2022,All Subjects,42,43,pre_ban,1,0,0,0,0
+045,St. Charles Parish,2023,All Subjects,41,42,pre_ban,1,0,0,0,0
+045,St. Charles Parish,2024,All Subjects,45,46,pre_ban,1,0,0,0,0
+045,St. Charles Parish,2025,All Subjects,42,43,post_ban,1,0,0,0,0
+045,St. Charles Parish,2018,ELA,61,57,pre_ban,0,1,0,0,0
+045,St. Charles Parish,2019,ELA,54,55,pre_ban,0,1,0,0,0
+045,St. Charles Parish,2021,ELA,51,51,pre_ban,0,1,0,0,0
+045,St. Charles Parish,2022,ELA,51,51,pre_ban,0,1,0,0,0
+045,St. Charles Parish,2023,ELA,45,48,pre_ban,0,1,0,0,0
+045,St. Charles Parish,2024,ELA,48,49,pre_ban,0,1,0,0,0
+045,St. Charles Parish,2025,ELA,49,49,post_ban,0,1,0,0,0
+045,St. Charles Parish,2018,Math,49,47,pre_ban,0,0,1,0,0
+045,St. Charles Parish,2019,Math,47,47,pre_ban,0,0,1,0,0
+045,St. Charles Parish,2021,Math,40,41,pre_ban,0,0,1,0,0
+045,St. Charles Parish,2022,Math,43,44,pre_ban,0,0,1,0,0
+045,St. Charles Parish,2023,Math,45,47,pre_ban,0,0,1,0,0
+045,St. Charles Parish,2024,Math,47,48,pre_ban,0,0,1,0,0
+045,St. Charles Parish,2025,Math,48,49,post_ban,0,0,1,0,0
+045,St. Charles Parish,2018,Science,42,NA,pre_ban,0,0,0,1,0
+045,St. Charles Parish,2019,Science,42,NA,pre_ban,0,0,0,1,0
+045,St. Charles Parish,2021,Science,41,39,pre_ban,0,0,0,1,0
+045,St. Charles Parish,2022,Science,40,40,pre_ban,0,0,0,1,0
+045,St. Charles Parish,2023,Science,39,39,pre_ban,0,0,0,1,0
+045,St. Charles Parish,2024,Science,40,41,pre_ban,0,0,0,1,0
+045,St. Charles Parish,2025,Science,36,36,post_ban,0,0,0,1,0
+045,St. Charles Parish,2018,Social Studies,40,40,pre_ban,0,0,0,0,1
+045,St. Charles Parish,2019,Social Studies,40,40,pre_ban,0,0,0,0,1
+045,St. Charles Parish,2021,Social Studies,38,37,pre_ban,0,0,0,0,1
+045,St. Charles Parish,2022,Social Studies,36,36,pre_ban,0,0,0,0,1
+045,St. Charles Parish,2023,Social Studies,35,35,pre_ban,0,0,0,0,1
+045,St. Charles Parish,2024,Social Studies,NA,36,pre_ban,0,0,0,0,1
+045,St. Charles Parish,2025,Social Studies,38,38,post_ban,0,0,0,0,1
+046,St. Helena Parish,2018,All Subjects,5,6,pre_ban,1,0,0,0,0
+046,St. Helena Parish,2019,All Subjects,7,7,pre_ban,1,0,0,0,0
+046,St. Helena Parish,2021,All Subjects,5,5,pre_ban,1,0,0,0,0
+046,St. Helena Parish,2022,All Subjects,7,7,pre_ban,1,0,0,0,0
+046,St. Helena Parish,2023,All Subjects,8,8,pre_ban,1,0,0,0,0
+046,St. Helena Parish,2024,All Subjects,11,9,pre_ban,1,0,0,0,0
+046,St. Helena Parish,2025,All Subjects,9,9,post_ban,1,0,0,0,0
+046,St. Helena Parish,2018,ELA,8,10,pre_ban,0,1,0,0,0
+046,St. Helena Parish,2019,ELA,13,13,pre_ban,0,1,0,0,0
+046,St. Helena Parish,2021,ELA,9,10,pre_ban,0,1,0,0,0
+046,St. Helena Parish,2022,ELA,15,13,pre_ban,0,1,0,0,0
+046,St. Helena Parish,2023,ELA,15,13,pre_ban,0,1,0,0,0
+046,St. Helena Parish,2024,ELA,19,15,pre_ban,0,1,0,0,0
+046,St. Helena Parish,2025,ELA,17,16,post_ban,0,1,0,0,0
+046,St. Helena Parish,2018,Math,3,3,pre_ban,0,0,1,0,0
+046,St. Helena Parish,2019,Math,5,6,pre_ban,0,0,1,0,0
+046,St. Helena Parish,2021,Math,NA,NA,pre_ban,0,0,1,0,0
+046,St. Helena Parish,2022,Math,NA,NA,pre_ban,0,0,1,0,0
+046,St. Helena Parish,2023,Math,6,6,pre_ban,0,0,1,0,0
+046,St. Helena Parish,2024,Math,7,5,pre_ban,0,0,1,0,0
+046,St. Helena Parish,2025,Math,7,6,post_ban,0,0,1,0,0
+046,St. Helena Parish,2018,Science,4,NA,pre_ban,0,0,0,1,0
+046,St. Helena Parish,2019,Science,5,NA,pre_ban,0,0,0,1,0
+046,St. Helena Parish,2021,Science,NA,NA,pre_ban,0,0,0,1,0
+046,St. Helena Parish,2022,Science,5,NA,pre_ban,0,0,0,1,0
+046,St. Helena Parish,2023,Science,7,6,pre_ban,0,0,0,1,0
+046,St. Helena Parish,2024,Science,8,7,pre_ban,0,0,0,1,0
+046,St. Helena Parish,2025,Science,6,6,post_ban,0,0,0,1,0
+046,St. Helena Parish,2018,Social Studies,4,4,pre_ban,0,0,0,0,1
+046,St. Helena Parish,2019,Social Studies,2,2,pre_ban,0,0,0,0,1
+046,St. Helena Parish,2021,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+046,St. Helena Parish,2022,Social Studies,5,5,pre_ban,0,0,0,0,1
+046,St. Helena Parish,2023,Social Studies,6,5,pre_ban,0,0,0,0,1
+046,St. Helena Parish,2024,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+046,St. Helena Parish,2025,Social Studies,5,8,post_ban,0,0,0,0,1
+047,St. James Parish,2018,All Subjects,40,41,pre_ban,1,0,0,0,0
+047,St. James Parish,2019,All Subjects,41,41,pre_ban,1,0,0,0,0
+047,St. James Parish,2021,All Subjects,30,31,pre_ban,1,0,0,0,0
+047,St. James Parish,2022,All Subjects,32,33,pre_ban,1,0,0,0,0
+047,St. James Parish,2023,All Subjects,33,35,pre_ban,1,0,0,0,0
+047,St. James Parish,2024,All Subjects,33,36,pre_ban,1,0,0,0,0
+047,St. James Parish,2025,All Subjects,30,32,post_ban,1,0,0,0,0
+047,St. James Parish,2018,ELA,49,48,pre_ban,0,1,0,0,0
+047,St. James Parish,2019,ELA,51,51,pre_ban,0,1,0,0,0
+047,St. James Parish,2021,ELA,41,41,pre_ban,0,1,0,0,0
+047,St. James Parish,2022,ELA,46,45,pre_ban,0,1,0,0,0
+047,St. James Parish,2023,ELA,47,48,pre_ban,0,1,0,0,0
+047,St. James Parish,2024,ELA,42,45,pre_ban,0,1,0,0,0
+047,St. James Parish,2025,ELA,41,42,post_ban,0,1,0,0,0
+047,St. James Parish,2018,Math,43,44,pre_ban,0,0,1,0,0
+047,St. James Parish,2019,Math,43,43,pre_ban,0,0,1,0,0
+047,St. James Parish,2021,Math,30,30,pre_ban,0,0,1,0,0
+047,St. James Parish,2022,Math,33,36,pre_ban,0,0,1,0,0
+047,St. James Parish,2023,Math,35,40,pre_ban,0,0,1,0,0
+047,St. James Parish,2024,Math,32,37,pre_ban,0,0,1,0,0
+047,St. James Parish,2025,Math,32,35,post_ban,0,0,1,0,0
+047,St. James Parish,2018,Science,31,NA,pre_ban,0,0,0,1,0
+047,St. James Parish,2019,Science,30,NA,pre_ban,0,0,0,1,0
+047,St. James Parish,2021,Science,25,26,pre_ban,0,0,0,1,0
+047,St. James Parish,2022,Science,26,24,pre_ban,0,0,0,1,0
+047,St. James Parish,2023,Science,26,26,pre_ban,0,0,0,1,0
+047,St. James Parish,2024,Science,26,26,pre_ban,0,0,0,1,0
+047,St. James Parish,2025,Science,24,27,post_ban,0,0,0,1,0
+047,St. James Parish,2018,Social Studies,29,29,pre_ban,0,0,0,0,1
+047,St. James Parish,2019,Social Studies,29,28,pre_ban,0,0,0,0,1
+047,St. James Parish,2021,Social Studies,24,23,pre_ban,0,0,0,0,1
+047,St. James Parish,2022,Social Studies,24,24,pre_ban,0,0,0,0,1
+047,St. James Parish,2023,Social Studies,25,24,pre_ban,0,0,0,0,1
+047,St. James Parish,2024,Social Studies,NA,21,pre_ban,0,0,0,0,1
+047,St. James Parish,2025,Social Studies,23,24,post_ban,0,0,0,0,1
+048,St. John The Baptist Parish,2018,All Subjects,27,25,pre_ban,1,0,0,0,0
+048,St. John The Baptist Parish,2019,All Subjects,24,24,pre_ban,1,0,0,0,0
+048,St. John The Baptist Parish,2021,All Subjects,14,15,pre_ban,1,0,0,0,0
+048,St. John The Baptist Parish,2022,All Subjects,17,16,pre_ban,1,0,0,0,0
+048,St. John The Baptist Parish,2023,All Subjects,19,19,pre_ban,1,0,0,0,0
+048,St. John The Baptist Parish,2024,All Subjects,21,20,pre_ban,1,0,0,0,0
+048,St. John The Baptist Parish,2025,All Subjects,24,22,post_ban,1,0,0,0,0
+048,St. John The Baptist Parish,2018,ELA,36,34,pre_ban,0,1,0,0,0
+048,St. John The Baptist Parish,2019,ELA,33,32,pre_ban,0,1,0,0,0
+048,St. John The Baptist Parish,2021,ELA,24,25,pre_ban,0,1,0,0,0
+048,St. John The Baptist Parish,2022,ELA,28,27,pre_ban,0,1,0,0,0
+048,St. John The Baptist Parish,2023,ELA,27,28,pre_ban,0,1,0,0,0
+048,St. John The Baptist Parish,2024,ELA,27,28,pre_ban,0,1,0,0,0
+048,St. John The Baptist Parish,2025,ELA,34,32,post_ban,0,1,0,0,0
+048,St. John The Baptist Parish,2018,Math,24,23,pre_ban,0,0,1,0,0
+048,St. John The Baptist Parish,2019,Math,22,23,pre_ban,0,0,1,0,0
+048,St. John The Baptist Parish,2021,Math,11,11,pre_ban,0,0,1,0,0
+048,St. John The Baptist Parish,2022,Math,14,14,pre_ban,0,0,1,0,0
+048,St. John The Baptist Parish,2023,Math,20,20,pre_ban,0,0,1,0,0
+048,St. John The Baptist Parish,2024,Math,20,19,pre_ban,0,0,1,0,0
+048,St. John The Baptist Parish,2025,Math,26,23,post_ban,0,0,1,0,0
+048,St. John The Baptist Parish,2018,Science,18,NA,pre_ban,0,0,0,1,0
+048,St. John The Baptist Parish,2019,Science,17,NA,pre_ban,0,0,0,1,0
+048,St. John The Baptist Parish,2021,Science,11,11,pre_ban,0,0,0,1,0
+048,St. John The Baptist Parish,2022,Science,12,11,pre_ban,0,0,0,1,0
+048,St. John The Baptist Parish,2023,Science,14,14,pre_ban,0,0,0,1,0
+048,St. John The Baptist Parish,2024,Science,16,15,pre_ban,0,0,0,1,0
+048,St. John The Baptist Parish,2025,Science,17,15,post_ban,0,0,0,1,0
+048,St. John The Baptist Parish,2018,Social Studies,19,19,pre_ban,0,0,0,0,1
+048,St. John The Baptist Parish,2019,Social Studies,17,16,pre_ban,0,0,0,0,1
+048,St. John The Baptist Parish,2021,Social Studies,11,11,pre_ban,0,0,0,0,1
+048,St. John The Baptist Parish,2022,Social Studies,12,12,pre_ban,0,0,0,0,1
+048,St. John The Baptist Parish,2023,Social Studies,16,15,pre_ban,0,0,0,0,1
+048,St. John The Baptist Parish,2024,Social Studies,NA,10,pre_ban,0,0,0,0,1
+048,St. John The Baptist Parish,2025,Social Studies,20,19,post_ban,0,0,0,0,1
+049,St. Landry Parish,2018,All Subjects,27,28,pre_ban,1,0,0,0,0
+049,St. Landry Parish,2019,All Subjects,30,30,pre_ban,1,0,0,0,0
+049,St. Landry Parish,2021,All Subjects,21,22,pre_ban,1,0,0,0,0
+049,St. Landry Parish,2022,All Subjects,23,23,pre_ban,1,0,0,0,0
+049,St. Landry Parish,2023,All Subjects,24,25,pre_ban,1,0,0,0,0
+049,St. Landry Parish,2024,All Subjects,27,27,pre_ban,1,0,0,0,0
+049,St. Landry Parish,2025,All Subjects,26,25,post_ban,1,0,0,0,0
+049,St. Landry Parish,2018,ELA,37,36,pre_ban,0,1,0,0,0
+049,St. Landry Parish,2019,ELA,38,38,pre_ban,0,1,0,0,0
+049,St. Landry Parish,2021,ELA,32,33,pre_ban,0,1,0,0,0
+049,St. Landry Parish,2022,ELA,36,36,pre_ban,0,1,0,0,0
+049,St. Landry Parish,2023,ELA,36,37,pre_ban,0,1,0,0,0
+049,St. Landry Parish,2024,ELA,38,38,pre_ban,0,1,0,0,0
+049,St. Landry Parish,2025,ELA,38,38,post_ban,0,1,0,0,0
+049,St. Landry Parish,2018,Math,27,28,pre_ban,0,0,1,0,0
+049,St. Landry Parish,2019,Math,31,32,pre_ban,0,0,1,0,0
+049,St. Landry Parish,2021,Math,19,20,pre_ban,0,0,1,0,0
+049,St. Landry Parish,2022,Math,22,23,pre_ban,0,0,1,0,0
+049,St. Landry Parish,2023,Math,24,25,pre_ban,0,0,1,0,0
+049,St. Landry Parish,2024,Math,23,23,pre_ban,0,0,1,0,0
+049,St. Landry Parish,2025,Math,25,25,post_ban,0,0,1,0,0
+049,St. Landry Parish,2018,Science,23,NA,pre_ban,0,0,0,1,0
+049,St. Landry Parish,2019,Science,22,NA,pre_ban,0,0,0,1,0
+049,St. Landry Parish,2021,Science,17,16,pre_ban,0,0,0,1,0
+049,St. Landry Parish,2022,Science,18,17,pre_ban,0,0,0,1,0
+049,St. Landry Parish,2023,Science,19,19,pre_ban,0,0,0,1,0
+049,St. Landry Parish,2024,Science,20,20,pre_ban,0,0,0,1,0
+049,St. Landry Parish,2025,Science,21,20,post_ban,0,0,0,1,0
+049,St. Landry Parish,2018,Social Studies,18,19,pre_ban,0,0,0,0,1
+049,St. Landry Parish,2019,Social Studies,20,20,pre_ban,0,0,0,0,1
+049,St. Landry Parish,2021,Social Studies,16,16,pre_ban,0,0,0,0,1
+049,St. Landry Parish,2022,Social Studies,15,15,pre_ban,0,0,0,0,1
+049,St. Landry Parish,2023,Social Studies,16,16,pre_ban,0,0,0,0,1
+049,St. Landry Parish,2024,Social Studies,NA,16,pre_ban,0,0,0,0,1
+049,St. Landry Parish,2025,Social Studies,22,18,post_ban,0,0,0,0,1
+050,St. Martin Parish,2018,All Subjects,31,32,pre_ban,1,0,0,0,0
+050,St. Martin Parish,2019,All Subjects,30,31,pre_ban,1,0,0,0,0
+050,St. Martin Parish,2021,All Subjects,22,22,pre_ban,1,0,0,0,0
+050,St. Martin Parish,2022,All Subjects,23,24,pre_ban,1,0,0,0,0
+050,St. Martin Parish,2023,All Subjects,25,26,pre_ban,1,0,0,0,0
+050,St. Martin Parish,2024,All Subjects,29,29,pre_ban,1,0,0,0,0
+050,St. Martin Parish,2025,All Subjects,25,25,post_ban,1,0,0,0,0
+050,St. Martin Parish,2018,ELA,39,39,pre_ban,0,1,0,0,0
+050,St. Martin Parish,2019,ELA,37,39,pre_ban,0,1,0,0,0
+050,St. Martin Parish,2021,ELA,31,31,pre_ban,0,1,0,0,0
+050,St. Martin Parish,2022,ELA,32,34,pre_ban,0,1,0,0,0
+050,St. Martin Parish,2023,ELA,37,38,pre_ban,0,1,0,0,0
+050,St. Martin Parish,2024,ELA,41,41,pre_ban,0,1,0,0,0
+050,St. Martin Parish,2025,ELA,36,36,post_ban,0,1,0,0,0
+050,St. Martin Parish,2018,Math,35,34,pre_ban,0,0,1,0,0
+050,St. Martin Parish,2019,Math,35,35,pre_ban,0,0,1,0,0
+050,St. Martin Parish,2021,Math,22,22,pre_ban,0,0,1,0,0
+050,St. Martin Parish,2022,Math,23,23,pre_ban,0,0,1,0,0
+050,St. Martin Parish,2023,Math,26,26,pre_ban,0,0,1,0,0
+050,St. Martin Parish,2024,Math,26,26,pre_ban,0,0,1,0,0
+050,St. Martin Parish,2025,Math,25,23,post_ban,0,0,1,0,0
+050,St. Martin Parish,2018,Science,22,NA,pre_ban,0,0,0,1,0
+050,St. Martin Parish,2019,Science,22,NA,pre_ban,0,0,0,1,0
+050,St. Martin Parish,2021,Science,19,19,pre_ban,0,0,0,1,0
+050,St. Martin Parish,2022,Science,20,19,pre_ban,0,0,0,1,0
+050,St. Martin Parish,2023,Science,21,21,pre_ban,0,0,0,1,0
+050,St. Martin Parish,2024,Science,22,21,pre_ban,0,0,0,1,0
+050,St. Martin Parish,2025,Science,20,19,post_ban,0,0,0,1,0
+050,St. Martin Parish,2018,Social Studies,20,20,pre_ban,0,0,0,0,1
+050,St. Martin Parish,2019,Social Studies,19,20,pre_ban,0,0,0,0,1
+050,St. Martin Parish,2021,Social Studies,17,17,pre_ban,0,0,0,0,1
+050,St. Martin Parish,2022,Social Studies,16,16,pre_ban,0,0,0,0,1
+050,St. Martin Parish,2023,Social Studies,17,18,pre_ban,0,0,0,0,1
+050,St. Martin Parish,2024,Social Studies,NA,22,pre_ban,0,0,0,0,1
+050,St. Martin Parish,2025,Social Studies,20,20,post_ban,0,0,0,0,1
+051,St. Mary Parish,2018,All Subjects,36,36,pre_ban,1,0,0,0,0
+051,St. Mary Parish,2019,All Subjects,36,36,pre_ban,1,0,0,0,0
+051,St. Mary Parish,2021,All Subjects,28,28,pre_ban,1,0,0,0,0
+051,St. Mary Parish,2022,All Subjects,29,28,pre_ban,1,0,0,0,0
+051,St. Mary Parish,2023,All Subjects,29,29,pre_ban,1,0,0,0,0
+051,St. Mary Parish,2024,All Subjects,31,31,pre_ban,1,0,0,0,0
+051,St. Mary Parish,2025,All Subjects,29,29,post_ban,1,0,0,0,0
+051,St. Mary Parish,2018,ELA,45,45,pre_ban,0,1,0,0,0
+051,St. Mary Parish,2019,ELA,44,43,pre_ban,0,1,0,0,0
+051,St. Mary Parish,2021,ELA,38,38,pre_ban,0,1,0,0,0
+051,St. Mary Parish,2022,ELA,37,37,pre_ban,0,1,0,0,0
+051,St. Mary Parish,2023,ELA,36,37,pre_ban,0,1,0,0,0
+051,St. Mary Parish,2024,ELA,38,38,pre_ban,0,1,0,0,0
+051,St. Mary Parish,2025,ELA,37,38,post_ban,0,1,0,0,0
+051,St. Mary Parish,2018,Math,33,33,pre_ban,0,0,1,0,0
+051,St. Mary Parish,2019,Math,34,34,pre_ban,0,0,1,0,0
+051,St. Mary Parish,2021,Math,25,26,pre_ban,0,0,1,0,0
+051,St. Mary Parish,2022,Math,30,29,pre_ban,0,0,1,0,0
+051,St. Mary Parish,2023,Math,29,30,pre_ban,0,0,1,0,0
+051,St. Mary Parish,2024,Math,31,30,pre_ban,0,0,1,0,0
+051,St. Mary Parish,2025,Math,31,30,post_ban,0,0,1,0,0
+051,St. Mary Parish,2018,Science,32,NA,pre_ban,0,0,0,1,0
+051,St. Mary Parish,2019,Science,31,NA,pre_ban,0,0,0,1,0
+051,St. Mary Parish,2021,Science,24,23,pre_ban,0,0,0,1,0
+051,St. Mary Parish,2022,Science,24,24,pre_ban,0,0,0,1,0
+051,St. Mary Parish,2023,Science,26,25,pre_ban,0,0,0,1,0
+051,St. Mary Parish,2024,Science,25,24,pre_ban,0,0,0,1,0
+051,St. Mary Parish,2025,Science,23,24,post_ban,0,0,0,1,0
+051,St. Mary Parish,2018,Social Studies,29,29,pre_ban,0,0,0,0,1
+051,St. Mary Parish,2019,Social Studies,28,28,pre_ban,0,0,0,0,1
+051,St. Mary Parish,2021,Social Studies,25,24,pre_ban,0,0,0,0,1
+051,St. Mary Parish,2022,Social Studies,23,22,pre_ban,0,0,0,0,1
+051,St. Mary Parish,2023,Social Studies,24,23,pre_ban,0,0,0,0,1
+051,St. Mary Parish,2024,Social Studies,NA,20,pre_ban,0,0,0,0,1
+051,St. Mary Parish,2025,Social Studies,26,24,post_ban,0,0,0,0,1
+052,St. Tammany Parish,2018,All Subjects,45,46,pre_ban,1,0,0,0,0
+052,St. Tammany Parish,2019,All Subjects,47,47,pre_ban,1,0,0,0,0
+052,St. Tammany Parish,2021,All Subjects,43,43,pre_ban,1,0,0,0,0
+052,St. Tammany Parish,2022,All Subjects,42,42,pre_ban,1,0,0,0,0
+052,St. Tammany Parish,2023,All Subjects,45,45,pre_ban,1,0,0,0,0
+052,St. Tammany Parish,2024,All Subjects,46,46,pre_ban,1,0,0,0,0
+052,St. Tammany Parish,2025,All Subjects,44,44,post_ban,1,0,0,0,0
+052,St. Tammany Parish,2018,ELA,55,56,pre_ban,0,1,0,0,0
+052,St. Tammany Parish,2019,ELA,57,56,pre_ban,0,1,0,0,0
+052,St. Tammany Parish,2021,ELA,56,55,pre_ban,0,1,0,0,0
+052,St. Tammany Parish,2022,ELA,54,54,pre_ban,0,1,0,0,0
+052,St. Tammany Parish,2023,ELA,56,55,pre_ban,0,1,0,0,0
+052,St. Tammany Parish,2024,ELA,57,56,pre_ban,0,1,0,0,0
+052,St. Tammany Parish,2025,ELA,54,54,post_ban,0,1,0,0,0
+052,St. Tammany Parish,2018,Math,42,43,pre_ban,0,0,1,0,0
+052,St. Tammany Parish,2019,Math,45,45,pre_ban,0,0,1,0,0
+052,St. Tammany Parish,2021,Math,40,39,pre_ban,0,0,1,0,0
+052,St. Tammany Parish,2022,Math,42,40,pre_ban,0,0,1,0,0
+052,St. Tammany Parish,2023,Math,44,44,pre_ban,0,0,1,0,0
+052,St. Tammany Parish,2024,Math,42,43,pre_ban,0,0,1,0,0
+052,St. Tammany Parish,2025,Math,42,43,post_ban,0,0,1,0,0
+052,St. Tammany Parish,2018,Science,42,NA,pre_ban,0,0,0,1,0
+052,St. Tammany Parish,2019,Science,41,NA,pre_ban,0,0,0,1,0
+052,St. Tammany Parish,2021,Science,38,37,pre_ban,0,0,0,1,0
+052,St. Tammany Parish,2022,Science,37,37,pre_ban,0,0,0,1,0
+052,St. Tammany Parish,2023,Science,41,41,pre_ban,0,0,0,1,0
+052,St. Tammany Parish,2024,Science,39,39,pre_ban,0,0,0,1,0
+052,St. Tammany Parish,2025,Science,38,38,post_ban,0,0,0,1,0
+052,St. Tammany Parish,2018,Social Studies,39,39,pre_ban,0,0,0,0,1
+052,St. Tammany Parish,2019,Social Studies,40,40,pre_ban,0,0,0,0,1
+052,St. Tammany Parish,2021,Social Studies,38,38,pre_ban,0,0,0,0,1
+052,St. Tammany Parish,2022,Social Studies,36,36,pre_ban,0,0,0,0,1
+052,St. Tammany Parish,2023,Social Studies,37,37,pre_ban,0,0,0,0,1
+052,St. Tammany Parish,2024,Social Studies,NA,40,pre_ban,0,0,0,0,1
+052,St. Tammany Parish,2025,Social Studies,42,41,post_ban,0,0,0,0,1
+053,Tangipahoa Parish,2018,All Subjects,25,25,pre_ban,1,0,0,0,0
+053,Tangipahoa Parish,2019,All Subjects,25,25,pre_ban,1,0,0,0,0
+053,Tangipahoa Parish,2021,All Subjects,20,20,pre_ban,1,0,0,0,0
+053,Tangipahoa Parish,2022,All Subjects,21,22,pre_ban,1,0,0,0,0
+053,Tangipahoa Parish,2023,All Subjects,20,21,pre_ban,1,0,0,0,0
+053,Tangipahoa Parish,2024,All Subjects,20,21,pre_ban,1,0,0,0,0
+053,Tangipahoa Parish,2025,All Subjects,22,22,post_ban,1,0,0,0,0
+053,Tangipahoa Parish,2018,ELA,33,34,pre_ban,0,1,0,0,0
+053,Tangipahoa Parish,2019,ELA,33,33,pre_ban,0,1,0,0,0
+053,Tangipahoa Parish,2021,ELA,28,29,pre_ban,0,1,0,0,0
+053,Tangipahoa Parish,2022,ELA,32,33,pre_ban,0,1,0,0,0
+053,Tangipahoa Parish,2023,ELA,27,29,pre_ban,0,1,0,0,0
+053,Tangipahoa Parish,2024,ELA,26,28,pre_ban,0,1,0,0,0
+053,Tangipahoa Parish,2025,ELA,29,30,post_ban,0,1,0,0,0
+053,Tangipahoa Parish,2018,Math,21,21,pre_ban,0,0,1,0,0
+053,Tangipahoa Parish,2019,Math,22,21,pre_ban,0,0,1,0,0
+053,Tangipahoa Parish,2021,Math,17,17,pre_ban,0,0,1,0,0
+053,Tangipahoa Parish,2022,Math,18,19,pre_ban,0,0,1,0,0
+053,Tangipahoa Parish,2023,Math,18,19,pre_ban,0,0,1,0,0
+053,Tangipahoa Parish,2024,Math,18,19,pre_ban,0,0,1,0,0
+053,Tangipahoa Parish,2025,Math,21,22,post_ban,0,0,1,0,0
+053,Tangipahoa Parish,2018,Science,20,NA,pre_ban,0,0,0,1,0
+053,Tangipahoa Parish,2019,Science,20,NA,pre_ban,0,0,0,1,0
+053,Tangipahoa Parish,2021,Science,16,16,pre_ban,0,0,0,1,0
+053,Tangipahoa Parish,2022,Science,17,17,pre_ban,0,0,0,1,0
+053,Tangipahoa Parish,2023,Science,17,18,pre_ban,0,0,0,1,0
+053,Tangipahoa Parish,2024,Science,16,16,pre_ban,0,0,0,1,0
+053,Tangipahoa Parish,2025,Science,17,17,post_ban,0,0,0,1,0
+053,Tangipahoa Parish,2018,Social Studies,20,20,pre_ban,0,0,0,0,1
+053,Tangipahoa Parish,2019,Social Studies,20,20,pre_ban,0,0,0,0,1
+053,Tangipahoa Parish,2021,Social Studies,18,17,pre_ban,0,0,0,0,1
+053,Tangipahoa Parish,2022,Social Studies,17,17,pre_ban,0,0,0,0,1
+053,Tangipahoa Parish,2023,Social Studies,17,17,pre_ban,0,0,0,0,1
+053,Tangipahoa Parish,2024,Social Studies,NA,16,pre_ban,0,0,0,0,1
+053,Tangipahoa Parish,2025,Social Studies,21,20,post_ban,0,0,0,0,1
+054,Tensas Parish,2018,All Subjects,8,8,pre_ban,1,0,0,0,0
+054,Tensas Parish,2019,All Subjects,11,11,pre_ban,1,0,0,0,0
+054,Tensas Parish,2021,All Subjects,10,9,pre_ban,1,0,0,0,0
+054,Tensas Parish,2022,All Subjects,9,9,pre_ban,1,0,0,0,0
+054,Tensas Parish,2023,All Subjects,12,11,pre_ban,1,0,0,0,0
+054,Tensas Parish,2024,All Subjects,18,16,pre_ban,1,0,0,0,0
+054,Tensas Parish,2025,All Subjects,17,16,post_ban,1,0,0,0,0
+054,Tensas Parish,2018,ELA,14,13,pre_ban,0,1,0,0,0
+054,Tensas Parish,2019,ELA,17,19,pre_ban,0,1,0,0,0
+054,Tensas Parish,2021,ELA,16,15,pre_ban,0,1,0,0,0
+054,Tensas Parish,2022,ELA,15,15,pre_ban,0,1,0,0,0
+054,Tensas Parish,2023,ELA,18,18,pre_ban,0,1,0,0,0
+054,Tensas Parish,2024,ELA,28,24,pre_ban,0,1,0,0,0
+054,Tensas Parish,2025,ELA,23,23,post_ban,0,1,0,0,0
+054,Tensas Parish,2018,Math,7,6,pre_ban,0,0,1,0,0
+054,Tensas Parish,2019,Math,11,8,pre_ban,0,0,1,0,0
+054,Tensas Parish,2021,Math,12,9,pre_ban,0,0,1,0,0
+054,Tensas Parish,2022,Math,8,7,pre_ban,0,0,1,0,0
+054,Tensas Parish,2023,Math,19,14,pre_ban,0,0,1,0,0
+054,Tensas Parish,2024,Math,18,15,pre_ban,0,0,1,0,0
+054,Tensas Parish,2025,Math,19,18,post_ban,0,0,1,0,0
+054,Tensas Parish,2018,Science,4,NA,pre_ban,0,0,0,1,0
+054,Tensas Parish,2019,Science,4,NA,pre_ban,0,0,0,1,0
+054,Tensas Parish,2021,Science,8,8,pre_ban,0,0,0,1,0
+054,Tensas Parish,2022,Science,10,8,pre_ban,0,0,0,1,0
+054,Tensas Parish,2023,Science,7,6,pre_ban,0,0,0,1,0
+054,Tensas Parish,2024,Science,9,9,pre_ban,0,0,0,1,0
+054,Tensas Parish,2025,Science,11,11,post_ban,0,0,0,1,0
+054,Tensas Parish,2018,Social Studies,3,2,pre_ban,0,0,0,0,1
+054,Tensas Parish,2019,Social Studies,4,4,pre_ban,0,0,0,0,1
+054,Tensas Parish,2021,Social Studies,5,NA,pre_ban,0,0,0,0,1
+054,Tensas Parish,2022,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+054,Tensas Parish,2023,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+054,Tensas Parish,2024,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+054,Tensas Parish,2025,Social Studies,14,13,post_ban,0,0,0,0,1
+055,Terrebonne Parish,2018,All Subjects,38,40,pre_ban,1,0,0,0,0
+055,Terrebonne Parish,2019,All Subjects,39,41,pre_ban,1,0,0,0,0
+055,Terrebonne Parish,2021,All Subjects,34,34,pre_ban,1,0,0,0,0
+055,Terrebonne Parish,2022,All Subjects,36,36,pre_ban,1,0,0,0,0
+055,Terrebonne Parish,2023,All Subjects,37,38,pre_ban,1,0,0,0,0
+055,Terrebonne Parish,2024,All Subjects,41,41,pre_ban,1,0,0,0,0
+055,Terrebonne Parish,2025,All Subjects,39,39,post_ban,1,0,0,0,0
+055,Terrebonne Parish,2018,ELA,49,50,pre_ban,0,1,0,0,0
+055,Terrebonne Parish,2019,ELA,50,52,pre_ban,0,1,0,0,0
+055,Terrebonne Parish,2021,ELA,48,47,pre_ban,0,1,0,0,0
+055,Terrebonne Parish,2022,ELA,51,50,pre_ban,0,1,0,0,0
+055,Terrebonne Parish,2023,ELA,53,53,pre_ban,0,1,0,0,0
+055,Terrebonne Parish,2024,ELA,55,54,pre_ban,0,1,0,0,0
+055,Terrebonne Parish,2025,ELA,50,50,post_ban,0,1,0,0,0
+055,Terrebonne Parish,2018,Math,36,38,pre_ban,0,0,1,0,0
+055,Terrebonne Parish,2019,Math,39,40,pre_ban,0,0,1,0,0
+055,Terrebonne Parish,2021,Math,31,30,pre_ban,0,0,1,0,0
+055,Terrebonne Parish,2022,Math,34,34,pre_ban,0,0,1,0,0
+055,Terrebonne Parish,2023,Math,34,36,pre_ban,0,0,1,0,0
+055,Terrebonne Parish,2024,Math,36,38,pre_ban,0,0,1,0,0
+055,Terrebonne Parish,2025,Math,39,38,post_ban,0,0,1,0,0
+055,Terrebonne Parish,2018,Science,30,NA,pre_ban,0,0,0,1,0
+055,Terrebonne Parish,2019,Science,30,NA,pre_ban,0,0,0,1,0
+055,Terrebonne Parish,2021,Science,28,28,pre_ban,0,0,0,1,0
+055,Terrebonne Parish,2022,Science,30,30,pre_ban,0,0,0,1,0
+055,Terrebonne Parish,2023,Science,32,32,pre_ban,0,0,0,1,0
+055,Terrebonne Parish,2024,Science,31,30,pre_ban,0,0,0,1,0
+055,Terrebonne Parish,2025,Science,33,31,post_ban,0,0,0,1,0
+055,Terrebonne Parish,2018,Social Studies,29,29,pre_ban,0,0,0,0,1
+055,Terrebonne Parish,2019,Social Studies,29,29,pre_ban,0,0,0,0,1
+055,Terrebonne Parish,2021,Social Studies,28,29,pre_ban,0,0,0,0,1
+055,Terrebonne Parish,2022,Social Studies,29,29,pre_ban,0,0,0,0,1
+055,Terrebonne Parish,2023,Social Studies,31,30,pre_ban,0,0,0,0,1
+055,Terrebonne Parish,2024,Social Studies,NA,28,pre_ban,0,0,0,0,1
+055,Terrebonne Parish,2025,Social Studies,36,34,post_ban,0,0,0,0,1
+056,Union Parish,2018,All Subjects,20,21,pre_ban,1,0,0,0,0
+056,Union Parish,2019,All Subjects,17,19,pre_ban,1,0,0,0,0
+056,Union Parish,2021,All Subjects,13,13,pre_ban,1,0,0,0,0
+056,Union Parish,2022,All Subjects,16,16,pre_ban,1,0,0,0,0
+056,Union Parish,2023,All Subjects,16,17,pre_ban,1,0,0,0,0
+056,Union Parish,2024,All Subjects,14,16,pre_ban,1,0,0,0,0
+056,Union Parish,2025,All Subjects,14,16,post_ban,1,0,0,0,0
+056,Union Parish,2018,ELA,26,28,pre_ban,0,1,0,0,0
+056,Union Parish,2019,ELA,23,24,pre_ban,0,1,0,0,0
+056,Union Parish,2021,ELA,20,20,pre_ban,0,1,0,0,0
+056,Union Parish,2022,ELA,23,24,pre_ban,0,1,0,0,0
+056,Union Parish,2023,ELA,20,22,pre_ban,0,1,0,0,0
+056,Union Parish,2024,ELA,17,20,pre_ban,0,1,0,0,0
+056,Union Parish,2025,ELA,21,24,post_ban,0,1,0,0,0
+056,Union Parish,2018,Math,20,22,pre_ban,0,0,1,0,0
+056,Union Parish,2019,Math,15,19,pre_ban,0,0,1,0,0
+056,Union Parish,2021,Math,9,10,pre_ban,0,0,1,0,0
+056,Union Parish,2022,Math,16,16,pre_ban,0,0,1,0,0
+056,Union Parish,2023,Math,16,17,pre_ban,0,0,1,0,0
+056,Union Parish,2024,Math,13,17,pre_ban,0,0,1,0,0
+056,Union Parish,2025,Math,14,18,post_ban,0,0,1,0,0
+056,Union Parish,2018,Science,13,NA,pre_ban,0,0,0,1,0
+056,Union Parish,2019,Science,13,NA,pre_ban,0,0,0,1,0
+056,Union Parish,2021,Science,11,10,pre_ban,0,0,0,1,0
+056,Union Parish,2022,Science,13,12,pre_ban,0,0,0,1,0
+056,Union Parish,2023,Science,14,15,pre_ban,0,0,0,1,0
+056,Union Parish,2024,Science,11,11,pre_ban,0,0,0,1,0
+056,Union Parish,2025,Science,10,11,post_ban,0,0,0,1,0
+056,Union Parish,2018,Social Studies,13,14,pre_ban,0,0,0,0,1
+056,Union Parish,2019,Social Studies,12,14,pre_ban,0,0,0,0,1
+056,Union Parish,2021,Social Studies,11,11,pre_ban,0,0,0,0,1
+056,Union Parish,2022,Social Studies,11,11,pre_ban,0,0,0,0,1
+056,Union Parish,2023,Social Studies,14,14,pre_ban,0,0,0,0,1
+056,Union Parish,2024,Social Studies,NA,16,pre_ban,0,0,0,0,1
+056,Union Parish,2025,Social Studies,9,11,post_ban,0,0,0,0,1
+057,Vermilion Parish,2018,All Subjects,43,46,pre_ban,1,0,0,0,0
+057,Vermilion Parish,2019,All Subjects,47,49,pre_ban,1,0,0,0,0
+057,Vermilion Parish,2021,All Subjects,39,40,pre_ban,1,0,0,0,0
+057,Vermilion Parish,2022,All Subjects,40,41,pre_ban,1,0,0,0,0
+057,Vermilion Parish,2023,All Subjects,42,43,pre_ban,1,0,0,0,0
+057,Vermilion Parish,2024,All Subjects,45,45,pre_ban,1,0,0,0,0
+057,Vermilion Parish,2025,All Subjects,43,43,post_ban,1,0,0,0,0
+057,Vermilion Parish,2018,ELA,53,56,pre_ban,0,1,0,0,0
+057,Vermilion Parish,2019,ELA,56,59,pre_ban,0,1,0,0,0
+057,Vermilion Parish,2021,ELA,53,54,pre_ban,0,1,0,0,0
+057,Vermilion Parish,2022,ELA,56,55,pre_ban,0,1,0,0,0
+057,Vermilion Parish,2023,ELA,56,56,pre_ban,0,1,0,0,0
+057,Vermilion Parish,2024,ELA,57,56,pre_ban,0,1,0,0,0
+057,Vermilion Parish,2025,ELA,55,55,post_ban,0,1,0,0,0
+057,Vermilion Parish,2018,Math,41,44,pre_ban,0,0,1,0,0
+057,Vermilion Parish,2019,Math,48,49,pre_ban,0,0,1,0,0
+057,Vermilion Parish,2021,Math,39,40,pre_ban,0,0,1,0,0
+057,Vermilion Parish,2022,Math,43,43,pre_ban,0,0,1,0,0
+057,Vermilion Parish,2023,Math,46,44,pre_ban,0,0,1,0,0
+057,Vermilion Parish,2024,Math,44,44,pre_ban,0,0,1,0,0
+057,Vermilion Parish,2025,Math,47,46,post_ban,0,0,1,0,0
+057,Vermilion Parish,2018,Science,37,NA,pre_ban,0,0,0,1,0
+057,Vermilion Parish,2019,Science,38,NA,pre_ban,0,0,0,1,0
+057,Vermilion Parish,2021,Science,32,32,pre_ban,0,0,0,1,0
+057,Vermilion Parish,2022,Science,32,33,pre_ban,0,0,0,1,0
+057,Vermilion Parish,2023,Science,33,33,pre_ban,0,0,0,1,0
+057,Vermilion Parish,2024,Science,33,33,pre_ban,0,0,0,1,0
+057,Vermilion Parish,2025,Science,33,33,post_ban,0,0,0,1,0
+057,Vermilion Parish,2018,Social Studies,35,36,pre_ban,0,0,0,0,1
+057,Vermilion Parish,2019,Social Studies,37,38,pre_ban,0,0,0,0,1
+057,Vermilion Parish,2021,Social Studies,30,31,pre_ban,0,0,0,0,1
+057,Vermilion Parish,2022,Social Studies,31,32,pre_ban,0,0,0,0,1
+057,Vermilion Parish,2023,Social Studies,32,34,pre_ban,0,0,0,0,1
+057,Vermilion Parish,2024,Social Studies,NA,47,pre_ban,0,0,0,0,1
+057,Vermilion Parish,2025,Social Studies,38,37,post_ban,0,0,0,0,1
+058,Vernon Parish,2018,All Subjects,43,44,pre_ban,1,0,0,0,0
+058,Vernon Parish,2019,All Subjects,45,46,pre_ban,1,0,0,0,0
+058,Vernon Parish,2021,All Subjects,35,36,pre_ban,1,0,0,0,0
+058,Vernon Parish,2022,All Subjects,37,38,pre_ban,1,0,0,0,0
+058,Vernon Parish,2023,All Subjects,36,38,pre_ban,1,0,0,0,0
+058,Vernon Parish,2024,All Subjects,38,40,pre_ban,1,0,0,0,0
+058,Vernon Parish,2025,All Subjects,37,38,post_ban,1,0,0,0,0
+058,Vernon Parish,2018,ELA,51,53,pre_ban,0,1,0,0,0
+058,Vernon Parish,2019,ELA,56,55,pre_ban,0,1,0,0,0
+058,Vernon Parish,2021,ELA,50,50,pre_ban,0,1,0,0,0
+058,Vernon Parish,2022,ELA,52,52,pre_ban,0,1,0,0,0
+058,Vernon Parish,2023,ELA,50,52,pre_ban,0,1,0,0,0
+058,Vernon Parish,2024,ELA,50,52,pre_ban,0,1,0,0,0
+058,Vernon Parish,2025,ELA,51,51,post_ban,0,1,0,0,0
+058,Vernon Parish,2018,Math,41,42,pre_ban,0,0,1,0,0
+058,Vernon Parish,2019,Math,45,46,pre_ban,0,0,1,0,0
+058,Vernon Parish,2021,Math,31,33,pre_ban,0,0,1,0,0
+058,Vernon Parish,2022,Math,34,36,pre_ban,0,0,1,0,0
+058,Vernon Parish,2023,Math,35,37,pre_ban,0,0,1,0,0
+058,Vernon Parish,2024,Math,33,35,pre_ban,0,0,1,0,0
+058,Vernon Parish,2025,Math,35,38,post_ban,0,0,1,0,0
+058,Vernon Parish,2018,Science,36,NA,pre_ban,0,0,0,1,0
+058,Vernon Parish,2019,Science,36,NA,pre_ban,0,0,0,1,0
+058,Vernon Parish,2021,Science,31,30,pre_ban,0,0,0,1,0
+058,Vernon Parish,2022,Science,34,34,pre_ban,0,0,0,1,0
+058,Vernon Parish,2023,Science,33,34,pre_ban,0,0,0,1,0
+058,Vernon Parish,2024,Science,33,33,pre_ban,0,0,0,1,0
+058,Vernon Parish,2025,Science,31,32,post_ban,0,0,0,1,0
+058,Vernon Parish,2018,Social Studies,36,35,pre_ban,0,0,0,0,1
+058,Vernon Parish,2019,Social Studies,35,35,pre_ban,0,0,0,0,1
+058,Vernon Parish,2021,Social Studies,28,28,pre_ban,0,0,0,0,1
+058,Vernon Parish,2022,Social Studies,28,28,pre_ban,0,0,0,0,1
+058,Vernon Parish,2023,Social Studies,28,29,pre_ban,0,0,0,0,1
+058,Vernon Parish,2024,Social Studies,NA,28,pre_ban,0,0,0,0,1
+058,Vernon Parish,2025,Social Studies,31,31,post_ban,0,0,0,0,1
+059,Washington Parish,2018,All Subjects,27,29,pre_ban,1,0,0,0,0
+059,Washington Parish,2019,All Subjects,30,31,pre_ban,1,0,0,0,0
+059,Washington Parish,2021,All Subjects,28,28,pre_ban,1,0,0,0,0
+059,Washington Parish,2022,All Subjects,27,28,pre_ban,1,0,0,0,0
+059,Washington Parish,2023,All Subjects,28,29,pre_ban,1,0,0,0,0
+059,Washington Parish,2024,All Subjects,28,29,pre_ban,1,0,0,0,0
+059,Washington Parish,2025,All Subjects,25,27,post_ban,1,0,0,0,0
+059,Washington Parish,2018,ELA,36,38,pre_ban,0,1,0,0,0
+059,Washington Parish,2019,ELA,39,40,pre_ban,0,1,0,0,0
+059,Washington Parish,2021,ELA,40,41,pre_ban,0,1,0,0,0
+059,Washington Parish,2022,ELA,41,41,pre_ban,0,1,0,0,0
+059,Washington Parish,2023,ELA,43,44,pre_ban,0,1,0,0,0
+059,Washington Parish,2024,ELA,40,40,pre_ban,0,1,0,0,0
+059,Washington Parish,2025,ELA,38,40,post_ban,0,1,0,0,0
+059,Washington Parish,2018,Math,25,26,pre_ban,0,0,1,0,0
+059,Washington Parish,2019,Math,30,29,pre_ban,0,0,1,0,0
+059,Washington Parish,2021,Math,27,26,pre_ban,0,0,1,0,0
+059,Washington Parish,2022,Math,24,26,pre_ban,0,0,1,0,0
+059,Washington Parish,2023,Math,24,27,pre_ban,0,0,1,0,0
+059,Washington Parish,2024,Math,23,27,pre_ban,0,0,1,0,0
+059,Washington Parish,2025,Math,24,28,post_ban,0,0,1,0,0
+059,Washington Parish,2018,Science,23,NA,pre_ban,0,0,0,1,0
+059,Washington Parish,2019,Science,23,NA,pre_ban,0,0,0,1,0
+059,Washington Parish,2021,Science,23,23,pre_ban,0,0,0,1,0
+059,Washington Parish,2022,Science,22,22,pre_ban,0,0,0,1,0
+059,Washington Parish,2023,Science,24,24,pre_ban,0,0,0,1,0
+059,Washington Parish,2024,Science,20,20,pre_ban,0,0,0,1,0
+059,Washington Parish,2025,Science,19,19,post_ban,0,0,0,1,0
+059,Washington Parish,2018,Social Studies,20,21,pre_ban,0,0,0,0,1
+059,Washington Parish,2019,Social Studies,21,22,pre_ban,0,0,0,0,1
+059,Washington Parish,2021,Social Studies,21,22,pre_ban,0,0,0,0,1
+059,Washington Parish,2022,Social Studies,21,21,pre_ban,0,0,0,0,1
+059,Washington Parish,2023,Social Studies,20,20,pre_ban,0,0,0,0,1
+059,Washington Parish,2024,Social Studies,NA,23,pre_ban,0,0,0,0,1
+059,Washington Parish,2025,Social Studies,20,20,post_ban,0,0,0,0,1
+060,Webster Parish,2018,All Subjects,25,25,pre_ban,1,0,0,0,0
+060,Webster Parish,2019,All Subjects,26,26,pre_ban,1,0,0,0,0
+060,Webster Parish,2021,All Subjects,17,18,pre_ban,1,0,0,0,0
+060,Webster Parish,2022,All Subjects,21,21,pre_ban,1,0,0,0,0
+060,Webster Parish,2023,All Subjects,21,22,pre_ban,1,0,0,0,0
+060,Webster Parish,2024,All Subjects,24,25,pre_ban,1,0,0,0,0
+060,Webster Parish,2025,All Subjects,24,24,post_ban,1,0,0,0,0
+060,Webster Parish,2018,ELA,35,35,pre_ban,0,1,0,0,0
+060,Webster Parish,2019,ELA,36,36,pre_ban,0,1,0,0,0
+060,Webster Parish,2021,ELA,24,26,pre_ban,0,1,0,0,0
+060,Webster Parish,2022,ELA,30,31,pre_ban,0,1,0,0,0
+060,Webster Parish,2023,ELA,30,33,pre_ban,0,1,0,0,0
+060,Webster Parish,2024,ELA,32,34,pre_ban,0,1,0,0,0
+060,Webster Parish,2025,ELA,31,32,post_ban,0,1,0,0,0
+060,Webster Parish,2018,Math,22,23,pre_ban,0,0,1,0,0
+060,Webster Parish,2019,Math,22,23,pre_ban,0,0,1,0,0
+060,Webster Parish,2021,Math,15,15,pre_ban,0,0,1,0,0
+060,Webster Parish,2022,Math,19,19,pre_ban,0,0,1,0,0
+060,Webster Parish,2023,Math,19,21,pre_ban,0,0,1,0,0
+060,Webster Parish,2024,Math,23,23,pre_ban,0,0,1,0,0
+060,Webster Parish,2025,Math,23,24,post_ban,0,0,1,0,0
+060,Webster Parish,2018,Science,20,NA,pre_ban,0,0,0,1,0
+060,Webster Parish,2019,Science,20,NA,pre_ban,0,0,0,1,0
+060,Webster Parish,2021,Science,14,14,pre_ban,0,0,0,1,0
+060,Webster Parish,2022,Science,18,17,pre_ban,0,0,0,1,0
+060,Webster Parish,2023,Science,19,18,pre_ban,0,0,0,1,0
+060,Webster Parish,2024,Science,18,19,pre_ban,0,0,0,1,0
+060,Webster Parish,2025,Science,20,19,post_ban,0,0,0,1,0
+060,Webster Parish,2018,Social Studies,17,17,pre_ban,0,0,0,0,1
+060,Webster Parish,2019,Social Studies,19,19,pre_ban,0,0,0,0,1
+060,Webster Parish,2021,Social Studies,14,14,pre_ban,0,0,0,0,1
+060,Webster Parish,2022,Social Studies,17,17,pre_ban,0,0,0,0,1
+060,Webster Parish,2023,Social Studies,16,16,pre_ban,0,0,0,0,1
+060,Webster Parish,2024,Social Studies,NA,20,pre_ban,0,0,0,0,1
+060,Webster Parish,2025,Social Studies,21,20,post_ban,0,0,0,0,1
+061,West Baton Rouge Parish,2018,All Subjects,32,33,pre_ban,1,0,0,0,0
+061,West Baton Rouge Parish,2019,All Subjects,33,35,pre_ban,1,0,0,0,0
+061,West Baton Rouge Parish,2021,All Subjects,28,30,pre_ban,1,0,0,0,0
+061,West Baton Rouge Parish,2022,All Subjects,30,30,pre_ban,1,0,0,0,0
+061,West Baton Rouge Parish,2023,All Subjects,33,34,pre_ban,1,0,0,0,0
+061,West Baton Rouge Parish,2024,All Subjects,37,37,pre_ban,1,0,0,0,0
+061,West Baton Rouge Parish,2025,All Subjects,40,39,post_ban,1,0,0,0,0
+061,West Baton Rouge Parish,2018,ELA,42,43,pre_ban,0,1,0,0,0
+061,West Baton Rouge Parish,2019,ELA,44,44,pre_ban,0,1,0,0,0
+061,West Baton Rouge Parish,2021,ELA,41,41,pre_ban,0,1,0,0,0
+061,West Baton Rouge Parish,2022,ELA,41,41,pre_ban,0,1,0,0,0
+061,West Baton Rouge Parish,2023,ELA,45,43,pre_ban,0,1,0,0,0
+061,West Baton Rouge Parish,2024,ELA,47,45,pre_ban,0,1,0,0,0
+061,West Baton Rouge Parish,2025,ELA,46,45,post_ban,0,1,0,0,0
+061,West Baton Rouge Parish,2018,Math,27,29,pre_ban,0,0,1,0,0
+061,West Baton Rouge Parish,2019,Math,29,31,pre_ban,0,0,1,0,0
+061,West Baton Rouge Parish,2021,Math,25,29,pre_ban,0,0,1,0,0
+061,West Baton Rouge Parish,2022,Math,28,31,pre_ban,0,0,1,0,0
+061,West Baton Rouge Parish,2023,Math,33,35,pre_ban,0,0,1,0,0
+061,West Baton Rouge Parish,2024,Math,32,35,pre_ban,0,0,1,0,0
+061,West Baton Rouge Parish,2025,Math,34,36,post_ban,0,0,1,0,0
+061,West Baton Rouge Parish,2018,Science,27,NA,pre_ban,0,0,0,1,0
+061,West Baton Rouge Parish,2019,Science,27,NA,pre_ban,0,0,0,1,0
+061,West Baton Rouge Parish,2021,Science,24,24,pre_ban,0,0,0,1,0
+061,West Baton Rouge Parish,2022,Science,27,26,pre_ban,0,0,0,1,0
+061,West Baton Rouge Parish,2023,Science,29,29,pre_ban,0,0,0,1,0
+061,West Baton Rouge Parish,2024,Science,33,32,pre_ban,0,0,0,1,0
+061,West Baton Rouge Parish,2025,Science,35,33,post_ban,0,0,0,1,0
+061,West Baton Rouge Parish,2018,Social Studies,25,27,pre_ban,0,0,0,0,1
+061,West Baton Rouge Parish,2019,Social Studies,28,27,pre_ban,0,0,0,0,1
+061,West Baton Rouge Parish,2021,Social Studies,22,23,pre_ban,0,0,0,0,1
+061,West Baton Rouge Parish,2022,Social Studies,22,22,pre_ban,0,0,0,0,1
+061,West Baton Rouge Parish,2023,Social Studies,26,26,pre_ban,0,0,0,0,1
+061,West Baton Rouge Parish,2024,Social Studies,NA,29,pre_ban,0,0,0,0,1
+061,West Baton Rouge Parish,2025,Social Studies,46,42,post_ban,0,0,0,0,1
+062,West Carroll Parish,2018,All Subjects,28,30,pre_ban,1,0,0,0,0
+062,West Carroll Parish,2019,All Subjects,31,32,pre_ban,1,0,0,0,0
+062,West Carroll Parish,2021,All Subjects,26,27,pre_ban,1,0,0,0,0
+062,West Carroll Parish,2022,All Subjects,30,31,pre_ban,1,0,0,0,0
+062,West Carroll Parish,2023,All Subjects,30,31,pre_ban,1,0,0,0,0
+062,West Carroll Parish,2024,All Subjects,33,34,pre_ban,1,0,0,0,0
+062,West Carroll Parish,2025,All Subjects,28,28,post_ban,1,0,0,0,0
+062,West Carroll Parish,2018,ELA,34,36,pre_ban,0,1,0,0,0
+062,West Carroll Parish,2019,ELA,38,39,pre_ban,0,1,0,0,0
+062,West Carroll Parish,2021,ELA,35,34,pre_ban,0,1,0,0,0
+062,West Carroll Parish,2022,ELA,38,39,pre_ban,0,1,0,0,0
+062,West Carroll Parish,2023,ELA,38,41,pre_ban,0,1,0,0,0
+062,West Carroll Parish,2024,ELA,39,40,pre_ban,0,1,0,0,0
+062,West Carroll Parish,2025,ELA,34,36,post_ban,0,1,0,0,0
+062,West Carroll Parish,2018,Math,27,28,pre_ban,0,0,1,0,0
+062,West Carroll Parish,2019,Math,32,31,pre_ban,0,0,1,0,0
+062,West Carroll Parish,2021,Math,26,27,pre_ban,0,0,1,0,0
+062,West Carroll Parish,2022,Math,34,34,pre_ban,0,0,1,0,0
+062,West Carroll Parish,2023,Math,34,35,pre_ban,0,0,1,0,0
+062,West Carroll Parish,2024,Math,35,35,pre_ban,0,0,1,0,0
+062,West Carroll Parish,2025,Math,33,34,post_ban,0,0,1,0,0
+062,West Carroll Parish,2018,Science,26,NA,pre_ban,0,0,0,1,0
+062,West Carroll Parish,2019,Science,25,NA,pre_ban,0,0,0,1,0
+062,West Carroll Parish,2021,Science,25,25,pre_ban,0,0,0,1,0
+062,West Carroll Parish,2022,Science,27,25,pre_ban,0,0,0,1,0
+062,West Carroll Parish,2023,Science,27,27,pre_ban,0,0,0,1,0
+062,West Carroll Parish,2024,Science,26,26,pre_ban,0,0,0,1,0
+062,West Carroll Parish,2025,Science,22,23,post_ban,0,0,0,1,0
+062,West Carroll Parish,2018,Social Studies,24,24,pre_ban,0,0,0,0,1
+062,West Carroll Parish,2019,Social Studies,24,23,pre_ban,0,0,0,0,1
+062,West Carroll Parish,2021,Social Studies,20,20,pre_ban,0,0,0,0,1
+062,West Carroll Parish,2022,Social Studies,22,22,pre_ban,0,0,0,0,1
+062,West Carroll Parish,2023,Social Studies,21,21,pre_ban,0,0,0,0,1
+062,West Carroll Parish,2024,Social Studies,NA,24,pre_ban,0,0,0,0,1
+062,West Carroll Parish,2025,Social Studies,22,20,post_ban,0,0,0,0,1
+063,West Feliciana Parish,2018,All Subjects,47,48,pre_ban,1,0,0,0,0
+063,West Feliciana Parish,2019,All Subjects,49,50,pre_ban,1,0,0,0,0
+063,West Feliciana Parish,2021,All Subjects,46,47,pre_ban,1,0,0,0,0
+063,West Feliciana Parish,2022,All Subjects,45,46,pre_ban,1,0,0,0,0
+063,West Feliciana Parish,2023,All Subjects,49,50,pre_ban,1,0,0,0,0
+063,West Feliciana Parish,2024,All Subjects,50,51,pre_ban,1,0,0,0,0
+063,West Feliciana Parish,2025,All Subjects,50,51,post_ban,1,0,0,0,0
+063,West Feliciana Parish,2018,ELA,53,54,pre_ban,0,1,0,0,0
+063,West Feliciana Parish,2019,ELA,53,55,pre_ban,0,1,0,0,0
+063,West Feliciana Parish,2021,ELA,53,54,pre_ban,0,1,0,0,0
+063,West Feliciana Parish,2022,ELA,52,53,pre_ban,0,1,0,0,0
+063,West Feliciana Parish,2023,ELA,55,56,pre_ban,0,1,0,0,0
+063,West Feliciana Parish,2024,ELA,54,56,pre_ban,0,1,0,0,0
+063,West Feliciana Parish,2025,ELA,56,58,post_ban,0,1,0,0,0
+063,West Feliciana Parish,2018,Math,46,47,pre_ban,0,0,1,0,0
+063,West Feliciana Parish,2019,Math,49,48,pre_ban,0,0,1,0,0
+063,West Feliciana Parish,2021,Math,45,46,pre_ban,0,0,1,0,0
+063,West Feliciana Parish,2022,Math,46,47,pre_ban,0,0,1,0,0
+063,West Feliciana Parish,2023,Math,48,50,pre_ban,0,0,1,0,0
+063,West Feliciana Parish,2024,Math,48,49,pre_ban,0,0,1,0,0
+063,West Feliciana Parish,2025,Math,50,51,post_ban,0,0,1,0,0
+063,West Feliciana Parish,2018,Science,48,NA,pre_ban,0,0,0,1,0
+063,West Feliciana Parish,2019,Science,47,NA,pre_ban,0,0,0,1,0
+063,West Feliciana Parish,2021,Science,42,42,pre_ban,0,0,0,1,0
+063,West Feliciana Parish,2022,Science,43,42,pre_ban,0,0,0,1,0
+063,West Feliciana Parish,2023,Science,49,48,pre_ban,0,0,0,1,0
+063,West Feliciana Parish,2024,Science,47,46,pre_ban,0,0,0,1,0
+063,West Feliciana Parish,2025,Science,46,46,post_ban,0,0,0,1,0
+063,West Feliciana Parish,2018,Social Studies,42,41,pre_ban,0,0,0,0,1
+063,West Feliciana Parish,2019,Social Studies,45,45,pre_ban,0,0,0,0,1
+063,West Feliciana Parish,2021,Social Studies,44,43,pre_ban,0,0,0,0,1
+063,West Feliciana Parish,2022,Social Studies,41,42,pre_ban,0,0,0,0,1
+063,West Feliciana Parish,2023,Social Studies,42,43,pre_ban,0,0,0,0,1
+063,West Feliciana Parish,2024,Social Studies,NA,45,pre_ban,0,0,0,0,1
+063,West Feliciana Parish,2025,Social Studies,50,50,post_ban,0,0,0,0,1
+064,Winn Parish,2018,All Subjects,31,32,pre_ban,1,0,0,0,0
+064,Winn Parish,2019,All Subjects,29,30,pre_ban,1,0,0,0,0
+064,Winn Parish,2021,All Subjects,19,21,pre_ban,1,0,0,0,0
+064,Winn Parish,2022,All Subjects,22,24,pre_ban,1,0,0,0,0
+064,Winn Parish,2023,All Subjects,21,23,pre_ban,1,0,0,0,0
+064,Winn Parish,2024,All Subjects,25,26,pre_ban,1,0,0,0,0
+064,Winn Parish,2025,All Subjects,23,24,post_ban,1,0,0,0,0
+064,Winn Parish,2018,ELA,38,39,pre_ban,0,1,0,0,0
+064,Winn Parish,2019,ELA,38,38,pre_ban,0,1,0,0,0
+064,Winn Parish,2021,ELA,28,30,pre_ban,0,1,0,0,0
+064,Winn Parish,2022,ELA,33,35,pre_ban,0,1,0,0,0
+064,Winn Parish,2023,ELA,28,31,pre_ban,0,1,0,0,0
+064,Winn Parish,2024,ELA,33,34,pre_ban,0,1,0,0,0
+064,Winn Parish,2025,ELA,30,33,post_ban,0,1,0,0,0
+064,Winn Parish,2018,Math,32,32,pre_ban,0,0,1,0,0
+064,Winn Parish,2019,Math,28,28,pre_ban,0,0,1,0,0
+064,Winn Parish,2021,Math,15,19,pre_ban,0,0,1,0,0
+064,Winn Parish,2022,Math,17,19,pre_ban,0,0,1,0,0
+064,Winn Parish,2023,Math,21,23,pre_ban,0,0,1,0,0
+064,Winn Parish,2024,Math,22,24,pre_ban,0,0,1,0,0
+064,Winn Parish,2025,Math,20,24,post_ban,0,0,1,0,0
+064,Winn Parish,2018,Science,22,NA,pre_ban,0,0,0,1,0
+064,Winn Parish,2019,Science,22,NA,pre_ban,0,0,0,1,0
+064,Winn Parish,2021,Science,17,17,pre_ban,0,0,0,1,0
+064,Winn Parish,2022,Science,18,20,pre_ban,0,0,0,1,0
+064,Winn Parish,2023,Science,18,18,pre_ban,0,0,0,1,0
+064,Winn Parish,2024,Science,20,20,pre_ban,0,0,0,1,0
+064,Winn Parish,2025,Science,19,19,post_ban,0,0,0,1,0
+064,Winn Parish,2018,Social Studies,24,24,pre_ban,0,0,0,0,1
+064,Winn Parish,2019,Social Studies,22,22,pre_ban,0,0,0,0,1
+064,Winn Parish,2021,Social Studies,15,15,pre_ban,0,0,0,0,1
+064,Winn Parish,2022,Social Studies,19,20,pre_ban,0,0,0,0,1
+064,Winn Parish,2023,Social Studies,18,18,pre_ban,0,0,0,0,1
+064,Winn Parish,2024,Social Studies,NA,14,pre_ban,0,0,0,0,1
+064,Winn Parish,2025,Social Studies,22,21,post_ban,0,0,0,0,1
+065,City Of Monroe School District,2018,All Subjects,24,25,pre_ban,1,0,0,0,0
+065,City Of Monroe School District,2019,All Subjects,27,28,pre_ban,1,0,0,0,0
+065,City Of Monroe School District,2021,All Subjects,20,21,pre_ban,1,0,0,0,0
+065,City Of Monroe School District,2022,All Subjects,20,20,pre_ban,1,0,0,0,0
+065,City Of Monroe School District,2023,All Subjects,21,22,pre_ban,1,0,0,0,0
+065,City Of Monroe School District,2024,All Subjects,22,22,pre_ban,1,0,0,0,0
+065,City Of Monroe School District,2025,All Subjects,23,24,post_ban,1,0,0,0,0
+065,City Of Monroe School District,2018,ELA,32,33,pre_ban,0,1,0,0,0
+065,City Of Monroe School District,2019,ELA,34,35,pre_ban,0,1,0,0,0
+065,City Of Monroe School District,2021,ELA,30,31,pre_ban,0,1,0,0,0
+065,City Of Monroe School District,2022,ELA,28,29,pre_ban,0,1,0,0,0
+065,City Of Monroe School District,2023,ELA,29,30,pre_ban,0,1,0,0,0
+065,City Of Monroe School District,2024,ELA,29,29,pre_ban,0,1,0,0,0
+065,City Of Monroe School District,2025,ELA,33,33,post_ban,0,1,0,0,0
+065,City Of Monroe School District,2018,Math,23,23,pre_ban,0,0,1,0,0
+065,City Of Monroe School District,2019,Math,26,27,pre_ban,0,0,1,0,0
+065,City Of Monroe School District,2021,Math,18,18,pre_ban,0,0,1,0,0
+065,City Of Monroe School District,2022,Math,20,19,pre_ban,0,0,1,0,0
+065,City Of Monroe School District,2023,Math,23,22,pre_ban,0,0,1,0,0
+065,City Of Monroe School District,2024,Math,22,22,pre_ban,0,0,1,0,0
+065,City Of Monroe School District,2025,Math,25,26,post_ban,0,0,1,0,0
+065,City Of Monroe School District,2018,Science,20,NA,pre_ban,0,0,0,1,0
+065,City Of Monroe School District,2019,Science,19,NA,pre_ban,0,0,0,1,0
+065,City Of Monroe School District,2021,Science,15,15,pre_ban,0,0,0,1,0
+065,City Of Monroe School District,2022,Science,16,16,pre_ban,0,0,0,1,0
+065,City Of Monroe School District,2023,Science,17,16,pre_ban,0,0,0,1,0
+065,City Of Monroe School District,2024,Science,16,15,pre_ban,0,0,0,1,0
+065,City Of Monroe School District,2025,Science,17,16,post_ban,0,0,0,1,0
+065,City Of Monroe School District,2018,Social Studies,19,19,pre_ban,0,0,0,0,1
+065,City Of Monroe School District,2019,Social Studies,21,20,pre_ban,0,0,0,0,1
+065,City Of Monroe School District,2021,Social Studies,17,17,pre_ban,0,0,0,0,1
+065,City Of Monroe School District,2022,Social Studies,15,15,pre_ban,0,0,0,0,1
+065,City Of Monroe School District,2023,Social Studies,16,16,pre_ban,0,0,0,0,1
+065,City Of Monroe School District,2024,Social Studies,NA,18,pre_ban,0,0,0,0,1
+065,City Of Monroe School District,2025,Social Studies,19,19,post_ban,0,0,0,0,1
+066,City Of Bogalusa School District,2018,All Subjects,11,11,pre_ban,1,0,0,0,0
+066,City Of Bogalusa School District,2019,All Subjects,12,12,pre_ban,1,0,0,0,0
+066,City Of Bogalusa School District,2021,All Subjects,7,7,pre_ban,1,0,0,0,0
+066,City Of Bogalusa School District,2022,All Subjects,10,10,pre_ban,1,0,0,0,0
+066,City Of Bogalusa School District,2023,All Subjects,13,13,pre_ban,1,0,0,0,0
+066,City Of Bogalusa School District,2024,All Subjects,14,14,pre_ban,1,0,0,0,0
+066,City Of Bogalusa School District,2025,All Subjects,14,13,post_ban,1,0,0,0,0
+066,City Of Bogalusa School District,2018,ELA,17,17,pre_ban,0,1,0,0,0
+066,City Of Bogalusa School District,2019,ELA,19,19,pre_ban,0,1,0,0,0
+066,City Of Bogalusa School District,2021,ELA,14,13,pre_ban,0,1,0,0,0
+066,City Of Bogalusa School District,2022,ELA,18,18,pre_ban,0,1,0,0,0
+066,City Of Bogalusa School District,2023,ELA,24,23,pre_ban,0,1,0,0,0
+066,City Of Bogalusa School District,2024,ELA,21,22,pre_ban,0,1,0,0,0
+066,City Of Bogalusa School District,2025,ELA,22,21,post_ban,0,1,0,0,0
+066,City Of Bogalusa School District,2018,Math,9,9,pre_ban,0,0,1,0,0
+066,City Of Bogalusa School District,2019,Math,9,8,pre_ban,0,0,1,0,0
+066,City Of Bogalusa School District,2021,Math,NA,NA,pre_ban,0,0,1,0,0
+066,City Of Bogalusa School District,2022,Math,8,8,pre_ban,0,0,1,0,0
+066,City Of Bogalusa School District,2023,Math,14,13,pre_ban,0,0,1,0,0
+066,City Of Bogalusa School District,2024,Math,13,12,pre_ban,0,0,1,0,0
+066,City Of Bogalusa School District,2025,Math,15,12,post_ban,0,0,1,0,0
+066,City Of Bogalusa School District,2018,Science,6,NA,pre_ban,0,0,0,1,0
+066,City Of Bogalusa School District,2019,Science,7,NA,pre_ban,0,0,0,1,0
+066,City Of Bogalusa School District,2021,Science,6,5,pre_ban,0,0,0,1,0
+066,City Of Bogalusa School District,2022,Science,7,7,pre_ban,0,0,0,1,0
+066,City Of Bogalusa School District,2023,Science,8,9,pre_ban,0,0,0,1,0
+066,City Of Bogalusa School District,2024,Science,7,6,pre_ban,0,0,0,1,0
+066,City Of Bogalusa School District,2025,Science,9,8,post_ban,0,0,0,1,0
+066,City Of Bogalusa School District,2018,Social Studies,6,7,pre_ban,0,0,0,0,1
+066,City Of Bogalusa School District,2019,Social Studies,7,7,pre_ban,0,0,0,0,1
+066,City Of Bogalusa School District,2021,Social Studies,6,5,pre_ban,0,0,0,0,1
+066,City Of Bogalusa School District,2022,Social Studies,6,6,pre_ban,0,0,0,0,1
+066,City Of Bogalusa School District,2023,Social Studies,6,7,pre_ban,0,0,0,0,1
+066,City Of Bogalusa School District,2024,Social Studies,NA,18,pre_ban,0,0,0,0,1
+066,City Of Bogalusa School District,2025,Social Studies,12,12,post_ban,0,0,0,0,1
+067,Zachary Community School District,2018,All Subjects,55,56,pre_ban,1,0,0,0,0
+067,Zachary Community School District,2019,All Subjects,57,58,pre_ban,1,0,0,0,0
+067,Zachary Community School District,2021,All Subjects,47,48,pre_ban,1,0,0,0,0
+067,Zachary Community School District,2022,All Subjects,50,51,pre_ban,1,0,0,0,0
+067,Zachary Community School District,2023,All Subjects,49,49,pre_ban,1,0,0,0,0
+067,Zachary Community School District,2024,All Subjects,48,48,pre_ban,1,0,0,0,0
+067,Zachary Community School District,2025,All Subjects,49,48,post_ban,1,0,0,0,0
+067,Zachary Community School District,2018,ELA,63,64,pre_ban,0,1,0,0,0
+067,Zachary Community School District,2019,ELA,65,65,pre_ban,0,1,0,0,0
+067,Zachary Community School District,2021,ELA,59,60,pre_ban,0,1,0,0,0
+067,Zachary Community School District,2022,ELA,64,63,pre_ban,0,1,0,0,0
+067,Zachary Community School District,2023,ELA,62,60,pre_ban,0,1,0,0,0
+067,Zachary Community School District,2024,ELA,60,59,pre_ban,0,1,0,0,0
+067,Zachary Community School District,2025,ELA,58,58,post_ban,0,1,0,0,0
+067,Zachary Community School District,2018,Math,51,52,pre_ban,0,0,1,0,0
+067,Zachary Community School District,2019,Math,56,55,pre_ban,0,0,1,0,0
+067,Zachary Community School District,2021,Math,44,45,pre_ban,0,0,1,0,0
+067,Zachary Community School District,2022,Math,49,49,pre_ban,0,0,1,0,0
+067,Zachary Community School District,2023,Math,47,46,pre_ban,0,0,1,0,0
+067,Zachary Community School District,2024,Math,45,45,pre_ban,0,0,1,0,0
+067,Zachary Community School District,2025,Math,47,47,post_ban,0,0,1,0,0
+067,Zachary Community School District,2018,Science,48,NA,pre_ban,0,0,0,1,0
+067,Zachary Community School District,2019,Science,49,NA,pre_ban,0,0,0,1,0
+067,Zachary Community School District,2021,Science,41,41,pre_ban,0,0,0,1,0
+067,Zachary Community School District,2022,Science,42,42,pre_ban,0,0,0,1,0
+067,Zachary Community School District,2023,Science,43,43,pre_ban,0,0,0,1,0
+067,Zachary Community School District,2024,Science,40,39,pre_ban,0,0,0,1,0
+067,Zachary Community School District,2025,Science,41,40,post_ban,0,0,0,1,0
+067,Zachary Community School District,2018,Social Studies,50,51,pre_ban,0,0,0,0,1
+067,Zachary Community School District,2019,Social Studies,51,52,pre_ban,0,0,0,0,1
+067,Zachary Community School District,2021,Social Studies,43,44,pre_ban,0,0,0,0,1
+067,Zachary Community School District,2022,Social Studies,46,47,pre_ban,0,0,0,0,1
+067,Zachary Community School District,2023,Social Studies,44,45,pre_ban,0,0,0,0,1
+067,Zachary Community School District,2024,Social Studies,NA,50,pre_ban,0,0,0,0,1
+067,Zachary Community School District,2025,Social Studies,49,47,post_ban,0,0,0,0,1
+068,City Of Baker School District,2018,All Subjects,16,15,pre_ban,1,0,0,0,0
+068,City Of Baker School District,2019,All Subjects,13,13,pre_ban,1,0,0,0,0
+068,City Of Baker School District,2021,All Subjects,8,8,pre_ban,1,0,0,0,0
+068,City Of Baker School District,2022,All Subjects,7,7,pre_ban,1,0,0,0,0
+068,City Of Baker School District,2023,All Subjects,10,8,pre_ban,1,0,0,0,0
+068,City Of Baker School District,2024,All Subjects,9,10,pre_ban,1,0,0,0,0
+068,City Of Baker School District,2025,All Subjects,8,9,post_ban,1,0,0,0,0
+068,City Of Baker School District,2018,ELA,22,20,pre_ban,0,1,0,0,0
+068,City Of Baker School District,2019,ELA,18,19,pre_ban,0,1,0,0,0
+068,City Of Baker School District,2021,ELA,16,15,pre_ban,0,1,0,0,0
+068,City Of Baker School District,2022,ELA,13,12,pre_ban,0,1,0,0,0
+068,City Of Baker School District,2023,ELA,17,13,pre_ban,0,1,0,0,0
+068,City Of Baker School District,2024,ELA,14,16,pre_ban,0,1,0,0,0
+068,City Of Baker School District,2025,ELA,14,16,post_ban,0,1,0,0,0
+068,City Of Baker School District,2018,Math,14,15,pre_ban,0,0,1,0,0
+068,City Of Baker School District,2019,Math,9,10,pre_ban,0,0,1,0,0
+068,City Of Baker School District,2021,Math,NA,NA,pre_ban,0,0,1,0,0
+068,City Of Baker School District,2022,Math,6,6,pre_ban,0,0,1,0,0
+068,City Of Baker School District,2023,Math,8,6,pre_ban,0,0,1,0,0
+068,City Of Baker School District,2024,Math,8,7,pre_ban,0,0,1,0,0
+068,City Of Baker School District,2025,Math,8,8,post_ban,0,0,1,0,0
+068,City Of Baker School District,2018,Science,11,NA,pre_ban,0,0,0,1,0
+068,City Of Baker School District,2019,Science,10,NA,pre_ban,0,0,0,1,0
+068,City Of Baker School District,2021,Science,6,6,pre_ban,0,0,0,1,0
+068,City Of Baker School District,2022,Science,5,NA,pre_ban,0,0,0,1,0
+068,City Of Baker School District,2023,Science,8,7,pre_ban,0,0,0,1,0
+068,City Of Baker School District,2024,Science,NA,5,pre_ban,0,0,0,1,0
+068,City Of Baker School District,2025,Science,6,6,post_ban,0,0,0,1,0
+068,City Of Baker School District,2018,Social Studies,11,10,pre_ban,0,0,0,0,1
+068,City Of Baker School District,2019,Social Studies,10,9,pre_ban,0,0,0,0,1
+068,City Of Baker School District,2021,Social Studies,7,5,pre_ban,0,0,0,0,1
+068,City Of Baker School District,2022,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+068,City Of Baker School District,2023,Social Studies,7,7,pre_ban,0,0,0,0,1
+068,City Of Baker School District,2024,Social Studies,NA,9,pre_ban,0,0,0,0,1
+068,City Of Baker School District,2025,Social Studies,6,6,post_ban,0,0,0,0,1
+069,Central Community School District,2018,All Subjects,49,50,pre_ban,1,0,0,0,0
+069,Central Community School District,2019,All Subjects,54,54,pre_ban,1,0,0,0,0
+069,Central Community School District,2021,All Subjects,47,48,pre_ban,1,0,0,0,0
+069,Central Community School District,2022,All Subjects,48,48,pre_ban,1,0,0,0,0
+069,Central Community School District,2023,All Subjects,49,50,pre_ban,1,0,0,0,0
+069,Central Community School District,2024,All Subjects,51,50,pre_ban,1,0,0,0,0
+069,Central Community School District,2025,All Subjects,49,49,post_ban,1,0,0,0,0
+069,Central Community School District,2018,ELA,57,58,pre_ban,0,1,0,0,0
+069,Central Community School District,2019,ELA,61,61,pre_ban,0,1,0,0,0
+069,Central Community School District,2021,ELA,54,56,pre_ban,0,1,0,0,0
+069,Central Community School District,2022,ELA,54,55,pre_ban,0,1,0,0,0
+069,Central Community School District,2023,ELA,57,57,pre_ban,0,1,0,0,0
+069,Central Community School District,2024,ELA,54,53,pre_ban,0,1,0,0,0
+069,Central Community School District,2025,ELA,53,53,post_ban,0,1,0,0,0
+069,Central Community School District,2018,Math,45,47,pre_ban,0,0,1,0,0
+069,Central Community School District,2019,Math,55,54,pre_ban,0,0,1,0,0
+069,Central Community School District,2021,Math,48,49,pre_ban,0,0,1,0,0
+069,Central Community School District,2022,Math,51,52,pre_ban,0,0,1,0,0
+069,Central Community School District,2023,Math,52,53,pre_ban,0,0,1,0,0
+069,Central Community School District,2024,Math,51,53,pre_ban,0,0,1,0,0
+069,Central Community School District,2025,Math,51,52,post_ban,0,0,1,0,0
+069,Central Community School District,2018,Science,49,NA,pre_ban,0,0,0,1,0
+069,Central Community School District,2019,Science,47,NA,pre_ban,0,0,0,1,0
+069,Central Community School District,2021,Science,45,44,pre_ban,0,0,0,1,0
+069,Central Community School District,2022,Science,45,44,pre_ban,0,0,0,1,0
+069,Central Community School District,2023,Science,48,47,pre_ban,0,0,0,1,0
+069,Central Community School District,2024,Science,47,46,pre_ban,0,0,0,1,0
+069,Central Community School District,2025,Science,45,45,post_ban,0,0,0,1,0
+069,Central Community School District,2018,Social Studies,43,45,pre_ban,0,0,0,0,1
+069,Central Community School District,2019,Social Studies,45,46,pre_ban,0,0,0,0,1
+069,Central Community School District,2021,Social Studies,41,41,pre_ban,0,0,0,0,1
+069,Central Community School District,2022,Social Studies,43,42,pre_ban,0,0,0,0,1
+069,Central Community School District,2023,Social Studies,40,40,pre_ban,0,0,0,0,1
+069,Central Community School District,2024,Social Studies,NA,43,pre_ban,0,0,0,0,1
+069,Central Community School District,2025,Social Studies,48,47,post_ban,0,0,0,0,1
+LA,Louisiana Statewide,2021,All Subjects,29,30,pre_ban,1,0,0,0,0
+LA,Louisiana Statewide,2022,All Subjects,31,31,pre_ban,1,0,0,0,0
+LA,Louisiana Statewide,2023,All Subjects,32,33,pre_ban,1,0,0,0,0
+LA,Louisiana Statewide,2024,All Subjects,34,35,pre_ban,1,0,0,0,0
+LA,Louisiana Statewide,2025,All Subjects,34,34,post_ban,1,0,0,0,0
+LA,Louisiana Statewide,2021,ELA,39,40,pre_ban,0,1,0,0,0
+LA,Louisiana Statewide,2022,ELA,42,42,pre_ban,0,1,0,0,0
+LA,Louisiana Statewide,2023,ELA,42,43,pre_ban,0,1,0,0,0
+LA,Louisiana Statewide,2024,ELA,43,43,pre_ban,0,1,0,0,0
+LA,Louisiana Statewide,2025,ELA,43,43,post_ban,0,1,0,0,0
+LA,Louisiana Statewide,2021,Math,27,27,pre_ban,0,0,1,0,0
+LA,Louisiana Statewide,2022,Math,30,30,pre_ban,0,0,1,0,0
+LA,Louisiana Statewide,2023,Math,31,32,pre_ban,0,0,1,0,0
+LA,Louisiana Statewide,2024,Math,31,32,pre_ban,0,0,1,0,0
+LA,Louisiana Statewide,2025,Math,33,34,post_ban,0,0,1,0,0
+LA,Louisiana Statewide,2021,Science,25,25,pre_ban,0,0,0,1,0
+LA,Louisiana Statewide,2022,Science,27,27,pre_ban,0,0,0,1,0
+LA,Louisiana Statewide,2023,Science,28,28,pre_ban,0,0,0,1,0
+LA,Louisiana Statewide,2024,Science,28,28,pre_ban,0,0,0,1,0
+LA,Louisiana Statewide,2025,Science,29,28,post_ban,0,0,0,1,0
+LA,Louisiana Statewide,2021,Social Studies,25,25,pre_ban,0,0,0,0,1
+LA,Louisiana Statewide,2022,Social Studies,25,26,pre_ban,0,0,0,0,1
+LA,Louisiana Statewide,2023,Social Studies,26,26,pre_ban,0,0,0,0,1
+LA,Louisiana Statewide,2024,Social Studies,NA,29,pre_ban,0,0,0,0,1
+LA,Louisiana Statewide,2025,Social Studies,31,31,post_ban,0,0,0,0,1
+R17,East Baton Rouge Parish - Ebr And Rsd,2021,All Subjects,22,23,pre_ban,1,0,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2022,All Subjects,24,24,pre_ban,1,0,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2023,All Subjects,26,26,pre_ban,1,0,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2024,All Subjects,29,28,pre_ban,1,0,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2025,All Subjects,28,28,post_ban,1,0,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2021,ELA,32,33,pre_ban,0,1,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2022,ELA,35,35,pre_ban,0,1,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2023,ELA,36,36,pre_ban,0,1,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2024,ELA,38,38,pre_ban,0,1,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2025,ELA,36,36,post_ban,0,1,0,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2021,Math,19,20,pre_ban,0,0,1,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2022,Math,22,21,pre_ban,0,0,1,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2023,Math,24,23,pre_ban,0,0,1,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2024,Math,25,24,pre_ban,0,0,1,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2025,Math,27,26,post_ban,0,0,1,0,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2021,Science,19,19,pre_ban,0,0,0,1,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2022,Science,20,20,pre_ban,0,0,0,1,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2023,Science,21,22,pre_ban,0,0,0,1,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2024,Science,23,23,pre_ban,0,0,0,1,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2025,Science,23,23,post_ban,0,0,0,1,0
+R17,East Baton Rouge Parish - Ebr And Rsd,2021,Social Studies,20,20,pre_ban,0,0,0,0,1
+R17,East Baton Rouge Parish - Ebr And Rsd,2022,Social Studies,20,21,pre_ban,0,0,0,0,1
+R17,East Baton Rouge Parish - Ebr And Rsd,2023,Social Studies,21,21,pre_ban,0,0,0,0,1
+R17,East Baton Rouge Parish - Ebr And Rsd,2024,Social Studies,NA,22,pre_ban,0,0,0,0,1
+R17,East Baton Rouge Parish - Ebr And Rsd,2025,Social Studies,24,24,post_ban,0,0,0,0,1
+R36,Orleans Parish,2018,All Subjects,26,27,pre_ban,1,0,0,0,0
+R36,Orleans Parish,2019,All Subjects,26,27,pre_ban,1,0,0,0,0
+R36,Orleans Parish,2021,All Subjects,18,19,pre_ban,1,0,0,0,0
+R36,Orleans Parish,2022,All Subjects,21,21,pre_ban,1,0,0,0,0
+R36,Orleans Parish,2023,All Subjects,23,24,pre_ban,1,0,0,0,0
+R36,Orleans Parish,2024,All Subjects,27,27,pre_ban,1,0,0,0,0
+R36,Orleans Parish,2025,All Subjects,28,28,post_ban,1,0,0,0,0
+R36,Orleans Parish,2018,ELA,33,34,pre_ban,0,1,0,0,0
+R36,Orleans Parish,2019,ELA,32,33,pre_ban,0,1,0,0,0
+R36,Orleans Parish,2021,ELA,26,28,pre_ban,0,1,0,0,0
+R36,Orleans Parish,2022,ELA,30,31,pre_ban,0,1,0,0,0
+R36,Orleans Parish,2023,ELA,33,33,pre_ban,0,1,0,0,0
+R36,Orleans Parish,2024,ELA,36,36,pre_ban,0,1,0,0,0
+R36,Orleans Parish,2025,ELA,37,37,post_ban,0,1,0,0,0
+R36,Orleans Parish,2018,Math,24,25,pre_ban,0,0,1,0,0
+R36,Orleans Parish,2019,Math,24,24,pre_ban,0,0,1,0,0
+R36,Orleans Parish,2021,Math,13,14,pre_ban,0,0,1,0,0
+R36,Orleans Parish,2022,Math,17,18,pre_ban,0,0,1,0,0
+R36,Orleans Parish,2023,Math,20,21,pre_ban,0,0,1,0,0
+R36,Orleans Parish,2024,Math,23,24,pre_ban,0,0,1,0,0
+R36,Orleans Parish,2025,Math,24,26,post_ban,0,0,1,0,0
+R36,Orleans Parish,2018,Science,19,NA,pre_ban,0,0,0,1,0
+R36,Orleans Parish,2019,Science,19,NA,pre_ban,0,0,0,1,0
+R36,Orleans Parish,2021,Science,15,16,pre_ban,0,0,0,1,0
+R36,Orleans Parish,2022,Science,17,18,pre_ban,0,0,0,1,0
+R36,Orleans Parish,2023,Science,20,21,pre_ban,0,0,0,1,0
+R36,Orleans Parish,2024,Science,22,22,pre_ban,0,0,0,1,0
+R36,Orleans Parish,2025,Science,23,23,post_ban,0,0,0,1,0
+R36,Orleans Parish,2018,Social Studies,21,21,pre_ban,0,0,0,0,1
+R36,Orleans Parish,2019,Social Studies,21,21,pre_ban,0,0,0,0,1
+R36,Orleans Parish,2021,Social Studies,16,17,pre_ban,0,0,0,0,1
+R36,Orleans Parish,2022,Social Studies,18,19,pre_ban,0,0,0,0,1
+R36,Orleans Parish,2023,Social Studies,20,21,pre_ban,0,0,0,0,1
+R36,Orleans Parish,2024,Social Studies,NA,26,pre_ban,0,0,0,0,1
+R36,Orleans Parish,2025,Social Studies,26,27,post_ban,0,0,0,0,1
+RBR,Recovery School District - Baton Rouge,2018,All Subjects,16,15,pre_ban,1,0,0,0,0
+RBR,Recovery School District - Baton Rouge,2019,All Subjects,16,15,pre_ban,1,0,0,0,0
+RBR,Recovery School District - Baton Rouge,2021,All Subjects,7,7,pre_ban,1,0,0,0,0
+RBR,Recovery School District - Baton Rouge,2022,All Subjects,7,8,pre_ban,1,0,0,0,0
+RBR,Recovery School District - Baton Rouge,2023,All Subjects,10,10,pre_ban,1,0,0,0,0
+RBR,Recovery School District - Baton Rouge,2024,All Subjects,12,12,pre_ban,1,0,0,0,0
+RBR,Recovery School District - Baton Rouge,2025,All Subjects,13,13,post_ban,1,0,0,0,0
+RBR,Recovery School District - Baton Rouge,2018,ELA,21,19,pre_ban,0,1,0,0,0
+RBR,Recovery School District - Baton Rouge,2019,ELA,21,20,pre_ban,0,1,0,0,0
+RBR,Recovery School District - Baton Rouge,2021,ELA,12,12,pre_ban,0,1,0,0,0
+RBR,Recovery School District - Baton Rouge,2022,ELA,15,16,pre_ban,0,1,0,0,0
+RBR,Recovery School District - Baton Rouge,2023,ELA,19,19,pre_ban,0,1,0,0,0
+RBR,Recovery School District - Baton Rouge,2024,ELA,18,18,pre_ban,0,1,0,0,0
+RBR,Recovery School District - Baton Rouge,2025,ELA,22,22,post_ban,0,1,0,0,0
+RBR,Recovery School District - Baton Rouge,2018,Math,17,15,pre_ban,0,0,1,0,0
+RBR,Recovery School District - Baton Rouge,2019,Math,15,14,pre_ban,0,0,1,0,0
+RBR,Recovery School District - Baton Rouge,2021,Math,5,5,pre_ban,0,0,1,0,0
+RBR,Recovery School District - Baton Rouge,2022,Math,6,6,pre_ban,0,0,1,0,0
+RBR,Recovery School District - Baton Rouge,2023,Math,7,7,pre_ban,0,0,1,0,0
+RBR,Recovery School District - Baton Rouge,2024,Math,10,10,pre_ban,0,0,1,0,0
+RBR,Recovery School District - Baton Rouge,2025,Math,13,13,post_ban,0,0,1,0,0
+RBR,Recovery School District - Baton Rouge,2018,Science,6,NA,pre_ban,0,0,0,1,0
+RBR,Recovery School District - Baton Rouge,2019,Science,6,NA,pre_ban,0,0,0,1,0
+RBR,Recovery School District - Baton Rouge,2021,Science,5,5,pre_ban,0,0,0,1,0
+RBR,Recovery School District - Baton Rouge,2022,Science,NA,NA,pre_ban,0,0,0,1,0
+RBR,Recovery School District - Baton Rouge,2023,Science,8,8,pre_ban,0,0,0,1,0
+RBR,Recovery School District - Baton Rouge,2024,Science,7,7,pre_ban,0,0,0,1,0
+RBR,Recovery School District - Baton Rouge,2025,Science,8,8,post_ban,0,0,0,1,0
+RBR,Recovery School District - Baton Rouge,2018,Social Studies,10,10,pre_ban,0,0,0,0,1
+RBR,Recovery School District - Baton Rouge,2019,Social Studies,10,10,pre_ban,0,0,0,0,1
+RBR,Recovery School District - Baton Rouge,2021,Social Studies,6,6,pre_ban,0,0,0,0,1
+RBR,Recovery School District - Baton Rouge,2022,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+RBR,Recovery School District - Baton Rouge,2023,Social Studies,6,6,pre_ban,0,0,0,0,1
+RBR,Recovery School District - Baton Rouge,2024,Social Studies,NA,NA,pre_ban,0,0,0,0,1
+RBR,Recovery School District - Baton Rouge,2025,Social Studies,8,8,post_ban,0,0,0,0,1
+STATE,Louisiana Statewide,2018,All Subjects,34,35,pre_ban,1,0,0,0,0
+STATE,Louisiana Statewide,2019,All Subjects,35,36,pre_ban,1,0,0,0,0
+STATE,Louisiana Statewide,2018,ELA,43,43,pre_ban,0,1,0,0,0
+STATE,Louisiana Statewide,2019,ELA,44,44,pre_ban,0,1,0,0,0
+STATE,Louisiana Statewide,2018,Math,32,33,pre_ban,0,0,1,0,0
+STATE,Louisiana Statewide,2019,Math,34,35,pre_ban,0,0,1,0,0
+STATE,Louisiana Statewide,2018,Science,29,NA,pre_ban,0,0,0,1,0
+STATE,Louisiana Statewide,2019,Science,29,NA,pre_ban,0,0,0,1,0
+STATE,Louisiana Statewide,2018,Social Studies,27,28,pre_ban,0,0,0,0,1
+STATE,Louisiana Statewide,2019,Social Studies,28,28,pre_ban,0,0,0,0,1

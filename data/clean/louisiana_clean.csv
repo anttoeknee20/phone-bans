@@ -1,0 +1,505 @@
+system_code,system_name,year,g3_8,g3_12,period
+001,Acadia Parish,2018,37,36,pre_ban
+001,Acadia Parish,2019,38,37,pre_ban
+001,Acadia Parish,2021,33,33,pre_ban
+001,Acadia Parish,2022,34,34,pre_ban
+001,Acadia Parish,2023,36,36,pre_ban
+001,Acadia Parish,2024,37,36,pre_ban
+001,Acadia Parish,2025,35,34,post_ban
+002,Allen Parish,2018,38,40,pre_ban
+002,Allen Parish,2019,39,39,pre_ban
+002,Allen Parish,2021,30,30,pre_ban
+002,Allen Parish,2022,32,33,pre_ban
+002,Allen Parish,2023,33,34,pre_ban
+002,Allen Parish,2024,36,36,pre_ban
+002,Allen Parish,2025,36,36,post_ban
+003,Ascension Parish,2018,50,53,pre_ban
+003,Ascension Parish,2019,52,54,pre_ban
+003,Ascension Parish,2021,46,48,pre_ban
+003,Ascension Parish,2022,47,49,pre_ban
+003,Ascension Parish,2023,49,51,pre_ban
+003,Ascension Parish,2024,51,53,pre_ban
+003,Ascension Parish,2025,51,52,post_ban
+004,Assumption Parish,2018,33,34,pre_ban
+004,Assumption Parish,2019,33,34,pre_ban
+004,Assumption Parish,2021,26,27,pre_ban
+004,Assumption Parish,2022,26,27,pre_ban
+004,Assumption Parish,2023,27,30,pre_ban
+004,Assumption Parish,2024,27,30,pre_ban
+004,Assumption Parish,2025,29,31,post_ban
+005,Avoyelles Parish,2018,21,21,pre_ban
+005,Avoyelles Parish,2019,24,24,pre_ban
+005,Avoyelles Parish,2021,20,20,pre_ban
+005,Avoyelles Parish,2022,21,22,pre_ban
+005,Avoyelles Parish,2023,22,22,pre_ban
+005,Avoyelles Parish,2024,25,25,pre_ban
+005,Avoyelles Parish,2025,25,24,post_ban
+006,Beauregard Parish,2018,35,35,pre_ban
+006,Beauregard Parish,2019,37,36,pre_ban
+006,Beauregard Parish,2021,31,31,pre_ban
+006,Beauregard Parish,2022,31,31,pre_ban
+006,Beauregard Parish,2023,33,33,pre_ban
+006,Beauregard Parish,2024,35,34,pre_ban
+006,Beauregard Parish,2025,31,31,post_ban
+007,Bienville Parish,2018,30,32,pre_ban
+007,Bienville Parish,2019,30,30,pre_ban
+007,Bienville Parish,2021,25,26,pre_ban
+007,Bienville Parish,2022,26,27,pre_ban
+007,Bienville Parish,2023,27,28,pre_ban
+007,Bienville Parish,2024,33,33,pre_ban
+007,Bienville Parish,2025,31,30,post_ban
+008,Bossier Parish,2018,41,42,pre_ban
+008,Bossier Parish,2019,41,43,pre_ban
+008,Bossier Parish,2021,36,38,pre_ban
+008,Bossier Parish,2022,37,38,pre_ban
+008,Bossier Parish,2023,38,40,pre_ban
+008,Bossier Parish,2024,40,40,pre_ban
+008,Bossier Parish,2025,39,40,post_ban
+009,Caddo Parish,2018,27,28,pre_ban
+009,Caddo Parish,2019,28,29,pre_ban
+009,Caddo Parish,2021,22,23,pre_ban
+009,Caddo Parish,2022,23,24,pre_ban
+009,Caddo Parish,2023,26,26,pre_ban
+009,Caddo Parish,2024,27,28,pre_ban
+009,Caddo Parish,2025,26,27,post_ban
+010,Calcasieu Parish,2018,36,36,pre_ban
+010,Calcasieu Parish,2019,38,39,pre_ban
+010,Calcasieu Parish,2021,32,32,pre_ban
+010,Calcasieu Parish,2022,35,35,pre_ban
+010,Calcasieu Parish,2023,37,38,pre_ban
+010,Calcasieu Parish,2024,40,39,pre_ban
+010,Calcasieu Parish,2025,41,40,post_ban
+011,Caldwell Parish,2018,28,28,pre_ban
+011,Caldwell Parish,2019,31,30,pre_ban
+011,Caldwell Parish,2021,22,22,pre_ban
+011,Caldwell Parish,2022,24,24,pre_ban
+011,Caldwell Parish,2023,23,22,pre_ban
+011,Caldwell Parish,2024,22,21,pre_ban
+011,Caldwell Parish,2025,24,23,post_ban
+012,Cameron Parish,2018,41,42,pre_ban
+012,Cameron Parish,2019,44,44,pre_ban
+012,Cameron Parish,2021,36,37,pre_ban
+012,Cameron Parish,2022,36,39,pre_ban
+012,Cameron Parish,2023,38,40,pre_ban
+012,Cameron Parish,2024,41,44,pre_ban
+012,Cameron Parish,2025,42,44,post_ban
+013,Catahoula Parish,2018,28,28,pre_ban
+013,Catahoula Parish,2019,28,28,pre_ban
+013,Catahoula Parish,2021,19,20,pre_ban
+013,Catahoula Parish,2022,22,22,pre_ban
+013,Catahoula Parish,2023,20,21,pre_ban
+013,Catahoula Parish,2024,27,25,pre_ban
+013,Catahoula Parish,2025,22,23,post_ban
+014,Claiborne Parish,2018,15,17,pre_ban
+014,Claiborne Parish,2019,17,18,pre_ban
+014,Claiborne Parish,2021,13,12,pre_ban
+014,Claiborne Parish,2022,15,14,pre_ban
+014,Claiborne Parish,2023,14,14,pre_ban
+014,Claiborne Parish,2024,15,14,pre_ban
+014,Claiborne Parish,2025,15,14,post_ban
+015,Concordia Parish,2018,26,26,pre_ban
+015,Concordia Parish,2019,26,25,pre_ban
+015,Concordia Parish,2021,18,18,pre_ban
+015,Concordia Parish,2022,21,21,pre_ban
+015,Concordia Parish,2023,25,24,pre_ban
+015,Concordia Parish,2024,27,25,pre_ban
+015,Concordia Parish,2025,26,25,post_ban
+016,Desoto Parish,2018,38,40,pre_ban
+016,Desoto Parish,2019,43,44,pre_ban
+016,Desoto Parish,2021,36,36,pre_ban
+016,Desoto Parish,2022,37,38,pre_ban
+016,Desoto Parish,2023,38,40,pre_ban
+016,Desoto Parish,2024,41,42,pre_ban
+016,Desoto Parish,2025,41,42,post_ban
+017,East Baton Rouge Parish,2018,30,30,pre_ban
+017,East Baton Rouge Parish,2019,32,32,pre_ban
+017,East Baton Rouge Parish,2021,24,24,pre_ban
+017,East Baton Rouge Parish,2022,25,25,pre_ban
+017,East Baton Rouge Parish,2023,26,27,pre_ban
+017,East Baton Rouge Parish,2024,29,29,pre_ban
+017,East Baton Rouge Parish,2025,28,28,post_ban
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2018,29,29,pre_ban
+017+RBR,East Baton Rouge Parish - Ebr And Rsd,2019,31,31,pre_ban
+018,East Carroll Parish,2018,18,19,pre_ban
+018,East Carroll Parish,2019,10,10,pre_ban
+018,East Carroll Parish,2021,NA,NA,pre_ban
+018,East Carroll Parish,2022,5,5,pre_ban
+018,East Carroll Parish,2023,8,9,pre_ban
+018,East Carroll Parish,2024,6,9,pre_ban
+018,East Carroll Parish,2025,8,13,post_ban
+019,East Feliciana Parish,2018,23,26,pre_ban
+019,East Feliciana Parish,2019,27,29,pre_ban
+019,East Feliciana Parish,2021,19,21,pre_ban
+019,East Feliciana Parish,2022,24,25,pre_ban
+019,East Feliciana Parish,2023,24,26,pre_ban
+019,East Feliciana Parish,2024,25,28,pre_ban
+019,East Feliciana Parish,2025,24,27,post_ban
+020,Evangeline Parish,2018,33,34,pre_ban
+020,Evangeline Parish,2019,34,36,pre_ban
+020,Evangeline Parish,2021,22,23,pre_ban
+020,Evangeline Parish,2022,23,24,pre_ban
+020,Evangeline Parish,2023,28,28,pre_ban
+020,Evangeline Parish,2024,30,30,pre_ban
+020,Evangeline Parish,2025,28,28,post_ban
+021,Franklin Parish,2018,24,24,pre_ban
+021,Franklin Parish,2019,23,23,pre_ban
+021,Franklin Parish,2021,13,14,pre_ban
+021,Franklin Parish,2022,16,17,pre_ban
+021,Franklin Parish,2023,14,15,pre_ban
+021,Franklin Parish,2024,16,17,pre_ban
+021,Franklin Parish,2025,16,16,post_ban
+022,Grant Parish,2018,34,34,pre_ban
+022,Grant Parish,2019,35,36,pre_ban
+022,Grant Parish,2021,25,28,pre_ban
+022,Grant Parish,2022,29,30,pre_ban
+022,Grant Parish,2023,30,31,pre_ban
+022,Grant Parish,2024,29,30,pre_ban
+022,Grant Parish,2025,28,27,post_ban
+023,Iberia Parish,2018,38,39,pre_ban
+023,Iberia Parish,2019,39,39,pre_ban
+023,Iberia Parish,2021,31,31,pre_ban
+023,Iberia Parish,2022,33,34,pre_ban
+023,Iberia Parish,2023,33,34,pre_ban
+023,Iberia Parish,2024,36,37,pre_ban
+023,Iberia Parish,2025,34,35,post_ban
+024,Iberville Parish,2018,30,30,pre_ban
+024,Iberville Parish,2019,30,30,pre_ban
+024,Iberville Parish,2021,24,24,pre_ban
+024,Iberville Parish,2022,26,25,pre_ban
+024,Iberville Parish,2023,28,27,pre_ban
+024,Iberville Parish,2024,31,29,pre_ban
+024,Iberville Parish,2025,28,27,post_ban
+025,Jackson Parish,2018,21,21,pre_ban
+025,Jackson Parish,2019,22,22,pre_ban
+025,Jackson Parish,2021,22,22,pre_ban
+025,Jackson Parish,2022,23,23,pre_ban
+025,Jackson Parish,2023,24,24,pre_ban
+025,Jackson Parish,2024,25,26,pre_ban
+025,Jackson Parish,2025,26,27,post_ban
+026,Jefferson Parish,2018,31,31,pre_ban
+026,Jefferson Parish,2019,32,32,pre_ban
+026,Jefferson Parish,2021,26,26,pre_ban
+026,Jefferson Parish,2022,28,29,pre_ban
+026,Jefferson Parish,2023,28,28,pre_ban
+026,Jefferson Parish,2024,29,29,pre_ban
+026,Jefferson Parish,2025,30,30,post_ban
+027,Jefferson Davis Parish,2018,35,36,pre_ban
+027,Jefferson Davis Parish,2019,37,37,pre_ban
+027,Jefferson Davis Parish,2021,32,32,pre_ban
+027,Jefferson Davis Parish,2022,35,35,pre_ban
+027,Jefferson Davis Parish,2023,34,35,pre_ban
+027,Jefferson Davis Parish,2024,35,35,pre_ban
+027,Jefferson Davis Parish,2025,35,34,post_ban
+028,Lafayette Parish,2018,37,38,pre_ban
+028,Lafayette Parish,2019,39,40,pre_ban
+028,Lafayette Parish,2021,35,36,pre_ban
+028,Lafayette Parish,2022,39,39,pre_ban
+028,Lafayette Parish,2023,40,41,pre_ban
+028,Lafayette Parish,2024,42,43,pre_ban
+028,Lafayette Parish,2025,42,42,post_ban
+029,Lafourche Parish,2018,43,45,pre_ban
+029,Lafourche Parish,2019,44,47,pre_ban
+029,Lafourche Parish,2021,35,36,pre_ban
+029,Lafourche Parish,2022,38,40,pre_ban
+029,Lafourche Parish,2023,39,41,pre_ban
+029,Lafourche Parish,2024,44,44,pre_ban
+029,Lafourche Parish,2025,43,42,post_ban
+030,Lasalle Parish,2018,39,35,pre_ban
+030,Lasalle Parish,2019,42,40,pre_ban
+030,Lasalle Parish,2021,35,34,pre_ban
+030,Lasalle Parish,2022,36,35,pre_ban
+030,Lasalle Parish,2023,38,37,pre_ban
+030,Lasalle Parish,2024,42,40,pre_ban
+030,Lasalle Parish,2025,41,39,post_ban
+031,Lincoln Parish,2018,34,37,pre_ban
+031,Lincoln Parish,2019,37,39,pre_ban
+031,Lincoln Parish,2021,31,34,pre_ban
+031,Lincoln Parish,2022,35,37,pre_ban
+031,Lincoln Parish,2023,41,43,pre_ban
+031,Lincoln Parish,2024,41,43,pre_ban
+031,Lincoln Parish,2025,41,42,post_ban
+032,Livingston Parish,2018,43,45,pre_ban
+032,Livingston Parish,2019,47,48,pre_ban
+032,Livingston Parish,2021,42,42,pre_ban
+032,Livingston Parish,2022,40,41,pre_ban
+032,Livingston Parish,2023,40,41,pre_ban
+032,Livingston Parish,2024,42,43,pre_ban
+032,Livingston Parish,2025,42,42,post_ban
+033,Madison Parish,2018,8,9,pre_ban
+033,Madison Parish,2019,11,11,pre_ban
+033,Madison Parish,2021,NA,NA,pre_ban
+033,Madison Parish,2022,5,6,pre_ban
+033,Madison Parish,2023,6,7,pre_ban
+033,Madison Parish,2024,5,6,pre_ban
+033,Madison Parish,2025,6,7,post_ban
+034,Morehouse Parish,2018,17,17,pre_ban
+034,Morehouse Parish,2019,16,16,pre_ban
+034,Morehouse Parish,2021,10,11,pre_ban
+034,Morehouse Parish,2022,12,12,pre_ban
+034,Morehouse Parish,2023,13,14,pre_ban
+034,Morehouse Parish,2024,15,15,pre_ban
+034,Morehouse Parish,2025,16,15,post_ban
+035,Natchitoches Parish,2018,30,31,pre_ban
+035,Natchitoches Parish,2019,30,31,pre_ban
+035,Natchitoches Parish,2021,27,27,pre_ban
+035,Natchitoches Parish,2022,30,31,pre_ban
+035,Natchitoches Parish,2023,33,34,pre_ban
+035,Natchitoches Parish,2024,36,36,pre_ban
+035,Natchitoches Parish,2025,39,38,post_ban
+037,Ouachita Parish,2018,38,38,pre_ban
+037,Ouachita Parish,2019,39,39,pre_ban
+037,Ouachita Parish,2021,34,34,pre_ban
+037,Ouachita Parish,2022,35,35,pre_ban
+037,Ouachita Parish,2023,37,37,pre_ban
+037,Ouachita Parish,2024,37,38,pre_ban
+037,Ouachita Parish,2025,37,37,post_ban
+038,Plaquemines Parish,2018,45,47,pre_ban
+038,Plaquemines Parish,2019,47,48,pre_ban
+038,Plaquemines Parish,2021,38,39,pre_ban
+038,Plaquemines Parish,2022,42,42,pre_ban
+038,Plaquemines Parish,2023,44,45,pre_ban
+038,Plaquemines Parish,2024,49,50,pre_ban
+038,Plaquemines Parish,2025,49,49,post_ban
+039,Pointe Coupee Parish,2018,25,26,pre_ban
+039,Pointe Coupee Parish,2019,23,25,pre_ban
+039,Pointe Coupee Parish,2021,20,21,pre_ban
+039,Pointe Coupee Parish,2022,20,20,pre_ban
+039,Pointe Coupee Parish,2023,21,21,pre_ban
+039,Pointe Coupee Parish,2024,23,24,pre_ban
+039,Pointe Coupee Parish,2025,23,25,post_ban
+040,Rapides Parish,2018,33,34,pre_ban
+040,Rapides Parish,2019,35,36,pre_ban
+040,Rapides Parish,2021,31,31,pre_ban
+040,Rapides Parish,2022,33,33,pre_ban
+040,Rapides Parish,2023,36,36,pre_ban
+040,Rapides Parish,2024,36,36,pre_ban
+040,Rapides Parish,2025,38,38,post_ban
+041,Red River Parish,2018,20,20,pre_ban
+041,Red River Parish,2019,18,18,pre_ban
+041,Red River Parish,2021,15,15,pre_ban
+041,Red River Parish,2022,17,17,pre_ban
+041,Red River Parish,2023,18,18,pre_ban
+041,Red River Parish,2024,19,21,pre_ban
+041,Red River Parish,2025,21,21,post_ban
+042,Richland Parish,2018,21,22,pre_ban
+042,Richland Parish,2019,21,21,pre_ban
+042,Richland Parish,2021,15,15,pre_ban
+042,Richland Parish,2022,15,16,pre_ban
+042,Richland Parish,2023,19,19,pre_ban
+042,Richland Parish,2024,22,21,pre_ban
+042,Richland Parish,2025,22,21,post_ban
+043,Sabine Parish,2018,34,35,pre_ban
+043,Sabine Parish,2019,33,36,pre_ban
+043,Sabine Parish,2021,27,29,pre_ban
+043,Sabine Parish,2022,28,30,pre_ban
+043,Sabine Parish,2023,29,31,pre_ban
+043,Sabine Parish,2024,32,33,pre_ban
+043,Sabine Parish,2025,31,32,post_ban
+044,St. Bernard Parish,2018,37,38,pre_ban
+044,St. Bernard Parish,2019,37,38,pre_ban
+044,St. Bernard Parish,2021,34,34,pre_ban
+044,St. Bernard Parish,2022,35,35,pre_ban
+044,St. Bernard Parish,2023,34,35,pre_ban
+044,St. Bernard Parish,2024,36,35,pre_ban
+044,St. Bernard Parish,2025,35,34,post_ban
+045,St. Charles Parish,2018,50,48,pre_ban
+045,St. Charles Parish,2019,47,48,pre_ban
+045,St. Charles Parish,2021,43,42,pre_ban
+045,St. Charles Parish,2022,42,43,pre_ban
+045,St. Charles Parish,2023,41,42,pre_ban
+045,St. Charles Parish,2024,45,46,pre_ban
+045,St. Charles Parish,2025,42,43,post_ban
+046,St. Helena Parish,2018,5,6,pre_ban
+046,St. Helena Parish,2019,7,7,pre_ban
+046,St. Helena Parish,2021,5,5,pre_ban
+046,St. Helena Parish,2022,7,7,pre_ban
+046,St. Helena Parish,2023,8,8,pre_ban
+046,St. Helena Parish,2024,11,9,pre_ban
+046,St. Helena Parish,2025,9,9,post_ban
+047,St. James Parish,2018,40,41,pre_ban
+047,St. James Parish,2019,41,41,pre_ban
+047,St. James Parish,2021,30,31,pre_ban
+047,St. James Parish,2022,32,33,pre_ban
+047,St. James Parish,2023,33,35,pre_ban
+047,St. James Parish,2024,33,36,pre_ban
+047,St. James Parish,2025,30,32,post_ban
+048,St. John The Baptist Parish,2018,27,25,pre_ban
+048,St. John The Baptist Parish,2019,24,24,pre_ban
+048,St. John The Baptist Parish,2021,14,15,pre_ban
+048,St. John The Baptist Parish,2022,17,16,pre_ban
+048,St. John The Baptist Parish,2023,19,19,pre_ban
+048,St. John The Baptist Parish,2024,21,20,pre_ban
+048,St. John The Baptist Parish,2025,24,22,post_ban
+049,St. Landry Parish,2018,27,28,pre_ban
+049,St. Landry Parish,2019,30,30,pre_ban
+049,St. Landry Parish,2021,21,22,pre_ban
+049,St. Landry Parish,2022,23,23,pre_ban
+049,St. Landry Parish,2023,24,25,pre_ban
+049,St. Landry Parish,2024,27,27,pre_ban
+049,St. Landry Parish,2025,26,25,post_ban
+050,St. Martin Parish,2018,31,32,pre_ban
+050,St. Martin Parish,2019,30,31,pre_ban
+050,St. Martin Parish,2021,22,22,pre_ban
+050,St. Martin Parish,2022,23,24,pre_ban
+050,St. Martin Parish,2023,25,26,pre_ban
+050,St. Martin Parish,2024,29,29,pre_ban
+050,St. Martin Parish,2025,25,25,post_ban
+051,St. Mary Parish,2018,36,36,pre_ban
+051,St. Mary Parish,2019,36,36,pre_ban
+051,St. Mary Parish,2021,28,28,pre_ban
+051,St. Mary Parish,2022,29,28,pre_ban
+051,St. Mary Parish,2023,29,29,pre_ban
+051,St. Mary Parish,2024,31,31,pre_ban
+051,St. Mary Parish,2025,29,29,post_ban
+052,St. Tammany Parish,2018,45,46,pre_ban
+052,St. Tammany Parish,2019,47,47,pre_ban
+052,St. Tammany Parish,2021,43,43,pre_ban
+052,St. Tammany Parish,2022,42,42,pre_ban
+052,St. Tammany Parish,2023,45,45,pre_ban
+052,St. Tammany Parish,2024,46,46,pre_ban
+052,St. Tammany Parish,2025,44,44,post_ban
+053,Tangipahoa Parish,2018,25,25,pre_ban
+053,Tangipahoa Parish,2019,25,25,pre_ban
+053,Tangipahoa Parish,2021,20,20,pre_ban
+053,Tangipahoa Parish,2022,21,22,pre_ban
+053,Tangipahoa Parish,2023,20,21,pre_ban
+053,Tangipahoa Parish,2024,20,21,pre_ban
+053,Tangipahoa Parish,2025,22,22,post_ban
+054,Tensas Parish,2018,8,8,pre_ban
+054,Tensas Parish,2019,11,11,pre_ban
+054,Tensas Parish,2021,10,9,pre_ban
+054,Tensas Parish,2022,9,9,pre_ban
+054,Tensas Parish,2023,12,11,pre_ban
+054,Tensas Parish,2024,18,16,pre_ban
+054,Tensas Parish,2025,17,16,post_ban
+055,Terrebonne Parish,2018,38,40,pre_ban
+055,Terrebonne Parish,2019,39,41,pre_ban
+055,Terrebonne Parish,2021,34,34,pre_ban
+055,Terrebonne Parish,2022,36,36,pre_ban
+055,Terrebonne Parish,2023,37,38,pre_ban
+055,Terrebonne Parish,2024,41,41,pre_ban
+055,Terrebonne Parish,2025,39,39,post_ban
+056,Union Parish,2018,20,21,pre_ban
+056,Union Parish,2019,17,19,pre_ban
+056,Union Parish,2021,13,13,pre_ban
+056,Union Parish,2022,16,16,pre_ban
+056,Union Parish,2023,16,17,pre_ban
+056,Union Parish,2024,14,16,pre_ban
+056,Union Parish,2025,14,16,post_ban
+057,Vermilion Parish,2018,43,46,pre_ban
+057,Vermilion Parish,2019,47,49,pre_ban
+057,Vermilion Parish,2021,39,40,pre_ban
+057,Vermilion Parish,2022,40,41,pre_ban
+057,Vermilion Parish,2023,42,43,pre_ban
+057,Vermilion Parish,2024,45,45,pre_ban
+057,Vermilion Parish,2025,43,43,post_ban
+058,Vernon Parish,2018,43,44,pre_ban
+058,Vernon Parish,2019,45,46,pre_ban
+058,Vernon Parish,2021,35,36,pre_ban
+058,Vernon Parish,2022,37,38,pre_ban
+058,Vernon Parish,2023,36,38,pre_ban
+058,Vernon Parish,2024,38,40,pre_ban
+058,Vernon Parish,2025,37,38,post_ban
+059,Washington Parish,2018,27,29,pre_ban
+059,Washington Parish,2019,30,31,pre_ban
+059,Washington Parish,2021,28,28,pre_ban
+059,Washington Parish,2022,27,28,pre_ban
+059,Washington Parish,2023,28,29,pre_ban
+059,Washington Parish,2024,28,29,pre_ban
+059,Washington Parish,2025,25,27,post_ban
+060,Webster Parish,2018,25,25,pre_ban
+060,Webster Parish,2019,26,26,pre_ban
+060,Webster Parish,2021,17,18,pre_ban
+060,Webster Parish,2022,21,21,pre_ban
+060,Webster Parish,2023,21,22,pre_ban
+060,Webster Parish,2024,24,25,pre_ban
+060,Webster Parish,2025,24,24,post_ban
+061,West Baton Rouge Parish,2018,32,33,pre_ban
+061,West Baton Rouge Parish,2019,33,35,pre_ban
+061,West Baton Rouge Parish,2021,28,30,pre_ban
+061,West Baton Rouge Parish,2022,30,30,pre_ban
+061,West Baton Rouge Parish,2023,33,34,pre_ban
+061,West Baton Rouge Parish,2024,37,37,pre_ban
+061,West Baton Rouge Parish,2025,40,39,post_ban
+062,West Carroll Parish,2018,28,30,pre_ban
+062,West Carroll Parish,2019,31,32,pre_ban
+062,West Carroll Parish,2021,26,27,pre_ban
+062,West Carroll Parish,2022,30,31,pre_ban
+062,West Carroll Parish,2023,30,31,pre_ban
+062,West Carroll Parish,2024,33,34,pre_ban
+062,West Carroll Parish,2025,28,28,post_ban
+063,West Feliciana Parish,2018,47,48,pre_ban
+063,West Feliciana Parish,2019,49,50,pre_ban
+063,West Feliciana Parish,2021,46,47,pre_ban
+063,West Feliciana Parish,2022,45,46,pre_ban
+063,West Feliciana Parish,2023,49,50,pre_ban
+063,West Feliciana Parish,2024,50,51,pre_ban
+063,West Feliciana Parish,2025,50,51,post_ban
+064,Winn Parish,2018,31,32,pre_ban
+064,Winn Parish,2019,29,30,pre_ban
+064,Winn Parish,2021,19,21,pre_ban
+064,Winn Parish,2022,22,24,pre_ban
+064,Winn Parish,2023,21,23,pre_ban
+064,Winn Parish,2024,25,26,pre_ban
+064,Winn Parish,2025,23,24,post_ban
+065,City Of Monroe School District,2018,24,25,pre_ban
+065,City Of Monroe School District,2019,27,28,pre_ban
+065,City Of Monroe School District,2021,20,21,pre_ban
+065,City Of Monroe School District,2022,20,20,pre_ban
+065,City Of Monroe School District,2023,21,22,pre_ban
+065,City Of Monroe School District,2024,22,22,pre_ban
+065,City Of Monroe School District,2025,23,24,post_ban
+066,City Of Bogalusa School District,2018,11,11,pre_ban
+066,City Of Bogalusa School District,2019,12,12,pre_ban
+066,City Of Bogalusa School District,2021,7,7,pre_ban
+066,City Of Bogalusa School District,2022,10,10,pre_ban
+066,City Of Bogalusa School District,2023,13,13,pre_ban
+066,City Of Bogalusa School District,2024,14,14,pre_ban
+066,City Of Bogalusa School District,2025,14,13,post_ban
+067,Zachary Community School District,2018,55,56,pre_ban
+067,Zachary Community School District,2019,57,58,pre_ban
+067,Zachary Community School District,2021,47,48,pre_ban
+067,Zachary Community School District,2022,50,51,pre_ban
+067,Zachary Community School District,2023,49,49,pre_ban
+067,Zachary Community School District,2024,48,48,pre_ban
+067,Zachary Community School District,2025,49,48,post_ban
+068,City Of Baker School District,2018,16,15,pre_ban
+068,City Of Baker School District,2019,13,13,pre_ban
+068,City Of Baker School District,2021,8,8,pre_ban
+068,City Of Baker School District,2022,7,7,pre_ban
+068,City Of Baker School District,2023,10,8,pre_ban
+068,City Of Baker School District,2024,9,10,pre_ban
+068,City Of Baker School District,2025,8,9,post_ban
+069,Central Community School District,2018,49,50,pre_ban
+069,Central Community School District,2019,54,54,pre_ban
+069,Central Community School District,2021,47,48,pre_ban
+069,Central Community School District,2022,48,48,pre_ban
+069,Central Community School District,2023,49,50,pre_ban
+069,Central Community School District,2024,51,50,pre_ban
+069,Central Community School District,2025,49,49,post_ban
+LA,Louisiana Statewide,2021,29,30,pre_ban
+LA,Louisiana Statewide,2022,31,31,pre_ban
+LA,Louisiana Statewide,2023,32,33,pre_ban
+LA,Louisiana Statewide,2024,34,35,pre_ban
+LA,Louisiana Statewide,2025,34,34,post_ban
+R17,East Baton Rouge Parish - Ebr And Rsd,2021,22,23,pre_ban
+R17,East Baton Rouge Parish - Ebr And Rsd,2022,24,24,pre_ban
+R17,East Baton Rouge Parish - Ebr And Rsd,2023,26,26,pre_ban
+R17,East Baton Rouge Parish - Ebr And Rsd,2024,29,28,pre_ban
+R17,East Baton Rouge Parish - Ebr And Rsd,2025,28,28,post_ban
+R36,Orleans Parish,2018,26,27,pre_ban
+R36,Orleans Parish,2019,26,27,pre_ban
+R36,Orleans Parish,2021,18,19,pre_ban
+R36,Orleans Parish,2022,21,21,pre_ban
+R36,Orleans Parish,2023,23,24,pre_ban
+R36,Orleans Parish,2024,27,27,pre_ban
+R36,Orleans Parish,2025,28,28,post_ban
+RBR,Recovery School District - Baton Rouge,2018,16,15,pre_ban
+RBR,Recovery School District - Baton Rouge,2019,16,15,pre_ban
+RBR,Recovery School District - Baton Rouge,2021,7,7,pre_ban
+RBR,Recovery School District - Baton Rouge,2022,7,8,pre_ban
+RBR,Recovery School District - Baton Rouge,2023,10,10,pre_ban
+RBR,Recovery School District - Baton Rouge,2024,12,12,pre_ban
+RBR,Recovery School District - Baton Rouge,2025,13,13,post_ban
+STATE,Louisiana Statewide,2018,34,35,pre_ban
+STATE,Louisiana Statewide,2019,35,36,pre_ban

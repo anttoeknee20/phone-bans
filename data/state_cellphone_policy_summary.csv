@@ -1,0 +1,52 @@
+state,state_code,first_action_date,first_action_type,most_recent_action_date,current_status,has_statewide_policy,notes
+Alabama,AL,2024-02-11,Encourages districts to limit cellphones,2025-05-14,Statewide ban,1,
+Alaska,AK,2025-05-20,Requires districts to establish policy,2025-05-20,Requires districts to establish policy,1,
+Arizona,AZ,2025-04-14,Limits cellphone usage in classrooms,2025-04-14,Limits cellphone usage in classrooms,1,
+Arkansas,AR,2025-02-21,Statewide ban,2025-02-21,Statewide ban,1,also had 2024 pilot/grant program - see notes in narrative
+California,CA,2024-09-23,Limits cellphone usage in classrooms,2024-09-23,Limits cellphone usage in classrooms,1,compliance deadline July 2026
+Colorado,CO,2025-05-01,Requires districts to establish policy,2025-05-01,Requires districts to establish policy,1,
+Connecticut,CT,2024-08-21,Encourages districts to limit cellphones,2024-08-21,Encourages districts to limit cellphones,1,
+Delaware,DE,2026-03-12,Encourages districts to limit cellphones,2026-03-12,Encourages districts to limit cellphones,1,also had 2024 pilot/grant program
+Florida,FL,2023-05-09,Statewide ban,2023-05-09,Statewide ban,1,first state to enact; earliest treatment date in dataset
+Georgia,GA,2025-05-09,Statewide ban (K-8),2026-05-05,Statewide ban (expanded to high school),1,
+Hawaii,HI,2026-02-02,Statewide ban,2026-02-02,Statewide ban,1,
+Idaho,ID,2024-10-31,Encourages districts to limit cellphones,2024-10-31,Encourages districts to limit cellphones,1,
+Illinois,IL,,,,No statewide policy identified,0,verify - not found in Ballotpedia table
+Indiana,IN,2024-03-11,Statewide ban,2024-03-11,Statewide ban,1,
+Iowa,IA,2025-04-30,Statewide ban,2025-04-30,Statewide ban,1,
+Kansas,KS,2024-12-11,Encourages districts to limit cellphones,2026-03-20,Statewide ban,1,
+Kentucky,KY,2025-03-26,Statewide ban,2025-03-26,Statewide ban,1,
+Louisiana,LA,2024-05-28,Statewide ban,2024-05-28,Statewide ban,1,
+Maine,ME,2025-06-09,Requires districts to adopt policy (LD 1234),2026-04-10,Statewide ban (bell-to-bell),1,
+Maryland,MD,,,,Requires districts to establish policy (per Ballotpedia summary),1,verify exact date - row not captured in table pull; re-check Ballotpedia page directly
+Massachusetts,MA,,,,No statewide policy identified as of this pull,0,verify - Visual Capitalist (May 2026) noted pending legislation
+Michigan,MI,2026-02-10,Statewide ban,2026-02-10,Statewide ban,1,effective 2026-27 school year
+Minnesota,MN,2024-05-17,Requires districts to establish policy,2024-05-17,Requires districts to establish policy,1,
+Mississippi,MS,,,,No statewide policy identified,0,verify
+Missouri,MO,2025-07-07,Statewide ban,2025-07-07,Statewide ban,1,
+Montana,MT,2024-08-22,Encourages districts to limit cellphones,2024-08-22,Encourages districts to limit cellphones,1,
+Nebraska,NE,2025-05-20,Statewide ban,2025-05-20,Statewide ban,1,
+Nevada,NV,2025-05-28,Statewide ban,2025-05-28,Statewide ban,1,
+New Hampshire,NH,2025-06-30,Statewide ban,2025-06-30,Statewide ban,1,
+New Jersey,NJ,2026-01-08,Statewide ban,2026-01-08,Statewide ban,1,
+New Mexico,NM,2025-04-10,Requires districts to establish policy,2025-04-10,Requires districts to establish policy,1,
+New York,NY,2025-05-06,Statewide ban,2025-05-06,Statewide ban,1,effective 2025-26 school year
+North Carolina,NC,2025-07-01,Statewide ban,2025-07-01,Statewide ban,1,
+North Dakota,ND,2025-04-25,Statewide ban,2025-04-25,Statewide ban,1,
+Ohio,OH,2024-05-20,Requires districts to establish policy,2025-07-01,Statewide ban,1,
+Oklahoma,OK,2025-04-06,Statewide ban,2025-04-06,Statewide ban,1,one-year mandate; optional after 2025-26
+Oregon,OR,2024-10-30,Encourages districts to limit cellphones,2025-07-02,Statewide ban,1,
+Pennsylvania,PA,,,,No statewide policy identified (has pilot/grant program only),0,2024 grant program for pouches, not a mandate
+Rhode Island,RI,2025-06-23,Statewide ban,2025-06-23,Statewide ban,1,
+South Carolina,SC,2024-07-03,Statewide ban,2024-07-03,Statewide ban,1,via budget proviso
+South Dakota,SD,,,,No statewide policy identified,0,verify
+Tennessee,TN,2025-03-28,Statewide ban,2025-03-28,Statewide ban,1,
+Texas,TX,2025-06-20,Statewide ban,2025-06-20,Statewide ban,1,
+Utah,UT,2025-03-25,Statewide ban,2026-03-18,Statewide ban (bell-to-bell, extended),1,
+Vermont,VT,2025-06-27,Statewide ban,2025-06-27,Statewide ban,1,
+Virginia,VA,2024-07-09,Requires districts to define phone-free education,2026-04-06,Statewide ban (bell-to-bell, expanded),1,
+Washington,WA,2024-09-06,Encourages districts to limit cellphones,2024-09-06,Encourages districts to limit cellphones,1,
+West Virginia,WV,2025-04-29,Statewide ban,2025-04-29,Statewide ban,1,
+Wisconsin,WI,2025-10-31,Statewide ban,2025-10-31,Statewide ban,1,
+Wyoming,WY,,,,No statewide policy identified,0,verify
+District of Columbia,DC,,,,No statewide policy identified,0,verify
