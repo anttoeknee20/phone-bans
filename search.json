@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "model.html",
+    "href": "model.html",
+    "title": "Model",
+    "section": "",
+    "text": "library(readr)\nlibrary(dplyr)\nlibrary(parsnip)\nlibrary(broom)\n\n# Load Louisiana wide dataset\ndata_path &lt;- if (file.exists(\"data/clean/louisiana_wide_clean.csv\")) {\n  \"data/clean/louisiana_wide_clean.csv\"\n} else {\n  \"../data/clean/louisiana_wide_clean.csv\"\n}\n\nla_wide &lt;- read_csv(data_path, show_col_types = FALSE) |&gt;\n  mutate(period = factor(period, levels = c(\"pre_ban\", \"post_ban\")))\n\n# Fit linear regression model\nlinear_reg() |&gt;\n  set_engine(\"lm\") |&gt;\n  fit(g3_12_math ~ period, data = la_wide) |&gt;\n  tidy(conf.int = TRUE) |&gt;\n  select(term, estimate, conf.low, conf.high)\n\n# A tibble: 2 × 4\n  term           estimate conf.low conf.high\n  &lt;chr&gt;             &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;\n1 (Intercept)       29.0     28.0      30.1 \n2 periodpost_ban     1.38    -1.44      4.20"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Do State Phone Bans at School Really Improve Student Performance?",
+    "section": "",
+    "text": "plot predictions to compare before after with uncertainty"
+  },
+  {
+    "objectID": "index.html#overall-statewide-performance-trends",
+    "href": "index.html#overall-statewide-performance-trends",
+    "title": "Do State Phone Bans at School Really Improve Student Performance?",
+    "section": "Overall Statewide Performance Trends",
+    "text": "Overall Statewide Performance Trends\n\n\n\n\n\n\n\n\n\n\nFigure 1: Louisiana Statewide LEAP Performance (2018-2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: South Carolina Statewide SC READY Performance (2021-2025)"
+  },
+  {
+    "objectID": "index.html#performance-breakdown-by-grade-band",
+    "href": "index.html#performance-breakdown-by-grade-band",
+    "title": "Do State Phone Bans at School Really Improve Student Performance?",
+    "section": "Performance Breakdown by Grade Band",
+    "text": "Performance Breakdown by Grade Band\n\n\n\n\n\n\n\n\n\n\nFigure 3: Louisiana LEAP Performance by Grade Band (2021-2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 4: South Carolina SC READY Performance by Grade Band (2021-2025)"
+  },
+  {
+    "objectID": "index.html#high-school-subject-performance-math-vs.-english",
+    "href": "index.html#high-school-subject-performance-math-vs.-english",
+    "title": "Do State Phone Bans at School Really Improve Student Performance?",
+    "section": "High School Subject Performance: Math vs. English",
+    "text": "High School Subject Performance: Math vs. English\n\n\n\n\n\n\n\n\n\n\nFigure 5: Louisiana High School Math & English Performance (2021-2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: South Carolina High School Math & English Performance (2021-2025)"
+  },
+  {
+    "objectID": "source.html",
+    "href": "source.html",
+    "title": "Source",
+    "section": "",
+    "text": "Placeholder for data sources and reference content."
+  },
+  {
+    "objectID": "plots.html",
+    "href": "plots.html",
+    "title": "LEAP Performance Plots",
+    "section": "",
+    "text": "Figure 1: Louisiana statewide LEAP Mastery+ (Grades 3-8), 2018-2025"
+  },
+  {
+    "objectID": "plots.html#statewide-performance-trend",
+    "href": "plots.html#statewide-performance-trend",
+    "title": "LEAP Performance Plots",
+    "section": "",
+    "text": "Figure 1: Louisiana statewide LEAP Mastery+ (Grades 3-8), 2018-2025"
+  },
+  {
+    "objectID": "plots.html#pre-ban-trend-extrapolation-vs.-actual-2025-outcome",
+    "href": "plots.html#pre-ban-trend-extrapolation-vs.-actual-2025-outcome",
+    "title": "LEAP Performance Plots",
+    "section": "Pre-Ban Trend Extrapolation vs. Actual 2025 Outcome",
+    "text": "Pre-Ban Trend Extrapolation vs. Actual 2025 Outcome\n\n\n\n\n\n\n\n\nFigure 2: Pre-ban trend extrapolation (2021-2024) versus actual 2025 post-ban performance"
+  },
+  {
+    "objectID": "plots.html#parish-level-distribution",
+    "href": "plots.html#parish-level-distribution",
+    "title": "LEAP Performance Plots",
+    "section": "Parish-Level Distribution",
+    "text": "Parish-Level Distribution\n\n\n\n\n\n\n\n\nFigure 3: Distribution of parish-level Mastery+ scores, pre- vs. post-ban"
+  },
+  {
+    "objectID": "plots.html#south-carolina-sc-ready-pre-ban-trend-extrapolation",
+    "href": "plots.html#south-carolina-sc-ready-pre-ban-trend-extrapolation",
+    "title": "LEAP Performance Plots",
+    "section": "South Carolina SC READY Pre-Ban Trend Extrapolation",
+    "text": "South Carolina SC READY Pre-Ban Trend Extrapolation\n\n\n\n\n\n\n\n\nFigure 4: South Carolina SC READY pre-ban trend extrapolation (2021-2024) vs post-ban benchmark"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Github:\nEmail:"
+  }
+]
