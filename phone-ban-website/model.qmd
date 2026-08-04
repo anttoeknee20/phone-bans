@@ -4,7 +4,7 @@ author: "Anthony Gao"
 execute:
   warning: false
   message: false
-  echo: true
+  echo: false
 ---
 
 ```{r}
@@ -13,6 +13,7 @@ library(readr)
 library(dplyr)
 library(parsnip)
 library(broom)
+library(gt)
 
 # Load Louisiana wide dataset
 data_path <- if (file.exists("data/clean/louisiana_wide_clean.csv")) {
@@ -24,10 +25,83 @@ data_path <- if (file.exists("data/clean/louisiana_wide_clean.csv")) {
 la_wide <- read_csv(data_path, show_col_types = FALSE) |>
   mutate(period = factor(period, levels = c("pre_ban", "post_ban")))
 
-# Fit linear regression model
-linear_reg() |>
-  set_engine("lm") |>
-  fit(g3_12_math ~ period, data = la_wide) |>
-  tidy(conf.int = TRUE) |>
-  select(term, estimate, conf.low, conf.high)
+# Helper function to fit model and return gt table
+fit_model_table <- function(col_name, title_text) {
+  formula_obj <- as.formula(paste(col_name, "~ period"))
+  
+  linear_reg() |>
+    set_engine("lm") |>
+    fit(formula_obj, data = la_wide) |>
+    tidy(conf.int = TRUE) |>
+    mutate(
+      term = if_else(term == "(Intercept)", "Pre-Ban (Intercept)", "Post-Ban Change")
+    ) |>
+    select(
+      Variable = term,
+      Estimate = estimate,
+      `95% CI Lower` = conf.low,
+      `95% CI Upper` = conf.high
+    ) |>
+    gt() |>
+    fmt_number(columns = 2:4, decimals = 2) |>
+    tab_header(
+      title = title_text,
+      subtitle = "Proficiency Rate (%) as a function of Cell Phone Ban Period"
+    )
+}
 ```
+
+## Grades 3–8 Models
+
+```{r}
+#| label: fit-g3-8-all
+fit_model_table("g3_8_all_subjects", "Grades 3-8: All Subjects")
+```
+
+```{r}
+#| label: fit-g3-8-ela
+fit_model_table("g3_8_ela", "Grades 3-8: ELA")
+```
+
+```{r}
+#| label: fit-g3-8-math
+fit_model_table("g3_8_math", "Grades 3-8: Math")
+```
+
+```{r}
+#| label: fit-g3-8-science
+fit_model_table("g3_8_science", "Grades 3-8: Science")
+```
+
+```{r}
+#| label: fit-g3-8-soc
+fit_model_table("g3_8_social_studies", "Grades 3-8: Social Studies")
+```
+
+## Grades 3–12 Models
+
+```{r}
+#| label: fit-g3-12-all
+fit_model_table("g3_12_all_subjects", "Grades 3-12: All Subjects")
+```
+
+```{r}
+#| label: fit-g3-12-ela
+fit_model_table("g3_12_ela", "Grades 3-12: ELA")
+```
+
+```{r}
+#| label: fit-g3-12-math
+fit_model_table("g3_12_math", "Grades 3-12: Math")
+```
+
+```{r}
+#| label: fit-g3-12-science
+fit_model_table("g3_12_science", "Grades 3-12: Science")
+```
+
+```{r}
+#| label: fit-g3-12-soc
+fit_model_table("g3_12_social_studies", "Grades 3-12: Social Studies")
+```
+
