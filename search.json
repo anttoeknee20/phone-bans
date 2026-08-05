@@ -51,9 +51,23 @@
   {
     "objectID": "source.html",
     "href": "source.html",
-    "title": "Source",
+    "title": "Sources & Software Citations",
     "section": "",
-    "text": "Placeholder for data sources and reference content."
+    "text": "Louisiana Department of Education: LEAP 2025 Assessment Master Results (2018–2025)\nSouth Carolina Department of Education: SC READY Assessment Results (2021–2025)"
+  },
+  {
+    "objectID": "source.html#data-sources",
+    "href": "source.html#data-sources",
+    "title": "Sources & Software Citations",
+    "section": "",
+    "text": "Louisiana Department of Education: LEAP 2025 Assessment Master Results (2018–2025)\nSouth Carolina Department of Education: SC READY Assessment Results (2021–2025)"
+  },
+  {
+    "objectID": "source.html#software-package-citations",
+    "href": "source.html#software-package-citations",
+    "title": "Sources & Software Citations",
+    "section": "Software & Package Citations",
+    "text": "Software & Package Citations\n\nR (Base System)\nR Core Team (2026). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org/.\n\n\nPackage: tidyverse\nWickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to the tidyverse.” Journal of Open Source Software, 4(43), 1686. doi:10.21105/joss.01686 https://doi.org/10.21105/joss.01686.\n\n\nPackage: dplyr\nWickham H, François R, Henry L, Müller K, Vaughan D (2026). dplyr: A Grammar of Data Manipulation. R package version 1.2.1, https://dplyr.tidyverse.org.\n\n\nPackage: readr\nWickham H, Hester J, Bryan J (2026). readr: Read Rectangular Text Data. R package version 2.2.0, https://readr.tidyverse.org.\n\n\nPackage: parsnip\nKuhn M, Vaughan D (2026). parsnip: A Common API to Modeling and Analysis Functions. R package version 1.6.0, https://github.com/tidymodels/parsnip.\n\n\nPackage: broom\nRobinson D, Hayes A, Couch S, Hvitfeldt E (2026). broom: Convert Statistical Objects into Tidy Tibbles. R package version 1.0.13, https://broom.tidymodels.org/.\n\n\nPackage: gt\nIannone R, Cheng J, Schloerke B, Haughton S, Hughes E, Lauer A, François R, Seo J, Brevoort K, Roy O (2026). gt: Easily Create Presentation-Ready Display Tables. R package version 1.3.0, https://gt.rstudio.com.\n\n\nPackage: marginaleffects\nArel-Bundock V, Greifer N, Heiss A (2024). “How to Interpret Statistical Models Using marginaleffects for R and Python.” Journal of Statistical Software, 111(9), 1-32. doi:10.18637/jss.v111.i09 https://doi.org/10.18637/jss.v111.i09.\n\n\nPackage: ggplot2\nWickham H (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. ISBN 978-3-319-24277-4, https://ggplot2.tidyverse.org."
   },
   {
     "objectID": "plots.html",
