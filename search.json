@@ -4,7 +4,14 @@
     "href": "model.html",
     "title": "Model",
     "section": "",
-    "text": "Estimates for the intercept is the predicted score for that row. The other rows estimates show the net difference between that row and the intercept. So, a positive number means it is that much more than the intercept, and a negative means that much less."
+    "text": "\\[\n\\text{Louisiana: } \\widehat{\\text{Proficiency Rate}} = 29.27 + 0.76 \\cdot \\text{PostBan}\n\\]\n\\[\n\\text{South Carolina: } \\widehat{\\text{Proficiency Rate}} = 39.44 + 3.63 \\cdot \\text{PostBan}\n\\]\nThe estimate of the intercept is the predicted score for that row. The other rows estimates show the net difference between that row and the intercept. So, a positive number means it is that much more than the intercept, and a negative means that much less."
+  },
+  {
+    "objectID": "model.html#model-equations-grades-38-all-subjects",
+    "href": "model.html#model-equations-grades-38-all-subjects",
+    "title": "Model",
+    "section": "",
+    "text": "\\[\n\\text{Louisiana: } \\widehat{\\text{Proficiency Rate}} = 29.27 + 0.76 \\cdot \\text{PostBan}\n\\]\n\\[\n\\text{South Carolina: } \\widehat{\\text{Proficiency Rate}} = 39.44 + 3.63 \\cdot \\text{PostBan}\n\\]\nThe estimate of the intercept is the predicted score for that row. The other rows estimates show the net difference between that row and the intercept. So, a positive number means it is that much more than the intercept, and a negative means that much less."
   },
   {
     "objectID": "model.html#grades-38-models-state-comparison",
@@ -33,6 +40,13 @@
     "title": "Do State Phone Bans at School Really Improve Student Performance?",
     "section": "",
     "text": "In recent years, several states have enacted statewide restrictions on student cell phone usage during school hours. This study evaluates the empirical effect of these policies on student academic performance, focusing on standardized test results in states like Louisiana (LEAP 2025 assessments) and South Carolina (SC READY assessments)."
+  },
+  {
+    "objectID": "index.html#model-predictions-state-comparison",
+    "href": "index.html#model-predictions-state-comparison",
+    "title": "Do State Phone Bans at School Really Improve Student Performance?",
+    "section": "Model Predictions: State Comparison",
+    "text": "Model Predictions: State Comparison\n\n\n\n\n\n\n\n\nFigure 1: Model-predicted proficiency rates before and after cell phone bans for Louisiana (warm colors) and South Carolina (cold colors) across subjects."
   },
   {
     "objectID": "source.html",
