@@ -32,35 +32,28 @@
     "href": "index.html",
     "title": "Do State Phone Bans at School Really Improve Student Performance?",
     "section": "",
-    "text": "In recent years, several states have enacted statewide restrictions on student cell phone usage during school hours. This study evaluates the empirical effect of these policies on student academic performance, focusing on standardized test results in states like Louisiana (LEAP 2025 assessments) and South Carolina (SC READY assessments)."
+    "text": "Figure 1: Model-predicted proficiency rates before and after cell phone bans for Louisiana (warm colors) and South Carolina (cold colors) across subjects."
   },
   {
     "objectID": "index.html#project-overview",
     "href": "index.html#project-overview",
     "title": "Do State Phone Bans at School Really Improve Student Performance?",
-    "section": "",
-    "text": "In recent years, several states have enacted statewide restrictions on student cell phone usage during school hours. This study evaluates the empirical effect of these policies on student academic performance, focusing on standardized test results in states like Louisiana (LEAP 2025 assessments) and South Carolina (SC READY assessments)."
-  },
-  {
-    "objectID": "index.html#model-predictions-state-comparison",
-    "href": "index.html#model-predictions-state-comparison",
-    "title": "Do State Phone Bans at School Really Improve Student Performance?",
-    "section": "Model Predictions: State Comparison",
-    "text": "Model Predictions: State Comparison\n\n\n\n\n\n\n\n\nFigure 1: Model-predicted proficiency rates before and after cell phone bans for Louisiana (warm colors) and South Carolina (cold colors) across subjects."
+    "section": "Project Overview",
+    "text": "Project Overview\nIn recent years, several states have enacted statewide restrictions on student cell phone usage during school hours. This website looks into the empirical effect of these policies on student academic performance, focusing on standardized test results in Louisiana (LEAP 2025 assessments) and South Carolina (SC READY assessments)."
   },
   {
     "objectID": "source.html",
     "href": "source.html",
     "title": "Sources & Software Citations",
     "section": "",
-    "text": "Louisiana Department of Education: LEAP 2025 Assessment Master Results (2018–2025)\nSouth Carolina Department of Education: SC READY Assessment Results (2021–2025)"
+    "text": "Louisiana Department of Education: LEAP 2025 Assessment Master Results (2018–2025). Data was retrieved directly from official state testing reports published on the Louisiana Department of Education portal.\nSouth Carolina Department of Education: SC READY Assessment Results (2021–2025). Data was retrieved from public district-level and statewide assessment files made available by the South Carolina Department of Education."
   },
   {
     "objectID": "source.html#data-sources",
     "href": "source.html#data-sources",
     "title": "Sources & Software Citations",
     "section": "",
-    "text": "Louisiana Department of Education: LEAP 2025 Assessment Master Results (2018–2025)\nSouth Carolina Department of Education: SC READY Assessment Results (2021–2025)"
+    "text": "Louisiana Department of Education: LEAP 2025 Assessment Master Results (2018–2025). Data was retrieved directly from official state testing reports published on the Louisiana Department of Education portal.\nSouth Carolina Department of Education: SC READY Assessment Results (2021–2025). Data was retrieved from public district-level and statewide assessment files made available by the South Carolina Department of Education."
   },
   {
     "objectID": "source.html#software-package-citations",
@@ -116,6 +109,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Github:\nEmail:"
+    "text": "My name is Anthony Gao and I am currently a sophomore (’29) at Buckingham Browne & Nichols School. I am interested in pursuing a carreer in medicine and biomedical engineering. Kane’s Data Science Bootcamp, which this project is a part of, has taught me the necessary skill of being able to analyze lots of data and answer questions about the research.\nFind more of my work at: https://github.com/anttoeknee20 https://github.com/anttoeknee10\nFeel free to reach out at: anthonysgao@gmail.com"
   }
 ]
