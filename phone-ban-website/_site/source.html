@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Anthony Gao">
 
-<title>Source – Do Phone Bans at School Really do Anything?</title>
+<title>Sources &amp; Software Citations – Do Phone Bans at School Really do Anything?</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -98,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./plots.html"> 
+<span class="menu-text">Discovery Plots</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./model.html"> 
 <span class="menu-text">Model</span></a>
   </li>  
@@ -120,7 +123,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link active" data-scroll-target="#data-sources">Data Sources</a></li>
+  <li><a href="#software-package-citations" id="toc-software-package-citations" class="nav-link" data-scroll-target="#software-package-citations">Software &amp; Package Citations</a>
+  <ul class="collapse">
+  <li><a href="#r-base-system" id="toc-r-base-system" class="nav-link" data-scroll-target="#r-base-system">R (Base System)</a></li>
+  <li><a href="#package-tidyverse" id="toc-package-tidyverse" class="nav-link" data-scroll-target="#package-tidyverse">Package: tidyverse</a></li>
+  <li><a href="#package-dplyr" id="toc-package-dplyr" class="nav-link" data-scroll-target="#package-dplyr">Package: dplyr</a></li>
+  <li><a href="#package-readr" id="toc-package-readr" class="nav-link" data-scroll-target="#package-readr">Package: readr</a></li>
+  <li><a href="#package-parsnip" id="toc-package-parsnip" class="nav-link" data-scroll-target="#package-parsnip">Package: parsnip</a></li>
+  <li><a href="#package-broom" id="toc-package-broom" class="nav-link" data-scroll-target="#package-broom">Package: broom</a></li>
+  <li><a href="#package-gt" id="toc-package-gt" class="nav-link" data-scroll-target="#package-gt">Package: gt</a></li>
+  <li><a href="#package-marginaleffects" id="toc-package-marginaleffects" class="nav-link" data-scroll-target="#package-marginaleffects">Package: marginaleffects</a></li>
+  <li><a href="#package-ggplot2" id="toc-package-ggplot2" class="nav-link" data-scroll-target="#package-ggplot2">Package: ggplot2</a></li>
+  </ul></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -131,19 +152,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Source</h1>
+<h1 class="title">Sources &amp; Software Citations</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Anthony Gao </p>
-          </div>
-  </div>
     
   
     
@@ -154,9 +169,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Placeholder for data sources and reference content.</p>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
+<ul>
+<li><strong>Louisiana Department of Education:</strong> LEAP 2025 Assessment Master Results (2018–2025). Data was retrieved directly from official state testing reports published on the Louisiana Department of Education portal.</li>
+<li><strong>South Carolina Department of Education:</strong> SC READY Assessment Results (2021–2025). Data was retrieved from public district-level and statewide assessment files made available by the South Carolina Department of Education.</li>
+</ul>
+</section>
+<section id="software-package-citations" class="level2">
+<h2 class="anchored" data-anchor-id="software-package-citations">Software &amp; Package Citations</h2>
+<section id="r-base-system" class="level3">
+<h3 class="anchored" data-anchor-id="r-base-system">R (Base System)</h3>
+<p>R Core Team (2026). <em>R: A Language and Environment for Statistical Computing</em>. R Foundation for Statistical Computing, Vienna, Austria. <a href="https://www.R-project.org/" class="uri">https://www.R-project.org/</a>.</p>
+</section>
+<section id="package-tidyverse" class="level3">
+<h3 class="anchored" data-anchor-id="package-tidyverse">Package: tidyverse</h3>
+<p>Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to the tidyverse.” <em>Journal of Open Source Software</em>, <em>4</em>(43), 1686. doi:10.21105/joss.01686 <a href="https://doi.org/10.21105/joss.01686" class="uri">https://doi.org/10.21105/joss.01686</a>.</p>
+</section>
+<section id="package-dplyr" class="level3">
+<h3 class="anchored" data-anchor-id="package-dplyr">Package: dplyr</h3>
+<p>Wickham H, François R, Henry L, Müller K, Vaughan D (2026). <em>dplyr: A Grammar of Data Manipulation</em>. R package version 1.2.1, <a href="https://dplyr.tidyverse.org" class="uri">https://dplyr.tidyverse.org</a>.</p>
+</section>
+<section id="package-readr" class="level3">
+<h3 class="anchored" data-anchor-id="package-readr">Package: readr</h3>
+<p>Wickham H, Hester J, Bryan J (2026). <em>readr: Read Rectangular Text Data</em>. R package version 2.2.0, <a href="https://readr.tidyverse.org" class="uri">https://readr.tidyverse.org</a>.</p>
+</section>
+<section id="package-parsnip" class="level3">
+<h3 class="anchored" data-anchor-id="package-parsnip">Package: parsnip</h3>
+<p>Kuhn M, Vaughan D (2026). <em>parsnip: A Common API to Modeling and Analysis Functions</em>. R package version 1.6.0, <a href="https://github.com/tidymodels/parsnip" class="uri">https://github.com/tidymodels/parsnip</a>.</p>
+</section>
+<section id="package-broom" class="level3">
+<h3 class="anchored" data-anchor-id="package-broom">Package: broom</h3>
+<p>Robinson D, Hayes A, Couch S, Hvitfeldt E (2026). <em>broom: Convert Statistical Objects into Tidy Tibbles</em>. R package version 1.0.13, <a href="https://broom.tidymodels.org/" class="uri">https://broom.tidymodels.org/</a>.</p>
+</section>
+<section id="package-gt" class="level3">
+<h3 class="anchored" data-anchor-id="package-gt">Package: gt</h3>
+<p>Iannone R, Cheng J, Schloerke B, Haughton S, Hughes E, Lauer A, François R, Seo J, Brevoort K, Roy O (2026). <em>gt: Easily Create Presentation-Ready Display Tables</em>. R package version 1.3.0, <a href="https://gt.rstudio.com" class="uri">https://gt.rstudio.com</a>.</p>
+</section>
+<section id="package-marginaleffects" class="level3">
+<h3 class="anchored" data-anchor-id="package-marginaleffects">Package: marginaleffects</h3>
+<p>Arel-Bundock V, Greifer N, Heiss A (2024). “How to Interpret Statistical Models Using marginaleffects for R and Python.” <em>Journal of Statistical Software</em>, <em>111</em>(9), 1-32. doi:10.18637/jss.v111.i09 <a href="https://doi.org/10.18637/jss.v111.i09" class="uri">https://doi.org/10.18637/jss.v111.i09</a>.</p>
+</section>
+<section id="package-ggplot2" class="level3">
+<h3 class="anchored" data-anchor-id="package-ggplot2">Package: ggplot2</h3>
+<p>Wickham H (2016). <em>ggplot2: Elegant Graphics for Data Analysis</em>. Springer-Verlag New York. ISBN 978-3-319-24277-4, <a href="https://ggplot2.tidyverse.org" class="uri">https://ggplot2.tidyverse.org</a>.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -232,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/anttoeknee20\.github\.io\/phone-bans\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

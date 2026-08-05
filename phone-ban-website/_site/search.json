@@ -4,97 +4,125 @@
     "href": "model.html",
     "title": "Model",
     "section": "",
-    "text": "Grades 3-8: All Subjects\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n29.27\n28.24\n30.31\n\n\nPost-Ban Change\n0.76\n−1.98\n3.49\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-8: ELA\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n38.08\n36.94\n39.23\n\n\nPost-Ban Change\n0.57\n−2.47\n3.60\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-8: Math\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n28.48\n27.44\n29.51\n\n\nPost-Ban Change\n1.65\n−1.09\n4.39\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-8: Science\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n24.90\n23.92\n25.87\n\n\nPost-Ban Change\n0.30\n−2.26\n2.86\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-8: Social Studies\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n23.56\n22.51\n24.60\n\n\nPost-Ban Change\n4.12\n1.55\n6.68"
+    "text": "\\[\n\\text{Louisiana: } \\widehat{\\text{Proficiency Rate}} = 29.27 + 0.76 \\cdot \\text{PostBan}\n\\]\n\\[\n\\text{South Carolina: } \\widehat{\\text{Proficiency Rate}} = 39.44 + 3.63 \\cdot \\text{PostBan}\n\\]\nThe estimate of the intercept is the predicted score for that row. The other rows estimates show the net difference between that row and the intercept. So, a positive number means it is that much more than the intercept, and a negative means that much less.\n\n\n\n\n\n\n\n\nFigure 1: Model-predicted proficiency rates before and after cell phone bans for Louisiana (warm colors) and South Carolina (cold colors) across subjects."
   },
   {
-    "objectID": "model.html#grades-38-models",
-    "href": "model.html#grades-38-models",
+    "objectID": "model.html#proficiency-rate-as-a-function-of-subject-with-bans",
+    "href": "model.html#proficiency-rate-as-a-function-of-subject-with-bans",
     "title": "Model",
     "section": "",
-    "text": "Grades 3-8: All Subjects\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n29.27\n28.24\n30.31\n\n\nPost-Ban Change\n0.76\n−1.98\n3.49\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-8: ELA\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n38.08\n36.94\n39.23\n\n\nPost-Ban Change\n0.57\n−2.47\n3.60\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-8: Math\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n28.48\n27.44\n29.51\n\n\nPost-Ban Change\n1.65\n−1.09\n4.39\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-8: Science\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n24.90\n23.92\n25.87\n\n\nPost-Ban Change\n0.30\n−2.26\n2.86\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-8: Social Studies\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n23.56\n22.51\n24.60\n\n\nPost-Ban Change\n4.12\n1.55\n6.68"
+    "text": "\\[\n\\text{Louisiana: } \\widehat{\\text{Proficiency Rate}} = 29.27 + 0.76 \\cdot \\text{PostBan}\n\\]\n\\[\n\\text{South Carolina: } \\widehat{\\text{Proficiency Rate}} = 39.44 + 3.63 \\cdot \\text{PostBan}\n\\]\nThe estimate of the intercept is the predicted score for that row. The other rows estimates show the net difference between that row and the intercept. So, a positive number means it is that much more than the intercept, and a negative means that much less.\n\n\n\n\n\n\n\n\nFigure 1: Model-predicted proficiency rates before and after cell phone bans for Louisiana (warm colors) and South Carolina (cold colors) across subjects."
   },
   {
-    "objectID": "model.html#grades-312-models",
-    "href": "model.html#grades-312-models",
+    "objectID": "model.html#grades-38-models-state-comparison",
+    "href": "model.html#grades-38-models-state-comparison",
     "title": "Model",
-    "section": "Grades 3–12 Models",
-    "text": "Grades 3–12 Models\n\n\n\n\n\n\n\n\nGrades 3-12: All Subjects\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n29.84\n28.79\n30.90\n\n\nPost-Ban Change\n0.35\n−2.43\n3.13\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-12: ELA\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n38.60\n37.46\n39.75\n\n\nPost-Ban Change\n0.48\n−2.56\n3.52\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-12: Math\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n29.03\n27.96\n30.11\n\n\nPost-Ban Change\n1.38\n−1.44\n4.20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-12: Science\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n24.34\n23.19\n25.49\n\n\nPost-Ban Change\n0.58\n−1.97\n3.12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-12: Social Studies\n\n\nProficiency Rate (%) as a function of Cell Phone Ban Period\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n23.70\n22.73\n24.67\n\n\nPost-Ban Change\n2.59\n0.06\n5.12"
+    "section": "Grades 3–8 Models: State Comparison",
+    "text": "Grades 3–8 Models: State Comparison\nRed = negative change\nGrey = no statistical change\nGreen = positive change\n\nAll subjects\n\n\n\n\n\n\n\n\n\n\nLouisiana: All Subjects (G3-8)\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n29.27\n28.24\n30.31\n\n\nPost-Ban Change\n0.76\n−1.98\n3.49\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSouth Carolina: All Subjects (G3-8)\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n39.44\n38.15\n40.73\n\n\nPost-Ban Change\n3.62\n0.74\n6.51\n\n\n\n\n\n\n\n\n\n\n\nELA\n\n\n\n\n\n\n\n\n\n\nLouisiana: ELA (G3-8)\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n38.08\n36.94\n39.23\n\n\nPost-Ban Change\n0.57\n−2.47\n3.60\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSouth Carolina: ELA (G3-8)\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n44.70\n43.47\n45.94\n\n\nPost-Ban Change\n3.63\n0.87\n6.38\n\n\n\n\n\n\n\n\n\n\n\nMath\n\n\n\n\n\n\n\n\n\n\nLouisiana: Math (G3-8)\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n28.48\n27.44\n29.51\n\n\nPost-Ban Change\n1.65\n−1.09\n4.39\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSouth Carolina: Math (G3-8)\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n33.89\n32.49\n35.28\n\n\nPost-Ban Change\n3.62\n0.51\n6.74\n\n\n\n\n\n\n\n\n\n\n\nScience\n\n\n\n\n\n\n\n\n\n\nLouisiana: Science (G3-8)\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n24.90\n23.92\n25.87\n\n\nPost-Ban Change\n0.30\n−2.26\n2.86\n\n\n\n\n\n\n\n\nNo matching South Carolina district data available for Science.\n\n\n\n\n\nSocial Studies\n\n\n\n\n\n\n\n\n\n\nLouisiana: Social Studies (G3-8)\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n23.56\n22.51\n24.60\n\n\nPost-Ban Change\n4.12\n1.55\n6.68\n\n\n\n\n\n\n\n\nNo matching South Carolina district data available for Social Studies.\n\n\n\nThis is the only statistically significant difference as the confidence interval does not incude 0 change. The other subjects have (within a 95% certainty range) a non-zero chance that the impact is 0."
+  },
+  {
+    "objectID": "model.html#grades-312-models-louisiana",
+    "href": "model.html#grades-312-models-louisiana",
+    "title": "Model",
+    "section": "Grades 3–12 Models (Louisiana)",
+    "text": "Grades 3–12 Models (Louisiana)\n\n\n\n\n\n\n\n\nGrades 3-12: All Subjects\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n29.84\n28.79\n30.90\n\n\nPost-Ban Change\n0.35\n−2.43\n3.13\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-12: ELA\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n38.60\n37.46\n39.75\n\n\nPost-Ban Change\n0.48\n−2.56\n3.52\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-12: Math\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n29.03\n27.96\n30.11\n\n\nPost-Ban Change\n1.38\n−1.44\n4.20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-12: Science\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n24.34\n23.19\n25.49\n\n\nPost-Ban Change\n0.58\n−1.97\n3.12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrades 3-12: Social Studies\n\n\nVariable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nPre-Ban (Intercept)\n23.70\n22.73\n24.67\n\n\nPost-Ban Change\n2.59\n0.06\n5.12\n\n\n\n\n\n\n\nThis is also the only viable model becuase you can say with 95% certainty that there is a positive effect."
+  },
+  {
+    "objectID": "model.html#cell-phone-ban-effects-by-grade-group-louisiana",
+    "href": "model.html#cell-phone-ban-effects-by-grade-group-louisiana",
+    "title": "Model",
+    "section": "Cell Phone Ban Effects by Grade Group (Louisiana)",
+    "text": "Cell Phone Ban Effects by Grade Group (Louisiana)\n\n\n\n\n\n\n\n\nFigure 2: Combined boxplot and scatterplot distributions comparing the policy effect of cell phone bans across grade groups in Louisiana (warm palette).\n\n\n\n\n\n\n\nCell Phone Ban Effects by Grade Level & Subject (Click to Expand)\n\n\n\n\n\n\n\n\nTable 1\n\n\n\n\n\n\n\n\n\nLouisiana: Ban Effect by Grade Level & Subject\n\n\nGreen = 95% CI Excludes 0 (Statistically Significant) | Grey = 95% CI Includes 0\n\n\nSubject\nGrade Level\nPre-Ban Intercept (%)\nBan Effect (%)\nStd Error\n95% CI Lower\n95% CI Upper\n\n\n\n\nAll Subjects\nGrades 3-8\n29.27\n0.76\n1.39\n−1.98\n3.49\n\n\nAll Subjects\nGrades 3-12\n29.84\n0.35\n1.41\n−2.43\n3.13\n\n\nELA\nGrades 3-8\n38.08\n0.57\n1.54\n−2.47\n3.60\n\n\nELA\nGrades 3-12\n38.60\n0.48\n1.55\n−2.56\n3.52\n\n\nMath\nGrades 3-8\n28.48\n1.65\n1.39\n−1.09\n4.39\n\n\nMath\nGrades 3-12\n29.03\n1.38\n1.43\n−1.44\n4.20\n\n\nScience\nGrades 3-8\n24.90\n0.30\n1.30\n−2.26\n2.86\n\n\nScience\nGrades 3-12\n24.34\n0.58\n1.29\n−1.97\n3.12\n\n\nSocial Studies\nGrades 3-8\n23.56\n4.12\n1.30\n1.55\n6.68\n\n\nSocial Studies\nGrades 3-12\n23.70\n2.59\n1.29\n0.06\n5.12\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\nSouth Carolina: Ban Effect by Grade Level & Subject\n\n\nGreen = 95% CI Excludes 0 (Statistically Significant) | Grey = 95% CI Includes 0\n\n\nSubject\nGrade Level\nPre-Ban Intercept (%)\nBan Effect (%)\nStd Error\n95% CI Lower\n95% CI Upper\n\n\n\n\nAll Subjects\nGrades 3-8\n46.48\n3.62\n4.60\n−11.02\n18.27\n\n\nAll Subjects\nElementary (G3-5)\n50.60\n4.60\n5.14\n−11.76\n20.96\n\n\nAll Subjects\nMiddle School (G6-8)\n42.35\n2.65\n4.22\n−10.77\n16.07\n\n\nEnglish\nHigh School (English II)\n74.12\n1.68\n2.43\n−6.06\n9.41\n\n\nMath\nHigh School (Algebra I)\n56.85\n2.15\n2.99\n−7.36\n11.66"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Do State Phone Bans at School Really Improve Student Performance?",
     "section": "",
-    "text": "plot predictions to compare before after with uncertainty"
+    "text": "Figure 1: Model-predicted cell phone ban policy impact across Louisiana parishes (Grades 3-12 All Subjects)."
   },
   {
-    "objectID": "index.html#overall-statewide-performance-trends",
-    "href": "index.html#overall-statewide-performance-trends",
+    "objectID": "index.html#project-overview",
+    "href": "index.html#project-overview",
     "title": "Do State Phone Bans at School Really Improve Student Performance?",
-    "section": "Overall Statewide Performance Trends",
-    "text": "Overall Statewide Performance Trends\n\n\n\n\n\n\n\n\n\n\nFigure 1: Louisiana Statewide LEAP Performance (2018-2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: South Carolina Statewide SC READY Performance (2021-2025)"
-  },
-  {
-    "objectID": "index.html#performance-breakdown-by-grade-band",
-    "href": "index.html#performance-breakdown-by-grade-band",
-    "title": "Do State Phone Bans at School Really Improve Student Performance?",
-    "section": "Performance Breakdown by Grade Band",
-    "text": "Performance Breakdown by Grade Band\n\n\n\n\n\n\n\n\n\n\nFigure 3: Louisiana LEAP Performance by Grade Band (2021-2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 4: South Carolina SC READY Performance by Grade Band (2021-2025)"
-  },
-  {
-    "objectID": "index.html#high-school-subject-performance-math-vs.-english",
-    "href": "index.html#high-school-subject-performance-math-vs.-english",
-    "title": "Do State Phone Bans at School Really Improve Student Performance?",
-    "section": "High School Subject Performance: Math vs. English",
-    "text": "High School Subject Performance: Math vs. English\n\n\n\n\n\n\n\n\n\n\nFigure 5: Louisiana High School Math & English Performance (2021-2025)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: South Carolina High School Math & English Performance (2021-2025)"
+    "section": "Project Overview",
+    "text": "Project Overview\nIn recent years, several states have enacted statewide restrictions on student cell phone usage during school hours. This website looks into the empirical effect of these policies on student academic performance, focusing on standardized test results in Louisiana (LEAP 2025 assessments) and South Carolina (SC READY assessments)."
   },
   {
     "objectID": "source.html",
     "href": "source.html",
-    "title": "Source",
+    "title": "Sources & Software Citations",
     "section": "",
-    "text": "Placeholder for data sources and reference content."
+    "text": "Louisiana Department of Education: LEAP 2025 Assessment Master Results (2018–2025). Data was retrieved directly from official state testing reports published on the Louisiana Department of Education portal.\nSouth Carolina Department of Education: SC READY Assessment Results (2021–2025). Data was retrieved from public district-level and statewide assessment files made available by the South Carolina Department of Education."
+  },
+  {
+    "objectID": "source.html#data-sources",
+    "href": "source.html#data-sources",
+    "title": "Sources & Software Citations",
+    "section": "",
+    "text": "Louisiana Department of Education: LEAP 2025 Assessment Master Results (2018–2025). Data was retrieved directly from official state testing reports published on the Louisiana Department of Education portal.\nSouth Carolina Department of Education: SC READY Assessment Results (2021–2025). Data was retrieved from public district-level and statewide assessment files made available by the South Carolina Department of Education."
+  },
+  {
+    "objectID": "source.html#software-package-citations",
+    "href": "source.html#software-package-citations",
+    "title": "Sources & Software Citations",
+    "section": "Software & Package Citations",
+    "text": "Software & Package Citations\n\nR (Base System)\nR Core Team (2026). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org/.\n\n\nPackage: tidyverse\nWickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to the tidyverse.” Journal of Open Source Software, 4(43), 1686. doi:10.21105/joss.01686 https://doi.org/10.21105/joss.01686.\n\n\nPackage: dplyr\nWickham H, François R, Henry L, Müller K, Vaughan D (2026). dplyr: A Grammar of Data Manipulation. R package version 1.2.1, https://dplyr.tidyverse.org.\n\n\nPackage: readr\nWickham H, Hester J, Bryan J (2026). readr: Read Rectangular Text Data. R package version 2.2.0, https://readr.tidyverse.org.\n\n\nPackage: parsnip\nKuhn M, Vaughan D (2026). parsnip: A Common API to Modeling and Analysis Functions. R package version 1.6.0, https://github.com/tidymodels/parsnip.\n\n\nPackage: broom\nRobinson D, Hayes A, Couch S, Hvitfeldt E (2026). broom: Convert Statistical Objects into Tidy Tibbles. R package version 1.0.13, https://broom.tidymodels.org/.\n\n\nPackage: gt\nIannone R, Cheng J, Schloerke B, Haughton S, Hughes E, Lauer A, François R, Seo J, Brevoort K, Roy O (2026). gt: Easily Create Presentation-Ready Display Tables. R package version 1.3.0, https://gt.rstudio.com.\n\n\nPackage: marginaleffects\nArel-Bundock V, Greifer N, Heiss A (2024). “How to Interpret Statistical Models Using marginaleffects for R and Python.” Journal of Statistical Software, 111(9), 1-32. doi:10.18637/jss.v111.i09 https://doi.org/10.18637/jss.v111.i09.\n\n\nPackage: ggplot2\nWickham H (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. ISBN 978-3-319-24277-4, https://ggplot2.tidyverse.org."
   },
   {
     "objectID": "plots.html",
     "href": "plots.html",
-    "title": "LEAP Performance Plots",
+    "title": "Discovery Plots",
     "section": "",
-    "text": "Figure 1: Louisiana statewide LEAP Mastery+ (Grades 3-8), 2018-2025"
+    "text": "Figure 1: Louisiana Statewide LEAP Performance (Warm Palette)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: South Carolina Statewide SC READY Performance (Cold Palette)"
   },
   {
-    "objectID": "plots.html#statewide-performance-trend",
-    "href": "plots.html#statewide-performance-trend",
-    "title": "LEAP Performance Plots",
+    "objectID": "plots.html#overall-statewide-performance-trends",
+    "href": "plots.html#overall-statewide-performance-trends",
+    "title": "Discovery Plots",
     "section": "",
-    "text": "Figure 1: Louisiana statewide LEAP Mastery+ (Grades 3-8), 2018-2025"
+    "text": "Figure 1: Louisiana Statewide LEAP Performance (Warm Palette)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: South Carolina Statewide SC READY Performance (Cold Palette)"
   },
   {
-    "objectID": "plots.html#pre-ban-trend-extrapolation-vs.-actual-2025-outcome",
-    "href": "plots.html#pre-ban-trend-extrapolation-vs.-actual-2025-outcome",
-    "title": "LEAP Performance Plots",
-    "section": "Pre-Ban Trend Extrapolation vs. Actual 2025 Outcome",
-    "text": "Pre-Ban Trend Extrapolation vs. Actual 2025 Outcome\n\n\n\n\n\n\n\n\nFigure 2: Pre-ban trend extrapolation (2021-2024) versus actual 2025 post-ban performance"
+    "objectID": "plots.html#performance-breakdown-by-grade-band",
+    "href": "plots.html#performance-breakdown-by-grade-band",
+    "title": "Discovery Plots",
+    "section": "Performance Breakdown by Grade Band",
+    "text": "Performance Breakdown by Grade Band\n\n\n\n\n\n\n\n\n\n\nFigure 3: Louisiana LEAP Performance by Grade Band (Warm Palette)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 4: South Carolina SC READY Performance by Grade Band (Cold Palette)"
+  },
+  {
+    "objectID": "plots.html#high-school-subject-performance-math-vs.-english",
+    "href": "plots.html#high-school-subject-performance-math-vs.-english",
+    "title": "Discovery Plots",
+    "section": "High School Subject Performance: Math vs. English",
+    "text": "High School Subject Performance: Math vs. English\n\n\n\n\n\n\n\n\n\n\nFigure 5: Louisiana High School Math & English Performance (Warm Palette)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: South Carolina High School Math & English Performance (Cold Palette)"
+  },
+  {
+    "objectID": "plots.html#pre-ban-trend-extrapolations",
+    "href": "plots.html#pre-ban-trend-extrapolations",
+    "title": "Discovery Plots",
+    "section": "Pre-Ban Trend Extrapolations",
+    "text": "Pre-Ban Trend Extrapolations\n\n\n\n\n\n\n\n\n\n\nFigure 7: Louisiana Pre-Ban Trend vs Actual (Warm Palette)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 8: South Carolina Pre-Ban Trend vs Actual (Cold Palette)"
   },
   {
     "objectID": "plots.html#parish-level-distribution",
     "href": "plots.html#parish-level-distribution",
-    "title": "LEAP Performance Plots",
+    "title": "Discovery Plots",
     "section": "Parish-Level Distribution",
-    "text": "Parish-Level Distribution\n\n\n\n\n\n\n\n\nFigure 3: Distribution of parish-level Mastery+ scores, pre- vs. post-ban"
+    "text": "Parish-Level Distribution\n\n\n\n\n\n\n\n\nFigure 9: Distribution of parish-level Mastery+ scores, pre- vs. post-ban (Warm Palette)"
   },
   {
-    "objectID": "plots.html#south-carolina-sc-ready-pre-ban-trend-extrapolation",
-    "href": "plots.html#south-carolina-sc-ready-pre-ban-trend-extrapolation",
-    "title": "LEAP Performance Plots",
-    "section": "South Carolina SC READY Pre-Ban Trend Extrapolation",
-    "text": "South Carolina SC READY Pre-Ban Trend Extrapolation\n\n\n\n\n\n\n\n\nFigure 4: South Carolina SC READY pre-ban trend extrapolation (2021-2024) vs post-ban benchmark"
+    "objectID": "plots.html#combined-state-district-distribution-boxplot-scatterplot",
+    "href": "plots.html#combined-state-district-distribution-boxplot-scatterplot",
+    "title": "Discovery Plots",
+    "section": "Combined State & District Distribution (Boxplot + Scatterplot)",
+    "text": "Combined State & District Distribution (Boxplot + Scatterplot)\n\n\n\n\n\n\n\n\nFigure 10: Combined boxplot and scatterplot distributions comparing pre- and post-ban proficiency for Louisiana (warm palette) and South Carolina (cold palette)."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Github:\nEmail:"
+    "text": "My name is Anthony Gao and I am currently a sophomore (’29) at Buckingham Browne & Nichols School. I am interested in pursuing a carreer in medicine and biomedical engineering. Kane’s Data Science Bootcamp, which this project is a part of, has taught me the necessary skill of being able to analyze lots of data and answer questions about the research.\nFind more of my work at my GitHub (second account here)\nFeel free to reach out at: anthonysgao@gmail.com"
   }
 ]

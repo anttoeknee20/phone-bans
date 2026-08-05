@@ -2,7 +2,10 @@
 title: "About"
 ---
 
-Github: 
+My name is Anthony Gao and I am currently a sophomore ('29) at Buckingham Browne & Nichols School. I am interested in pursuing a carreer in medicine and biomedical engineering. [Kane's Data Science Bootcamp](https://bootcamp.davidkane.info/), which this project is a part of, has taught me the necessary skill of being able to analyze lots of data and answer questions about the research.
 
-Email:
+Find more of my work at my [GitHub](https://github.com/anttoeknee10) (second account [here](https://github.com/anttoeknee10))
+
+Feel free to reach out at:
+    anthonysgao@gmail.com
 

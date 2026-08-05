@@ -1,5 +1,27 @@
 ---
-title: "Source"
+title: "Sources & Software Citations"
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
-Placeholder for data sources and reference content.
+## Data Sources
+
+- **Louisiana Department of Education:** LEAP 2025 Assessment Master Results (2018–2025). Data was retrieved directly from official state testing reports published on the Louisiana Department of Education portal.
+- **South Carolina Department of Education:** SC READY Assessment Results (2021–2025). Data was retrieved from public district-level and statewide assessment files made available by the South Carolina Department of Education.
+
+## Software & Package Citations
+
+```{r}
+#| results: "asis"
+pkgs <- c("base", "tidyverse", "dplyr", "readr", "parsnip", "broom", "gt", "marginaleffects", "ggplot2")
+
+for (p in pkgs) {
+  pkg_name <- if (p == "base") "R (Base System)" else paste("Package:", p)
+  cat("### ", pkg_name, "\n\n", sep = "")
+  cit <- format(citation(p), style = "text")
+  cat(paste(cit, collapse = "\n\n"), "\n\n")
+}
+```
+

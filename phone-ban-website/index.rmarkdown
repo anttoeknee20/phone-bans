@@ -71,3 +71,4 @@ ggplot(la_map) +
 ## Project Overview
 
 In recent years, several states have enacted statewide restrictions on student cell phone usage during school hours. This website looks into the empirical effect of these policies on student academic performance, focusing on standardized test results in **Louisiana** (LEAP 2025 assessments) and **South Carolina** (SC READY assessments).
+

@@ -7,6 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: plots.qmd
+        text: Discovery Plots
       - href: model.qmd
         text: Model
       - href: source.qmd
@@ -20,7 +22,6 @@ format:
     css: styles.css
     toc: true
     toc-location: left
-    author: "Anthony Gao"
 
 
 

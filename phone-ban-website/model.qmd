@@ -1,6 +1,6 @@
 ---
 title: "Model"
-author: "Anthony Gao"
+page-layout: full
 execute:
   warning: false
   message: false
@@ -11,27 +11,48 @@ execute:
 #| label: setup
 library(readr)
 library(dplyr)
+library(tidyr)
 library(parsnip)
 library(broom)
 library(gt)
 
 # Load Louisiana wide dataset
-data_path <- if (file.exists("data/clean/louisiana_wide_clean.csv")) {
+data_path_la <- if (file.exists("data/clean/louisiana_wide_clean.csv")) {
   "data/clean/louisiana_wide_clean.csv"
 } else {
   "../data/clean/louisiana_wide_clean.csv"
 }
 
-la_wide <- read_csv(data_path, show_col_types = FALSE) |>
+la_wide <- read_csv(data_path_la, show_col_types = FALSE) |>
+  mutate(period = factor(period, levels = c("pre_ban", "post_ban")))
+
+# Load South Carolina wide dataset
+data_path_sc <- if (file.exists("data/clean/south_carolina_wide_clean.csv")) {
+  "data/clean/south_carolina_wide_clean.csv"
+} else {
+  "../data/clean/south_carolina_wide_clean.csv"
+}
+
+sc_wide <- read_csv(data_path_sc, show_col_types = FALSE) |>
+  mutate(period = factor(period, levels = c("pre_ban", "post_ban")))
+
+# Load South Carolina district dataset (SC READY)
+data_path_sc_dist <- if (file.exists("data/clean/sc_district_model_clean.csv")) {
+  "data/clean/sc_district_model_clean.csv"
+} else {
+  "../data/clean/sc_district_model_clean.csv"
+}
+
+sc_district <- read_csv(data_path_sc_dist, show_col_types = FALSE) |>
   mutate(period = factor(period, levels = c("pre_ban", "post_ban")))
 
 # Helper function to fit model and return gt table
-fit_model_table <- function(col_name, title_text) {
+fit_model_table <- function(col_name, title_text, data = la_wide) {
   formula_obj <- as.formula(paste(col_name, "~ period"))
   
-  linear_reg() |>
+  res <- linear_reg() |>
     set_engine("lm") |>
-    fit(formula_obj, data = la_wide) |>
+    fit(formula_obj, data = data) |>
     tidy(conf.int = TRUE) |>
     mutate(
       term = if_else(term == "(Intercept)", "Pre-Ban (Intercept)", "Post-Ban Change")
@@ -41,44 +62,223 @@ fit_model_table <- function(col_name, title_text) {
       Estimate = estimate,
       `95% CI Lower` = conf.low,
       `95% CI Upper` = conf.high
-    ) |>
+    )
+  
+  is_sig <- (res$`95% CI Lower`[2] > 0 || res$`95% CI Upper`[2] < 0)
+  bg_color <- if (is_sig) "#e6f9e6" else "#f2f4f4"
+  txt_color <- if (is_sig) "#145a32" else "#5d6d7e"
+  font_wt <- if (is_sig) "bold" else "normal"
+  
+  res |>
     gt() |>
     fmt_number(columns = 2:4, decimals = 2) |>
+    tab_style(
+      style = list(
+        cell_fill(color = bg_color),
+        cell_text(color = txt_color, weight = font_wt)
+      ),
+      locations = cells_body(rows = 2)
+    ) |>
+    tab_options(table.width = pct(100)) |>
     tab_header(
-      title = title_text,
-      subtitle = "Proficiency Rate (%) as a function of Cell Phone Ban Period"
+      title = title_text
     )
 }
 ```
 
-## Grades 3–8 Models
+
+## Proficiency Rate as a Function of Subject With Bans
+### Model equations: grades 3–8 all subjects
+
+$$
+\text{Louisiana: } \widehat{\text{Proficiency Rate}} = 29.27 + 0.76 \cdot \text{PostBan}
+$$
+
+$$
+\text{South Carolina: } \widehat{\text{Proficiency Rate}} = 39.44 + 3.63 \cdot \text{PostBan}
+$$
+
+The estimate of the intercept is the predicted score for that row. The other rows estimates show the net difference between that row and the intercept. So, a positive number means it is that much more than the intercept, and a negative means that much less.
 
 ```{r}
-#| label: fit-g3-8-all
-fit_model_table("g3_8_all_subjects", "Grades 3-8: All Subjects")
+#| label: fig-model-predictions
+#| fig-cap: "Model-predicted proficiency rates before and after cell phone bans for Louisiana (warm colors) and South Carolina (cold colors) across subjects."
+
+library(readr)
+library(dplyr)
+library(parsnip)
+library(broom)
+library(marginaleffects)
+library(ggplot2)
+
+# Load cleaned datasets
+data_path_la <- if (file.exists("data/clean/louisiana_wide_clean.csv")) {
+  "data/clean/louisiana_wide_clean.csv"
+} else {
+  "../data/clean/louisiana_wide_clean.csv"
+}
+
+data_path_sc_dist <- if (file.exists("data/clean/sc_district_model_clean.csv")) {
+  "data/clean/sc_district_model_clean.csv"
+} else {
+  "../data/clean/sc_district_model_clean.csv"
+}
+
+la_wide <- read_csv(data_path_la, show_col_types = FALSE) |>
+  mutate(period = factor(period, levels = c("pre_ban", "post_ban")))
+
+sc_district <- read_csv(data_path_sc_dist, show_col_types = FALSE) |>
+  mutate(period = factor(period, levels = c("pre_ban", "post_ban")))
+
+subjects_la <- list(
+  list(col = "g3_8_all_subjects", name = "All Subjects"),
+  list(col = "g3_8_ela", name = "ELA"),
+  list(col = "g3_8_math", name = "Math"),
+  list(col = "g3_8_science", name = "Science"),
+  list(col = "g3_8_social_studies", name = "Social Studies")
+)
+
+subjects_sc <- list(
+  list(col = "g3_8_all_subjects", name = "All Subjects"),
+  list(col = "g3_8_ela", name = "ELA"),
+  list(col = "g3_8_math", name = "Math")
+)
+
+preds_list <- list()
+
+for (s in subjects_la) {
+  m <- lm(as.formula(paste(s$col, "~ period")), data = la_wide)
+  p <- predictions(m, newdata = datagrid(period = c("pre_ban", "post_ban"))) |>
+    as_tibble() |>
+    mutate(state = "Louisiana", subject = s$name)
+  preds_list[[length(preds_list) + 1]] <- p
+}
+
+for (s in subjects_sc) {
+  m <- lm(as.formula(paste(s$col, "~ period")), data = sc_district)
+  p <- predictions(m, newdata = datagrid(period = c("pre_ban", "post_ban"))) |>
+    as_tibble() |>
+    mutate(state = "South Carolina", subject = s$name)
+  preds_list[[length(preds_list) + 1]] <- p
+}
+
+all_preds <- bind_rows(preds_list) |>
+  mutate(
+    period_label = if_else(period == "pre_ban", "Pre-Ban", "Post-Ban"),
+    period_label = factor(period_label, levels = c("Pre-Ban", "Post-Ban")),
+    group_label = paste(state, "-", subject),
+    subject = factor(subject, levels = c("All Subjects", "ELA", "Math", "Science", "Social Studies"))
+  )
+
+color_palette <- c(
+  "Louisiana - All Subjects"        = "#d35400",
+  "Louisiana - ELA"                 = "#e67e22",
+  "Louisiana - Math"                = "#c0392b",
+  "Louisiana - Science"             = "#e74c3c",
+  "Louisiana - Social Studies"      = "#d4ac0d",
+  "South Carolina - All Subjects"   = "#1b4f72",
+  "South Carolina - ELA"            = "#2980b9",
+  "South Carolina - Math"           = "#16a085"
+)
+
+dodge <- position_dodge(width = 0.35)
+
+ggplot(all_preds, aes(x = period_label, y = estimate, color = group_label, group = group_label, shape = subject)) +
+  geom_line(position = dodge, linewidth = 1.2, alpha = 0.85) +
+  geom_pointrange(aes(ymin = conf.low, ymax = conf.high), position = dodge, size = 0.9, linewidth = 1.1) +
+  facet_wrap(~ state) +
+  scale_color_manual(values = color_palette) +
+  scale_shape_manual(values = c("All Subjects" = 16, "ELA" = 17, "Math" = 15, "Science" = 18, "Social Studies" = 8)) +
+  labs(
+    title = "Predicted Student Proficiency Rates (Grades 3-8)",
+    subtitle = "Comparing Louisiana (Warm Palette) and South Carolina (Cold Palette) Pre- vs. Post-Ban",
+    x = "Policy Period",
+    y = "Predicted Proficiency Rate (%)",
+    color = "State & Subject",
+    shape = "Subject"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(face = "bold", size = 17),
+    legend.position = "right",
+    panel.grid.minor = element_blank()
+  )
+```
+
+## Grades 3–8 Models: State Comparison
+
+Red = negative change
+
+Grey = no statistical change
+
+Green = positive change
+
+### All subjects
+
+::: {layout-ncol=2}
+```{r}
+#| label: fit-g3-8-all-la
+fit_model_table("g3_8_all_subjects", "Louisiana: All Subjects (G3-8)")
 ```
 
 ```{r}
-#| label: fit-g3-8-ela
-fit_model_table("g3_8_ela", "Grades 3-8: ELA")
+#| label: fit-sc-dist-g3-8-all
+fit_model_table("g3_8_all_subjects", "South Carolina: All Subjects (G3-8)", data = sc_district)
+```
+:::
+
+### ELA
+
+::: {layout-ncol=2}
+```{r}
+#| label: fit-g3-8-ela-la
+fit_model_table("g3_8_ela", "Louisiana: ELA (G3-8)")
 ```
 
 ```{r}
-#| label: fit-g3-8-math
-fit_model_table("g3_8_math", "Grades 3-8: Math")
+#| label: fit-sc-dist-g3-8-ela
+fit_model_table("g3_8_ela", "South Carolina: ELA (G3-8)", data = sc_district)
+```
+:::
+
+### Math
+
+::: {layout-ncol=2}
+```{r}
+#| label: fit-g3-8-math-la
+fit_model_table("g3_8_math", "Louisiana: Math (G3-8)")
 ```
 
 ```{r}
-#| label: fit-g3-8-science
-fit_model_table("g3_8_science", "Grades 3-8: Science")
+#| label: fit-sc-dist-g3-8-math
+fit_model_table("g3_8_math", "South Carolina: Math (G3-8)", data = sc_district)
 ```
+:::
 
+### Science
+
+::: {layout-ncol=2}
 ```{r}
-#| label: fit-g3-8-soc
-fit_model_table("g3_8_social_studies", "Grades 3-8: Social Studies")
+#| label: fit-g3-8-science-la
+fit_model_table("g3_8_science", "Louisiana: Science (G3-8)")
 ```
 
-## Grades 3–12 Models
+*No matching South Carolina district data available for Science.*
+:::
+
+### Social Studies
+
+::: {layout-ncol=2}
+```{r}
+#| label: fit-g3-8-soc-la
+fit_model_table("g3_8_social_studies", "Louisiana: Social Studies (G3-8)")
+```
+
+*No matching South Carolina district data available for Social Studies.*
+:::
+This is the only statistically significant difference as the confidence interval does not incude 0 change. The other subjects have (within a 95% certainty range) a non-zero chance that the impact is 0.
+
+## Grades 3–12 Models (Louisiana)
 
 ```{r}
 #| label: fit-g3-12-all
@@ -104,4 +304,257 @@ fit_model_table("g3_12_science", "Grades 3-12: Science")
 #| label: fit-g3-12-soc
 fit_model_table("g3_12_social_studies", "Grades 3-12: Social Studies")
 ```
+This is also the only viable model becuase you can say with 95% certainty that there is a positive effect.
+
+
+## Cell Phone Ban Effects by Grade Group (Louisiana)
+
+```{r}
+#| label: fig-model-boxplot-scatter
+#| fig-cap: "Combined boxplot and scatterplot distributions comparing the policy effect of cell phone bans across grade groups in Louisiana (warm palette)."
+#| fig-width: 7
+#| fig-height: 4.5
+#| fig-align: "center"
+#| out-width: "80%"
+
+library(ggplot2)
+
+# Calculate Louisiana parish-level ban effects for grade groups
+la_parish_pre <- la_wide |>
+  filter(g3_12system_code != "LA", period == "pre_ban") |>
+  group_by(g3_12system_code, system_name) |>
+  summarize(
+    pre_g3_8 = mean(g3_8_all_subjects, na.rm = TRUE),
+    pre_g3_12 = mean(g3_12_all_subjects, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+la_parish_post <- la_wide |>
+  filter(g3_12system_code != "LA", period == "post_ban") |>
+  group_by(g3_12system_code, system_name) |>
+  summarize(
+    post_g3_8 = mean(g3_8_all_subjects, na.rm = TRUE),
+    post_g3_12 = mean(g3_12_all_subjects, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+la_effects_df <- inner_join(la_parish_pre, la_parish_post, by = c("g3_12system_code", "system_name")) |>
+  mutate(
+    `Grades 3-8` = post_g3_8 - pre_g3_8,
+    `Grades 3-12` = post_g3_12 - pre_g3_12
+  ) |>
+  pivot_longer(
+    cols = c(`Grades 3-8`, `Grades 3-12`),
+    names_to = "grade_group",
+    values_to = "ban_effect"
+  ) |>
+  mutate(
+    grade_group = factor(grade_group, levels = c("Grades 3-8", "Grades 3-12"))
+  )
+
+mean_effects <- la_effects_df |>
+  group_by(grade_group) |>
+  summarize(
+    avg_effect = mean(ban_effect, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+diff_val <- mean_effects$avg_effect[2] - mean_effects$avg_effect[1]
+
+ggplot(la_effects_df, aes(x = grade_group, y = ban_effect, fill = grade_group, color = grade_group)) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray40", linewidth = 0.9) +
+  geom_boxplot(alpha = 0.45, outlier.shape = NA, width = 0.45) +
+  geom_jitter(width = 0.18, size = 0.8, alpha = 0.35, shape = 16) +
+  geom_point(data = mean_effects, aes(x = grade_group, y = avg_effect), color = "black", size = 2.5, shape = 18, inherit.aes = FALSE) +
+  geom_text(data = mean_effects, aes(x = grade_group, y = avg_effect + 1.2, label = paste0("Mean: +", sprintf("%.2f", avg_effect), "%")), color = "#7e2a0c", fontface = "bold", size = 3.8, inherit.aes = FALSE) +
+  annotate("segment", x = 1, xend = 2, y = 8.5, yend = 8.5, color = "#9e3606", linewidth = 0.7) +
+  annotate("segment", x = 1, xend = 1, y = 8.2, yend = 8.5, color = "#9e3606", linewidth = 0.7) +
+  annotate("segment", x = 2, xend = 2, y = 8.2, yend = 8.5, color = "#9e3606", linewidth = 0.7) +
+  annotate("text", x = 1.5, y = 9.2, label = paste0("Difference = ", sprintf("%.2f", diff_val), "% pts"), color = "#9e3606", fontface = "bold", size = 3.9) +
+  scale_fill_manual(values = c("Grades 3-8" = "#e67e22", "Grades 3-12" = "#d35400")) +
+  scale_color_manual(values = c("Grades 3-8" = "#9e3606", "Grades 3-12" = "#7e2a0c")) +
+  scale_y_continuous(limits = c(-8, 10.5), breaks = seq(-8, 10, by = 2)) +
+  labs(
+    title = "Louisiana: Cell Phone Ban Policy Impact Across Grade Groups",
+    subtitle = "Parish-Level Post-Ban Change in Proficiency Rate (% Points)\nDashed line at 0 = No Policy Effect",
+    x = "Grade Group / Age Group",
+    y = "Ban Effect (% Point Change)"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 13),
+    plot.subtitle = element_text(size = 10.5, color = "gray20"),
+    plot.title.position = "plot",
+    legend.position = "none",
+    panel.grid.minor = element_blank()
+  )
+```
+
+
+```{r}
+#| label: calc-ban-effects-by-grade
+
+# Louisiana: Cell Phone Ban Effects by Grade Level within Subject
+la_ban_specs <- tibble::tribble(
+  ~Subject, ~`Grade Level`, ~col,
+  "All Subjects", "Grades 3-8", "g3_8_all_subjects",
+  "All Subjects", "Grades 3-12", "g3_12_all_subjects",
+  "ELA", "Grades 3-8", "g3_8_ela",
+  "ELA", "Grades 3-12", "g3_12_ela",
+  "Math", "Grades 3-8", "g3_8_math",
+  "Math", "Grades 3-12", "g3_12_math",
+  "Science", "Grades 3-8", "g3_8_science",
+  "Science", "Grades 3-12", "g3_12_science",
+  "Social Studies", "Grades 3-8", "g3_8_social_studies",
+  "Social Studies", "Grades 3-12", "g3_12_social_studies"
+)
+
+la_ban_rows <- list()
+for (i in 1:nrow(la_ban_specs)) {
+  s <- la_ban_specs$Subject[i]
+  g <- la_ban_specs$`Grade Level`[i]
+  c <- la_ban_specs$col[i]
+  
+  f <- as.formula(paste(c, "~ period"))
+  m <- lm(f, data = la_wide)
+  res <- tidy(m, conf.int = TRUE)
+  
+  b0 <- res |> filter(term == "(Intercept)")
+  b1 <- res |> filter(term == "periodpost_ban")
+  
+  la_ban_rows[[i]] <- tibble(
+    Subject = s,
+    `Grade Level` = g,
+    `Pre-Ban Intercept (%)` = b0$estimate,
+    `Ban Effect (%)` = b1$estimate,
+    `Std Error` = b1$std.error,
+    `95% CI Lower` = b1$conf.low,
+    `95% CI Upper` = b1$conf.high
+  )
+}
+la_ban_effects_df <- bind_rows(la_ban_rows)
+
+# South Carolina: Cell Phone Ban Effects by Grade Level within Subject
+sc_ban_specs <- tibble::tribble(
+  ~Subject, ~`Grade Level`, ~col,
+  "All Subjects", "Grades 3-8", "g3_8_all_subjects",
+  "All Subjects", "Elementary (G3-5)", "elem_all_subjects",
+  "All Subjects", "Middle School (G6-8)", "middle_all_subjects",
+  "English", "High School (English II)", "hs_english",
+  "Math", "High School (Algebra I)", "hs_math"
+)
+
+sc_ban_rows <- list()
+for (i in 1:nrow(sc_ban_specs)) {
+  s <- sc_ban_specs$Subject[i]
+  g <- sc_ban_specs$`Grade Level`[i]
+  c <- sc_ban_specs$col[i]
+  
+  f <- as.formula(paste(c, "~ period"))
+  m <- lm(f, data = sc_wide)
+  res <- tidy(m, conf.int = TRUE)
+  
+  b0 <- res |> filter(term == "(Intercept)")
+  b1 <- res |> filter(term == "periodpost_ban")
+  
+  sc_ban_rows[[i]] <- tibble(
+    Subject = s,
+    `Grade Level` = g,
+    `Pre-Ban Intercept (%)` = b0$estimate,
+    `Ban Effect (%)` = b1$estimate,
+    `Std Error` = b1$std.error,
+    `95% CI Lower` = b1$conf.low,
+    `95% CI Upper` = b1$conf.high
+  )
+}
+sc_ban_effects_df <- bind_rows(sc_ban_rows)
+```
+<details>
+<summary style="font-size: 1.4em; font-weight: bold; cursor: pointer; color: #1b4f72; margin-top: 1.5em; margin-bottom: 0.5em;">
+ Cell Phone Ban Effects by Grade Level & Subject (Click to Expand)
+</summary>
+
+<br>
+
+::: {layout-ncol=2}
+```{r}
+#| label: tbl-la-ban-effects
+la_sig_rows <- which(la_ban_effects_df$`95% CI Lower` > 0 | la_ban_effects_df$`95% CI Upper` < 0)
+la_grey_rows <- setdiff(1:nrow(la_ban_effects_df), la_sig_rows)
+
+la_tbl <- la_ban_effects_df |>
+  gt() |>
+  fmt_number(columns = 3:7, decimals = 2)
+
+if (length(la_sig_rows) > 0) {
+  la_tbl <- la_tbl |>
+    tab_style(
+      style = list(
+        cell_fill(color = "#e6f9e6"),
+        cell_text(color = "#145a32", weight = "bold")
+      ),
+      locations = cells_body(rows = la_sig_rows)
+    )
+}
+
+if (length(la_grey_rows) > 0) {
+  la_tbl <- la_tbl |>
+    tab_style(
+      style = list(
+        cell_fill(color = "#f2f4f4"),
+        cell_text(color = "#5d6d7e")
+      ),
+      locations = cells_body(rows = la_grey_rows)
+    )
+}
+
+la_tbl |>
+  tab_options(table.width = pct(100)) |>
+  tab_header(
+    title = "Louisiana: Ban Effect by Grade Level & Subject",
+    subtitle = "Green = 95% CI Excludes 0 (Statistically Significant) | Grey = 95% CI Includes 0"
+  )
+```
+
+```{r}
+#| label: tbl-sc-ban-effects
+sc_sig_rows <- which(sc_ban_effects_df$`95% CI Lower` > 0 | sc_ban_effects_df$`95% CI Upper` < 0)
+sc_grey_rows <- setdiff(1:nrow(sc_ban_effects_df), sc_sig_rows)
+
+sc_tbl <- sc_ban_effects_df |>
+  gt() |>
+  fmt_number(columns = 3:7, decimals = 2)
+
+if (length(sc_sig_rows) > 0) {
+  sc_tbl <- sc_tbl |>
+    tab_style(
+      style = list(
+        cell_fill(color = "#e6f9e6"),
+        cell_text(color = "#145a32", weight = "bold")
+      ),
+      locations = cells_body(rows = sc_sig_rows)
+    )
+}
+
+if (length(sc_grey_rows) > 0) {
+  sc_tbl <- sc_tbl |>
+    tab_style(
+      style = list(
+        cell_fill(color = "#f2f4f4"),
+        cell_text(color = "#5d6d7e")
+      ),
+      locations = cells_body(rows = sc_grey_rows)
+    )
+}
+
+sc_tbl |>
+  tab_options(table.width = pct(100)) |>
+  tab_header(
+    title = "South Carolina: Ban Effect by Grade Level & Subject",
+    subtitle = "Green = 95% CI Excludes 0 (Statistically Significant) | Grey = 95% CI Includes 0"
+  )
+```
+:::
+
+</details>
 
