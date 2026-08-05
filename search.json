@@ -14,6 +14,13 @@
     "text": "\\[\n\\text{Louisiana: } \\widehat{\\text{Proficiency Rate}} = 29.27 + 0.76 \\cdot \\text{PostBan}\n\\]\n\\[\n\\text{South Carolina: } \\widehat{\\text{Proficiency Rate}} = 39.44 + 3.63 \\cdot \\text{PostBan}\n\\]\nThe estimate of the intercept is the predicted score for that row. The other rows estimates show the net difference between that row and the intercept. So, a positive number means it is that much more than the intercept, and a negative means that much less."
   },
   {
+    "objectID": "model.html#proficiency-rate-by-age-group-grade-band",
+    "href": "model.html#proficiency-rate-by-age-group-grade-band",
+    "title": "Model",
+    "section": "Proficiency Rate by Age Group / Grade Band",
+    "text": "Proficiency Rate by Age Group / Grade Band\n\n\n\n\n\n\n\n\n\n\nLouisiana: Proficiency by Age Group\n\n\nProficiency Rate (%) as a function of Age Group / Grade Band\n\n\nAge Group / Variable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nGrades 3-8 (Elem/Middle) (Baseline Intercept)\n29.38\n28.42\n30.35\n\n\nGrades 3-12 (All/High)\n0.51\n−0.85\n1.88\n\n\n\nNote: For Louisiana, 'Grades 3-8 (Elem/Middle)' is the baseline group and 'Grades 3-12 (All/High)' measures the change for high school / all grades combined.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSouth Carolina: Proficiency by Age Group\n\n\nProficiency Rate (%) as a function of Age Group / Grade Band\n\n\nAge Group / Variable\nEstimate\n95% CI Lower\n95% CI Upper\n\n\n\n\nElementary (Grades 3-5) (Baseline Intercept)\n51.52\n47.38\n55.66\n\n\nMiddle School (Grades 6-8)\n−8.64\n−14.49\n−2.79\n\n\n\nNote: For South Carolina, 'Elementary (Grades 3-5)' is the baseline group and 'Middle School (Grades 6-8)' measures the change for middle school grades."
+  },
+  {
     "objectID": "model.html#grades-38-models-state-comparison",
     "href": "model.html#grades-38-models-state-comparison",
     "title": "Model",
