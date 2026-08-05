@@ -8,7 +8,7 @@
 
 <meta name="author" content="Anthony Gao">
 
-<title>LEAP Performance Plots – Do Phone Bans at School Really do Anything?</title>
+<title>Discovery Plots – Do Phone Bans at School Really do Anything?</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -98,6 +98,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./plots.html" aria-current="page"> 
+<span class="menu-text">Discovery Plots</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./model.html"> 
 <span class="menu-text">Model</span></a>
   </li>  
@@ -117,17 +121,18 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#statewide-performance-trend" id="toc-statewide-performance-trend" class="nav-link active" data-scroll-target="#statewide-performance-trend">Statewide Performance Trend</a></li>
-  <li><a href="#pre-ban-trend-extrapolation-vs.-actual-2025-outcome" id="toc-pre-ban-trend-extrapolation-vs.-actual-2025-outcome" class="nav-link" data-scroll-target="#pre-ban-trend-extrapolation-vs.-actual-2025-outcome">Pre-Ban Trend Extrapolation vs.&nbsp;Actual 2025 Outcome</a></li>
+  <li><a href="#overall-statewide-performance-trends" id="toc-overall-statewide-performance-trends" class="nav-link active" data-scroll-target="#overall-statewide-performance-trends">Overall Statewide Performance Trends</a></li>
+  <li><a href="#performance-breakdown-by-grade-band" id="toc-performance-breakdown-by-grade-band" class="nav-link" data-scroll-target="#performance-breakdown-by-grade-band">Performance Breakdown by Grade Band</a></li>
+  <li><a href="#high-school-subject-performance-math-vs.-english" id="toc-high-school-subject-performance-math-vs.-english" class="nav-link" data-scroll-target="#high-school-subject-performance-math-vs.-english">High School Subject Performance: Math vs.&nbsp;English</a></li>
+  <li><a href="#pre-ban-trend-extrapolations" id="toc-pre-ban-trend-extrapolations" class="nav-link" data-scroll-target="#pre-ban-trend-extrapolations">Pre-Ban Trend Extrapolations</a></li>
   <li><a href="#parish-level-distribution" id="toc-parish-level-distribution" class="nav-link" data-scroll-target="#parish-level-distribution">Parish-Level Distribution</a></li>
-  <li><a href="#south-carolina-sc-ready-pre-ban-trend-extrapolation" id="toc-south-carolina-sc-ready-pre-ban-trend-extrapolation" class="nav-link" data-scroll-target="#south-carolina-sc-ready-pre-ban-trend-extrapolation">South Carolina SC READY Pre-Ban Trend Extrapolation</a></li>
   </ul>
 </nav>
 </nav>
@@ -136,17 +141,17 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">LEAP Performance Plots</h1>
-<p class="subtitle lead">Statewide and parish-level trends before and after Louisiana’s cell phone ban</p>
+<h1 class="title">Discovery Plots</h1>
+<p class="subtitle lead">Statewide and parish-level trends before and after cell phone bans in Louisiana and South Carolina</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -164,36 +169,142 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="statewide-performance-trend" class="level2">
-<h2 class="anchored" data-anchor-id="statewide-performance-trend">Statewide Performance Trend</h2>
-<div class="cell">
+<section id="overall-statewide-performance-trends" class="level2">
+<h2 class="anchored" data-anchor-id="overall-statewide-performance-trends">Overall Statewide Performance Trends</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="cell-output-display">
 <div id="fig-la-statewide-trend" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-la-statewide-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="plots_files/figure-html/fig-la-statewide-trend-1.png" class="img-fluid figure-img" width="672">
+<img src="plots_files/figure-html/fig-la-statewide-trend-1.png" class="img-fluid figure-img" width="864">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-la-statewide-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Louisiana statewide LEAP Mastery+ (Grades 3-8), 2018-2025
+Figure&nbsp;1: Louisiana Statewide LEAP Performance (Warm Palette)
 </figcaption>
 </figure>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div id="fig-sc-statewide-trend" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sc-statewide-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="plots_files/figure-html/fig-sc-statewide-trend-1.png" class="img-fluid figure-img" width="864">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sc-statewide-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: South Carolina Statewide SC READY Performance (Cold Palette)
+</figcaption>
+</figure>
+</div>
+</div>
 </div>
 </div>
 </div>
 </section>
-<section id="pre-ban-trend-extrapolation-vs.-actual-2025-outcome" class="level2">
-<h2 class="anchored" data-anchor-id="pre-ban-trend-extrapolation-vs.-actual-2025-outcome">Pre-Ban Trend Extrapolation vs.&nbsp;Actual 2025 Outcome</h2>
-<div class="cell">
+<section id="performance-breakdown-by-grade-band" class="level2">
+<h2 class="anchored" data-anchor-id="performance-breakdown-by-grade-band">Performance Breakdown by Grade Band</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div id="fig-la-grades-trend" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-la-grades-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="plots_files/figure-html/fig-la-grades-trend-1.png" class="img-fluid figure-img" width="864">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-la-grades-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Louisiana LEAP Performance by Grade Band (Warm Palette)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div id="fig-sc-grades-trend" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sc-grades-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="plots_files/figure-html/fig-sc-grades-trend-1.png" class="img-fluid figure-img" width="864">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sc-grades-trend-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: South Carolina SC READY Performance by Grade Band (Cold Palette)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="high-school-subject-performance-math-vs.-english" class="level2">
+<h2 class="anchored" data-anchor-id="high-school-subject-performance-math-vs.-english">High School Subject Performance: Math vs.&nbsp;English</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div id="fig-la-hs-subjects" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-la-hs-subjects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="plots_files/figure-html/fig-la-hs-subjects-1.png" class="img-fluid figure-img" width="864">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-la-hs-subjects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Louisiana High School Math &amp; English Performance (Warm Palette)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div id="fig-sc-hs-subjects" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sc-hs-subjects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="plots_files/figure-html/fig-sc-hs-subjects-1.png" class="img-fluid figure-img" width="864">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sc-hs-subjects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: South Carolina High School Math &amp; English Performance (Cold Palette)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pre-ban-trend-extrapolations" class="level2">
+<h2 class="anchored" data-anchor-id="pre-ban-trend-extrapolations">Pre-Ban Trend Extrapolations</h2>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="cell-output-display">
 <div id="fig-la-preban-trendline" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-la-preban-trendline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="plots_files/figure-html/fig-la-preban-trendline-1.png" class="img-fluid figure-img" width="672">
+<img src="plots_files/figure-html/fig-la-preban-trendline-1.png" class="img-fluid figure-img" width="864">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-la-preban-trendline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Pre-ban trend extrapolation (2021-2024) versus actual 2025 post-ban performance
+Figure&nbsp;7: Louisiana Pre-Ban Trend vs Actual (Warm Palette)
 </figcaption>
 </figure>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div id="fig-sc-preban-trendline" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sc-preban-trendline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="plots_files/figure-html/fig-sc-preban-trendline-1.png" class="img-fluid figure-img" width="864">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sc-preban-trendline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: South Carolina Pre-Ban Trend vs Actual (Cold Palette)
+</figcaption>
+</figure>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -205,27 +316,10 @@ Figure&nbsp;2: Pre-ban trend extrapolation (2021-2024) versus actual 2025 post-b
 <div id="fig-la-parish-boxplot" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-la-parish-boxplot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="plots_files/figure-html/fig-la-parish-boxplot-1.png" class="img-fluid figure-img" width="672">
+<img src="plots_files/figure-html/fig-la-parish-boxplot-1.png" class="img-fluid figure-img" width="864">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-la-parish-boxplot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Distribution of parish-level Mastery+ scores, pre- vs.&nbsp;post-ban
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="south-carolina-sc-ready-pre-ban-trend-extrapolation" class="level2">
-<h2 class="anchored" data-anchor-id="south-carolina-sc-ready-pre-ban-trend-extrapolation">South Carolina SC READY Pre-Ban Trend Extrapolation</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-sc-preban-trendline" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-sc-preban-trendline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="plots_files/figure-html/fig-sc-preban-trendline-1.png" class="img-fluid figure-img" width="672">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sc-preban-trendline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: South Carolina SC READY pre-ban trend extrapolation (2021-2024) vs post-ban benchmark
+Figure&nbsp;9: Distribution of parish-level Mastery+ scores, pre- vs.&nbsp;post-ban (Warm Palette)
 </figcaption>
 </figure>
 </div>
